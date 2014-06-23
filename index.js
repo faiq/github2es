@@ -35,14 +35,6 @@ function github2es (packages,  esUrl, apiKey){
   this.ghClient = github.client(apiKey);
 }
 
-github2es.prototype.asyncCallback = function (err, results){
-  
-  if (err) console.log(err);
-  console.log('hit');
-  setTimeout(function() {
-    _this.doWork();
-  }, _this.interval);
-}
 
 github2es.prototype.doWork = function () {
   var _this = this; //save the context of the IssuePopulator object
@@ -122,8 +114,8 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
               }else{  
               //results[2] = arr[0].commit.committer.date;
               //passed all three of these tests
-              callback(null, results);
-              // _this.esPost(packageName, results, callback);  
+              //callback(null, results);
+               _this.esPost(packageName, results, callback);  
             }
           }); 
         }
@@ -177,4 +169,4 @@ github2es.prototype.esPost = function (packageName, results, callback){
     }); //middle request
   }); //outer request */
 }
-
+module.exports = github2es;
