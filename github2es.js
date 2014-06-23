@@ -38,7 +38,6 @@ function github2es (packages,  esUrl, apiKey){
 
 github2es.prototype.doWork = function () {
   var _this = this; //save the context of the IssuePopulator object
-  //console.log(this.packages.length); 
   if (this.packages.length === 0){
     console.log('finished populating packages on ES'); 
   }else {
@@ -70,7 +69,6 @@ github2es.prototype.getWork = function (callback) {
             if ( !body.repository || !body.repository.url){
               var returnObj = {}; 
               returnObj['packageName'] = body["_id"];
-              //console.log('package failure'); 
               callback(null, {err:'package has no repo'});
             }else {
               _this.getGithubInfo(body.repository.url, body["_id"], callback);
@@ -92,7 +90,6 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
   console.log(repo); 
   ghRepo.issues(function (err, arr){
     if (err){ 
-      //console.log('err with issues' + repo);
       if(err.message==='Not Found'){
         callback(null, {err: err.message});
       }else 
@@ -112,9 +109,8 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
                 results[2] = null;
                 callback(null, results);
               }else{  
-              //results[2] = arr[0].commit.committer.date;
+              results[2] = arr[0].commit.committer.date;
               //passed all three of these tests
-              //callback(null, results);
                _this.esPost(packageName, results, callback);  
             }
           }); 
@@ -125,7 +121,6 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
 }
 
 github2es.prototype.esPost = function (packageName, results, callback){ 
- console.log('posting to ES');
  if (typeof (results[0]) === 'object')
     results[0] = 0; 
   if (typeof (results[1] === 'object'))
@@ -164,7 +159,6 @@ github2es.prototype.esPost = function (packageName, results, callback){
           if (err) 
             console.log('error posting latest commit');
             callback(null, results);
-          //console.log(body); 
       }); //inner request 
     }); //middle request
   }); //outer request */
