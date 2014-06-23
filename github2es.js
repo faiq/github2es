@@ -150,15 +150,21 @@ github2es.prototype.esPost = function (packageName, results, callback){
         json: { "script" : com }
   }
   request(opts1, function (err, res, body){
-    if (err)
+    if (err){
       console.log('there has been an error with the PUT to elastic search');
+      callback(null, {err:err}); 
+    }
     request(opts2, function (err, res, body){ 
-        if (err) 
+      if (err){
           console.log('error posting stars'); 
-        request(opts3, function (err, res, body){ 
-          if (err) 
-            console.log('error posting latest commit');
-            callback(null, results);
+          callback(null, {err:err}); 
+      }
+      request(opts3, function (err, res, body){ 
+        if (err){
+          console.log('error posting latest commit');
+          callback(null, {err:err});
+        }   
+        callback(null, results);
       }); //inner request 
     }); //middle request
   }); //outer request */

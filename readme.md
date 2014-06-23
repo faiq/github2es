@@ -18,8 +18,8 @@ request('http://localhost:15984/registry/_all_docs', function(err, res, body){
       return
     }
     body = JSON.parse(body); 
-    var walker = new github2es(body.rows, config.elasticsearch.url, config.githubAPI)
-walker.doWork(); 
+    var walker = new github2es(body.rows, config.elasticsearch.url, config.githubAPI);
+    walker.doWork(); 
 });
 
 ```
