@@ -14,13 +14,15 @@ function cleanName (url){
       count++; 
       if (count === 3){
         // account for the .git at end:
+        var returnString; 
         var end = url.lastIndexOf('.');
         if (end < i){ // no .git at the end of this 
-          var returnString = url.substring(i+1); 
+          returnString = url.substring(i+1); 
           return returnString; 
+        }else{ 
+          returnString = url.substring(i+1,end); 
+          return returnString;
         } 
-        var returnString = url.substring(i+1,end); 
-        return returnString; 
       }
     }
   }
@@ -56,7 +58,7 @@ github2es.prototype.groupPackages = function () {
 //makes an array of functions for async 
 github2es.prototype.makeFuncs = function (callback) {
   var _this = this;
-  work = []; //array of functions we're going to be returning to async 
+  var work = []; //array of functions we're going to be returning to async
   var packageNames = this.packages.splice(this.index, this.workSize);
   packageNames.forEach(function (p){
     work.push(
