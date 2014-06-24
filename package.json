@@ -4,7 +4,7 @@
   "description": "--- github2es is a utility that serves as a walker to populate metadata from github for each package on npm's couch database to the corresponding ElasticSearch Documents forindexing. In order to not go over github's rate limit the module takes 10 packages at a time, gets the metadata from github, posts it to Elasticsearch, and waits 2000 ms until processing the next 10 packages.",
   "main": "github2es.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab -v tests/*.js"
   },
   "author": "Faiq",
   "license": "ISC",
@@ -14,7 +14,9 @@
     "octonode": "^0.6.3",
     "request": "^2.36.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lab": "^3.2.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/faiqyou/github2es.git"

@@ -177,7 +177,8 @@ github2es.prototype.esPost = function (packageName, results, callback){
     }],function (err, results){ 
       callback(null, results) 
     }); 
-  /*request(opts1, function (err, res, body){
+  
+/*request(opts1, function (err, res, body){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
       callback(null, {err:err}); 
@@ -192,10 +193,8 @@ github2es.prototype.esPost = function (packageName, results, callback){
         if (err){
           console.log('error posting latest commit');
           callback(null, {err:err});
-        }   
-        callback(null, results);
-      }); //inner request 
-    }); //middle request
-  }); //outer request */
+        } else callback(null, results);
+      }); 
+    }]);*/
 }
 module.exports = github2es;
