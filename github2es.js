@@ -36,15 +36,15 @@ function github2es (packages,  esUrl, apiKey){
   this.ghClient = github.client(apiKey);
 }
 
-github2es.prototype.doWork = function () {
+github2es.prototype.groupPacakages = function () {
   var _this = this; //save the context of the IssuePopulator object
   if (this.packages.length === 0){
     console.log('finished populating packages on ES'); 
   } else {
     //do 10 packages at a time
-    async.parallel(_this.getWork(this), function (err, results){
+    async.parallel(_this.createFunc(this), function (err, results){
       if (err) console.log(err);
-      console.log('Processing next 10');
+      console.log('Processing next ' + _this.workSize);
       setTimeout(function() {
         _this.doWork();
       }, _this.interval);
@@ -52,7 +52,7 @@ github2es.prototype.doWork = function () {
   }
 }
 
-github2es.prototype.getWork = function (callback) {
+github2es.prototype.createFunc = function (callback) {
   var _this = this;
   work = []; //array of functions we're going to be returning to async 
   var packageNames = this.packages.splice(this.index, this.workSize);
@@ -60,25 +60,25 @@ github2es.prototype.getWork = function (callback) {
     work.push(
       function (callback){
         var packageUrl =  'http://localhost:15984/registry/' + p.id 
-        request(packageUrl, function(err, res, body){
+        request(packageUrl, function(err, res, packageInfo){
           if (err){ 
             console.log('error connecting to package');
-              callback(null , {err: err}); // error will show inside results array, cont func exec   
+            callback(null , {err: err}); // error will show inside results array, cont func exec   
             }else {  
-                body = JSON.parse(body);
-                if ( !body.repository || !body.repository.url){
+                packageInfo = JSON.parse(packageInfo);
+                if ( !packageInfo.repository || !packageInfo.repository.url){
                   var returnObj = {}; 
-                  returnObj['packageName'] = body["_id"];
+                  returnObj['packageName'] = packageInfo["_id"];
                   callback(null, {err:'package has no repo'});
                 } else {
-                  _this.getGithubInfo(body.repository.url, body["_id"], callback);
+                  _this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
                 }
             }  
         });// request for package*/
       } //closing (callback) 
     );
+  _this.index++;  
   }); //closes forEach 
-  this.index+=9; 
   return work; 
 }
 
@@ -96,18 +96,18 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
       "Authorization": "token " + this.api
      }
   };
-  request(options, function (err, res, body) {
-    if (err) 
-      callback(null, {err: err}); 
+  
+  request(options, function (err, res, githubInfo) {
+    if (err) callback(null, {err: err}); 
     else{
-      body = JSON.parse(body);
-      if (body.id){
-        if (body.has_issues){
-          results[0] = body.open_issues;
+      githubInfo = JSON.parse(githubInfo);
+      if (githubInfo.id){
+        if (githubInfo.has_issues){
+          results[0] = githubInfo.open_issues;
         }else{
           results[0] = 0;
         }
-        results[1] = body['stargazers_count']; 
+        results[1] = githubInfo['stargazers_count']; 
         ghRepo.commits(function (err, arr){
           if (err) { 
             console.log('err with commit' + gitUrl); 
@@ -119,8 +119,8 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
             _this.esPost(packageName, results, callback);  
           }
         });  
-      }else callback(null, {err: 'package not found'});  
-    }
+     } else callback(null, {err: 'package not found'});  
+   }
   }); 
 }
 
@@ -149,6 +149,7 @@ github2es.prototype.esPost = function (packageName, results, callback){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
       callback(null, {err:err}); 
+      return 
     }
     request(opts2, function (err, res, body){ 
       if (err){
