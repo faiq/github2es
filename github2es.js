@@ -36,13 +36,13 @@ function github2es (packages,  esUrl, apiKey){
   this.ghClient = github.client(apiKey);
 }
 
-github2es.prototype.groupPacakages = function () {
+github2es.prototype.groupPackages = function () {
   var _this = this; //save the context of the IssuePopulator object
   if (this.packages.length === 0){
     console.log('finished populating packages on ES'); 
   } else {
     //do 10 packages at a time
-    async.parallel(_this.createFunc(this), function (err, results){
+    async.parallel(_this.doWork(this), function (err, results){
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
       setTimeout(function() {
@@ -52,7 +52,7 @@ github2es.prototype.groupPacakages = function () {
   }
 }
 
-github2es.prototype.createFunc = function (callback) {
+github2es.prototype.doWork = function (callback) {
   var _this = this;
   work = []; //array of functions we're going to be returning to async 
   var packageNames = this.packages.splice(this.index, this.workSize);
@@ -77,8 +77,8 @@ github2es.prototype.createFunc = function (callback) {
         });// request for package*/
       } //closing (callback) 
     );
-  _this.index++;  
   }); //closes forEach 
+  this.index+=this.workSize;  
   return work; 
 }
 
