@@ -180,24 +180,6 @@ github2es.prototype.esPost = function (packageName, results, callback){
       callback(null, results) 
     }); 
   
-/*request(opts1, function (err, res, body){
-    if (err){
-      console.log('there has been an error with the PUT to elastic search');
-      callback(null, {err:err}); 
-      return 
-    }
-    request(opts2, function (err, res, body){ 
-      if (err){
-        console.log('error posting stars'); 
-        callback(null, {err:err}); 
-      }
-      request(opts3, function (err, res, body){ 
-        if (err){
-          console.log('error posting latest commit');
-          callback(null, {err:err});
-        } else callback(null, results);
-      }); 
-    }]);*/
 }
 
 module.exports = github2es;
