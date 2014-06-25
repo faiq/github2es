@@ -43,6 +43,7 @@ github2es.prototype.groupPackages = function () {
   } else {
     //do 10 packages at a time
     async.parallel(_this.makeFuncs(this), function (err, results){
+      console.log(_this.index);
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
       setTimeout(function() {
@@ -51,6 +52,7 @@ github2es.prototype.groupPackages = function () {
     });
   }
 }
+
 //makes an array of functions for async 
 github2es.prototype.makeFuncs = function (callback) {
   var _this = this;
@@ -78,7 +80,7 @@ github2es.prototype.makeFuncs = function (callback) {
       } //closing (callback) 
     );
   }); //closes forEach 
-  this.index+=this.workSize;  
+  this.index+=this.workSize - 1;  
   return work; 
 }
 
@@ -115,7 +117,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
             callback(null, results);
           } else{  
             results[2] = arr[0].commit.committer.date;
-            console.log(results); 
+            console.log(packageName + ' : ' + results); 
             _this.esPost(packageName, results, callback);  
           }
         });  
@@ -145,7 +147,37 @@ github2es.prototype.esPost = function (packageName, results, callback){
     uri: esPackageString, 
     json: { "script" : com }
   }
-  request(opts1, function (err, res, body){
+  
+  async.parallel([
+    function (callback){
+      request(opts1, function (err, res, body){
+        if (err){
+          console.log('there has been an error with the PUT to elastic search');
+          callback(null, {err:err}); 
+          return 
+        }else callback(null, body); 
+      });
+    },
+    function (callback){ 
+      request(opts2, function (err, res, body){ 
+        if (err){
+          console.log('error posting stars'); 
+          callback(null, {err:err}); 
+        }else callback (null, body); 
+      });
+    },
+    function (callback){ 
+      request(opts3, function (err, res, body){ 
+        if (err){
+          console.log('error posting latest commit');
+          callback(null, {err:err});
+        }   
+        callback(null, results);
+      }); 
+    }],function (err, results){ 
+      callback(null, results) 
+    }); 
+  /*request(opts1, function (err, res, body){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
       callback(null, {err:err}); 
