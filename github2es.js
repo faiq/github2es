@@ -42,17 +42,17 @@ github2es.prototype.groupPackages = function () {
     console.log('finished populating packages on ES'); 
   } else {
     //do 10 packages at a time
-    async.parallel(_this.doWork(this), function (err, results){
+    async.parallel(_this.makeFuncs(this), function (err, results){
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
       setTimeout(function() {
-        _this.doWork();
+        _this.groupPackages(); 
       }, _this.interval);
     });
   }
 }
-
-github2es.prototype.doWork = function (callback) {
+//makes an array of functions for async 
+github2es.prototype.makeFuncs = function (callback) {
   var _this = this;
   work = []; //array of functions we're going to be returning to async 
   var packageNames = this.packages.splice(this.index, this.workSize);
