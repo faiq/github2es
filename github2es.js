@@ -48,6 +48,7 @@ github2es.prototype.groupPackages = function () {
     async.parallel(_this.makeFuncs(this), function (err, results){
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
+      console.log(results);
       setTimeout(function() {
         _this.groupPackages(); 
       }, _this.interval);
@@ -71,15 +72,14 @@ github2es.prototype.makeFuncs = function (callback) {
             console.log('error connecting to package');
             callback(null , {err: err}); // error will show inside results array, cont func exec  
             return  
-            }else { 
-                console.log('here'); 
+            }else {
+                packageInfo = JSON.parse(packageInfo); 
                 if ( !packageInfo.repository || !packageInfo.repository.url){
-                  console.log('mudafucka');
                   var returnObj = {}; 
                   returnObj['packageName'] = packageInfo["_id"];
                   callback(null, {err:'package has no repo'});
                   return 
-                } else {
+                }else {
                   console.log('returning');
                   callback(null, p.id); 
                   //_this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
