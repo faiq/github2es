@@ -32,7 +32,7 @@ function github2es (packages,  esUrl, apiKey){
   this.interval = 2000; 
   this.workSize = 10; 
   this.packages = packages; 
-  this.index = 0;
+  this.finished = 0;
   this.es = esUrl;   
   this.api = apiKey;
   this.ghClient = github.client(apiKey);
@@ -46,7 +46,6 @@ github2es.prototype.groupPackages = function () {
   } else {
     //do 10 packages at a time
     async.parallel(_this.makeFuncs(this), function (err, results){
-      console.log(_this.index);
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
       setTimeout(function() {
@@ -60,7 +59,9 @@ github2es.prototype.groupPackages = function () {
 github2es.prototype.makeFuncs = function (callback) {
   var _this = this;
   var work = []; //array of functions we're going to be returning to async
-  var packageNames = this.packages.splice(this.index, this.workSize);
+  var packageNames;  
+  if (this.packages.length < this.workSize) packageNames = this.packages.splice(0, this.packages.length); // we have < 10 packages left do the work on all of them and finish
+  else packageNames = this.packages.splice(0, this.workSize);
   packageNames.forEach(function (p){
     work.push(
       function (callback){
@@ -70,14 +71,16 @@ github2es.prototype.makeFuncs = function (callback) {
             console.log('error connecting to package');
             callback(null , {err: err}); // error will show inside results array, cont func exec  
             return  
-            }else {  
-                packageInfo = JSON.parse(packageInfo);
+            }else { 
+                console.log('here'); 
                 if ( !packageInfo.repository || !packageInfo.repository.url){
+                  console.log('mudafucka');
                   var returnObj = {}; 
                   returnObj['packageName'] = packageInfo["_id"];
                   callback(null, {err:'package has no repo'});
                   return 
                 } else {
+                  console.log('returning');
                   callback(null, p.id); 
                   //_this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
                 }
@@ -86,7 +89,7 @@ github2es.prototype.makeFuncs = function (callback) {
       } //closing (callback) 
     );
   }); //closes forEach 
-  this.index+=this.workSize - 1;  
+  this.finished+=this.workSize;  
   return work; 
 }
 
