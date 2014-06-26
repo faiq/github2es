@@ -36,6 +36,7 @@ function github2es (packages,  esUrl, apiKey){
   this.es = esUrl;   
   this.api = apiKey;
   this.ghClient = github.client(apiKey);
+  
 }
 
 github2es.prototype.groupPackages = function () {
@@ -63,19 +64,22 @@ github2es.prototype.makeFuncs = function (callback) {
   packageNames.forEach(function (p){
     work.push(
       function (callback){
-        var packageUrl =  'http://localhost:15984/registry/' + p.id 
+        var packageUrl =  'http://localhost:15984/registry/' + p.id;
         request(packageUrl, function(err, res, packageInfo){
           if (err){ 
             console.log('error connecting to package');
-            callback(null , {err: err}); // error will show inside results array, cont func exec   
+            callback(null , {err: err}); // error will show inside results array, cont func exec  
+            return  
             }else {  
                 packageInfo = JSON.parse(packageInfo);
                 if ( !packageInfo.repository || !packageInfo.repository.url){
                   var returnObj = {}; 
                   returnObj['packageName'] = packageInfo["_id"];
                   callback(null, {err:'package has no repo'});
+                  return 
                 } else {
-                  _this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
+                  callback(null, p.id); 
+                  //_this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
                 }
             }  
         });// request for package*/
@@ -90,7 +94,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
   var _this = this;
   var repo =  cleanName(gitUrl);  
   var results = [];
-  var uri = 'https://api.github.com/repos/' + repo
+  var uri = 'https://api.github.com/repos/' + repo;
   var ghRepo = this.ghClient.repo(repo); 
   var options = {
     method: 'GET',
@@ -102,6 +106,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
   };
   
   request(options, function (err, res, githubInfo) {
+    console.log(res); 
     if (err) callback(null, {err: err}); 
     else{
       githubInfo = JSON.parse(githubInfo);
