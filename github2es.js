@@ -39,7 +39,7 @@ function github2es (packages,  esUrl, apiKey){
   
 }
 
-github2es.prototype.groupPackages = function () {
+github2es.prototype.groupPackages = function (tcallback) {
   var _this = this; //save the context of the IssuePopulator object
   if (this.packages.length === 0){
     console.log('finished populating packages on ES'); 
@@ -48,7 +48,7 @@ github2es.prototype.groupPackages = function () {
     async.parallel(_this.makeFuncs(this), function (err, results){
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
-      console.log(results);
+      tcallback(results); 
       setTimeout(function() {
         _this.groupPackages(); 
       }, _this.interval);
@@ -80,9 +80,7 @@ github2es.prototype.makeFuncs = function (callback) {
                   callback(null, {err:'package has no repo'});
                   return 
                 }else {
-                  console.log('returning');
-                  callback(null, p.id); 
-                  //_this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
+                  _this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
                 }
             }  
         });// request for package*/
@@ -128,7 +126,9 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
           } else{  
             results[2] = arr[0].commit.committer.date;
             console.log(packageName + ' : ' + results); 
-            _this.esPost(packageName, results, callback);  
+            // callback here for testing this function 
+            callback(null, results);
+            // _this.esPost(packageName, results, callback);  
           }
         });  
      } else callback(null, {err: 'package not found'});  
