@@ -1,0 +1,1968 @@
+[
+  {
+    "sha": "6b29b2aa0025e67561341e2fab716bccf2586981",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-31T20:43:35Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-31T20:43:35Z"
+      },
+      "message": "[notice] Repo has been moved",
+      "tree": {
+        "sha": "d4ae4e6a3bc2622a8c4d2d6f78676e13b49b585a",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/d4ae4e6a3bc2622a8c4d2d6f78676e13b49b585a"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/6b29b2aa0025e67561341e2fab716bccf2586981",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/6b29b2aa0025e67561341e2fab716bccf2586981",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/6b29b2aa0025e67561341e2fab716bccf2586981",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/6b29b2aa0025e67561341e2fab716bccf2586981/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "71d32bef25099f4f6ec197a19799e8becf50fdfb",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/71d32bef25099f4f6ec197a19799e8becf50fdfb",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/71d32bef25099f4f6ec197a19799e8becf50fdfb"
+      }
+    ]
+  },
+  {
+    "sha": "71d32bef25099f4f6ec197a19799e8becf50fdfb",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-31T20:15:38Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-31T20:15:38Z"
+      },
+      "message": "[dist] Added public folder by default. Bumped to v0.2.9.",
+      "tree": {
+        "sha": "1046336a1b5e4312112676839cc186c6be0d9475",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/1046336a1b5e4312112676839cc186c6be0d9475"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/71d32bef25099f4f6ec197a19799e8becf50fdfb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/71d32bef25099f4f6ec197a19799e8becf50fdfb",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/71d32bef25099f4f6ec197a19799e8becf50fdfb",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/71d32bef25099f4f6ec197a19799e8becf50fdfb/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cd3ba410a47a62ddd8b0166973602c212d5b513c",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/cd3ba410a47a62ddd8b0166973602c212d5b513c",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/cd3ba410a47a62ddd8b0166973602c212d5b513c"
+      }
+    ]
+  },
+  {
+    "sha": "cd3ba410a47a62ddd8b0166973602c212d5b513c",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-10-20T18:07:52Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-10-20T18:07:52Z"
+      },
+      "message": "[dist] Version bump v0.2.8; indentation fix.",
+      "tree": {
+        "sha": "0c9a0ccccb98723bc3bafa86dd2fe5fc269205f1",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/0c9a0ccccb98723bc3bafa86dd2fe5fc269205f1"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/cd3ba410a47a62ddd8b0166973602c212d5b513c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/cd3ba410a47a62ddd8b0166973602c212d5b513c",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/cd3ba410a47a62ddd8b0166973602c212d5b513c",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/cd3ba410a47a62ddd8b0166973602c212d5b513c/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a97f5c0db1c483f20813675bc14da61e7a866caa",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/a97f5c0db1c483f20813675bc14da61e7a866caa",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/a97f5c0db1c483f20813675bc14da61e7a866caa"
+      }
+    ]
+  },
+  {
+    "sha": "a97f5c0db1c483f20813675bc14da61e7a866caa",
+    "commit": {
+      "author": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-20T17:42:28Z"
+      },
+      "committer": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-20T17:42:28Z"
+      },
+      "message": "[test] Basic test suite for http-server",
+      "tree": {
+        "sha": "e61b4a9f747281f54415a3b8d4c19feb798eb3e4",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/e61b4a9f747281f54415a3b8d4c19feb798eb3e4"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/a97f5c0db1c483f20813675bc14da61e7a866caa",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/a97f5c0db1c483f20813675bc14da61e7a866caa",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/a97f5c0db1c483f20813675bc14da61e7a866caa",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/a97f5c0db1c483f20813675bc14da61e7a866caa/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "d2abc0d0dfdb55a68fab7f2e4b346d3502370938",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/d2abc0d0dfdb55a68fab7f2e4b346d3502370938",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/d2abc0d0dfdb55a68fab7f2e4b346d3502370938"
+      }
+    ]
+  },
+  {
+    "sha": "d2abc0d0dfdb55a68fab7f2e4b346d3502370938",
+    "commit": {
+      "author": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-20T17:41:57Z"
+      },
+      "committer": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-20T17:41:57Z"
+      },
+      "message": "[test] Add test fixtures (http root)",
+      "tree": {
+        "sha": "b6b3a67d131746854c63fd65fc2d69c81901306a",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/b6b3a67d131746854c63fd65fc2d69c81901306a"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/d2abc0d0dfdb55a68fab7f2e4b346d3502370938",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/d2abc0d0dfdb55a68fab7f2e4b346d3502370938",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/d2abc0d0dfdb55a68fab7f2e4b346d3502370938",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/d2abc0d0dfdb55a68fab7f2e4b346d3502370938/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "b7245246bb9701067a4dd6be07e87f2b59d01d9b",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/b7245246bb9701067a4dd6be07e87f2b59d01d9b",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/b7245246bb9701067a4dd6be07e87f2b59d01d9b"
+      }
+    ]
+  },
+  {
+    "sha": "b7245246bb9701067a4dd6be07e87f2b59d01d9b",
+    "commit": {
+      "author": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-20T17:35:27Z"
+      },
+      "committer": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-20T17:35:27Z"
+      },
+      "message": "[test dist] Add request and vows to dev dependencies",
+      "tree": {
+        "sha": "39401ecf38d6dc50014b9c214365cc48a709c21a",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/39401ecf38d6dc50014b9c214365cc48a709c21a"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/b7245246bb9701067a4dd6be07e87f2b59d01d9b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/b7245246bb9701067a4dd6be07e87f2b59d01d9b",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/b7245246bb9701067a4dd6be07e87f2b59d01d9b",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/b7245246bb9701067a4dd6be07e87f2b59d01d9b/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "dc5997b1bf36d8348e997511f6fc42bfb5229801",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/dc5997b1bf36d8348e997511f6fc42bfb5229801",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/dc5997b1bf36d8348e997511f6fc42bfb5229801"
+      }
+    ]
+  },
+  {
+    "sha": "dc5997b1bf36d8348e997511f6fc42bfb5229801",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-20T02:14:08Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-20T02:14:08Z"
+      },
+      "message": "[dist] Bump to v0.2.7",
+      "tree": {
+        "sha": "5cadc0e25051d83cfe4f81e5e7f54d6b2e51607c",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/5cadc0e25051d83cfe4f81e5e7f54d6b2e51607c"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/dc5997b1bf36d8348e997511f6fc42bfb5229801",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/dc5997b1bf36d8348e997511f6fc42bfb5229801",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/dc5997b1bf36d8348e997511f6fc42bfb5229801",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/dc5997b1bf36d8348e997511f6fc42bfb5229801/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0a8b3842bced6ec19d8896268a3fea65afbc7bf2",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/0a8b3842bced6ec19d8896268a3fea65afbc7bf2",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/0a8b3842bced6ec19d8896268a3fea65afbc7bf2"
+      }
+    ]
+  },
+  {
+    "sha": "0a8b3842bced6ec19d8896268a3fea65afbc7bf2",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-20T02:09:03Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-10-20T02:09:03Z"
+      },
+      "message": "Merge pull request #8 from nodejitsu/404-pages\n\n[api] On 404, attempt to serve file /404.html",
+      "tree": {
+        "sha": "3e44175d2fe3906ee472cecd36af900e7cbd52cd",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/3e44175d2fe3906ee472cecd36af900e7cbd52cd"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/0a8b3842bced6ec19d8896268a3fea65afbc7bf2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/0a8b3842bced6ec19d8896268a3fea65afbc7bf2",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/0a8b3842bced6ec19d8896268a3fea65afbc7bf2",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/0a8b3842bced6ec19d8896268a3fea65afbc7bf2/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1c5e14761d42b958b6973864915fdc0d05cba74e",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/1c5e14761d42b958b6973864915fdc0d05cba74e",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/1c5e14761d42b958b6973864915fdc0d05cba74e"
+      },
+      {
+        "sha": "d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb"
+      }
+    ]
+  },
+  {
+    "sha": "d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb",
+    "commit": {
+      "author": {
+        "name": "Joshua Holbrook",
+        "email": "josh.holbrook@gmail.com",
+        "date": "2011-10-18T20:26:20Z"
+      },
+      "committer": {
+        "name": "Joshua Holbrook",
+        "email": "josh.holbrook@gmail.com",
+        "date": "2011-10-18T20:26:20Z"
+      },
+      "message": "[fix] Will now handle case properly where no 404.html exists",
+      "tree": {
+        "sha": "3e44175d2fe3906ee472cecd36af900e7cbd52cd",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/3e44175d2fe3906ee472cecd36af900e7cbd52cd"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/d32ad4b2ef77e26164c98cfe93e9f93c413f4fbb/comments",
+    "author": {
+      "login": "jesusabdullah",
+      "id": 57536,
+      "avatar_url": "https://avatars.githubusercontent.com/u/57536?",
+      "gravatar_id": "8b1cdadd1804a128dced3531b89efc1d",
+      "url": "https://api.github.com/users/jesusabdullah",
+      "html_url": "https://github.com/jesusabdullah",
+      "followers_url": "https://api.github.com/users/jesusabdullah/followers",
+      "following_url": "https://api.github.com/users/jesusabdullah/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jesusabdullah/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jesusabdullah/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jesusabdullah/subscriptions",
+      "organizations_url": "https://api.github.com/users/jesusabdullah/orgs",
+      "repos_url": "https://api.github.com/users/jesusabdullah/repos",
+      "events_url": "https://api.github.com/users/jesusabdullah/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jesusabdullah/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jesusabdullah",
+      "id": 57536,
+      "avatar_url": "https://avatars.githubusercontent.com/u/57536?",
+      "gravatar_id": "8b1cdadd1804a128dced3531b89efc1d",
+      "url": "https://api.github.com/users/jesusabdullah",
+      "html_url": "https://github.com/jesusabdullah",
+      "followers_url": "https://api.github.com/users/jesusabdullah/followers",
+      "following_url": "https://api.github.com/users/jesusabdullah/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jesusabdullah/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jesusabdullah/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jesusabdullah/subscriptions",
+      "organizations_url": "https://api.github.com/users/jesusabdullah/orgs",
+      "repos_url": "https://api.github.com/users/jesusabdullah/repos",
+      "events_url": "https://api.github.com/users/jesusabdullah/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jesusabdullah/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ab9cb093d19fa3e103ad6d82d370190ee9cff08f",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/ab9cb093d19fa3e103ad6d82d370190ee9cff08f",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/ab9cb093d19fa3e103ad6d82d370190ee9cff08f"
+      }
+    ]
+  },
+  {
+    "sha": "ab9cb093d19fa3e103ad6d82d370190ee9cff08f",
+    "commit": {
+      "author": {
+        "name": "Joshua Holbrook",
+        "email": "josh.holbrook@gmail.com",
+        "date": "2011-10-18T18:32:07Z"
+      },
+      "committer": {
+        "name": "Joshua Holbrook",
+        "email": "josh.holbrook@gmail.com",
+        "date": "2011-10-18T18:32:07Z"
+      },
+      "message": "[feature] On 404, attempt to serve file 404.html",
+      "tree": {
+        "sha": "8b49942501fcb722cab7e5f763c7f45dc964d498",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/8b49942501fcb722cab7e5f763c7f45dc964d498"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/ab9cb093d19fa3e103ad6d82d370190ee9cff08f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/ab9cb093d19fa3e103ad6d82d370190ee9cff08f",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/ab9cb093d19fa3e103ad6d82d370190ee9cff08f",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/ab9cb093d19fa3e103ad6d82d370190ee9cff08f/comments",
+    "author": {
+      "login": "jesusabdullah",
+      "id": 57536,
+      "avatar_url": "https://avatars.githubusercontent.com/u/57536?",
+      "gravatar_id": "8b1cdadd1804a128dced3531b89efc1d",
+      "url": "https://api.github.com/users/jesusabdullah",
+      "html_url": "https://github.com/jesusabdullah",
+      "followers_url": "https://api.github.com/users/jesusabdullah/followers",
+      "following_url": "https://api.github.com/users/jesusabdullah/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jesusabdullah/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jesusabdullah/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jesusabdullah/subscriptions",
+      "organizations_url": "https://api.github.com/users/jesusabdullah/orgs",
+      "repos_url": "https://api.github.com/users/jesusabdullah/repos",
+      "events_url": "https://api.github.com/users/jesusabdullah/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jesusabdullah/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jesusabdullah",
+      "id": 57536,
+      "avatar_url": "https://avatars.githubusercontent.com/u/57536?",
+      "gravatar_id": "8b1cdadd1804a128dced3531b89efc1d",
+      "url": "https://api.github.com/users/jesusabdullah",
+      "html_url": "https://github.com/jesusabdullah",
+      "followers_url": "https://api.github.com/users/jesusabdullah/followers",
+      "following_url": "https://api.github.com/users/jesusabdullah/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jesusabdullah/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jesusabdullah/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jesusabdullah/subscriptions",
+      "organizations_url": "https://api.github.com/users/jesusabdullah/orgs",
+      "repos_url": "https://api.github.com/users/jesusabdullah/repos",
+      "events_url": "https://api.github.com/users/jesusabdullah/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jesusabdullah/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1c5e14761d42b958b6973864915fdc0d05cba74e",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/1c5e14761d42b958b6973864915fdc0d05cba74e",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/1c5e14761d42b958b6973864915fdc0d05cba74e"
+      }
+    ]
+  },
+  {
+    "sha": "1c5e14761d42b958b6973864915fdc0d05cba74e",
+    "commit": {
+      "author": {
+        "name": "Dominic Tarr",
+        "email": "dominic.tarr@gmail.com",
+        "date": "2011-10-14T11:45:21Z"
+      },
+      "committer": {
+        "name": "Dominic Tarr",
+        "email": "dominic.tarr@gmail.com",
+        "date": "2011-10-14T11:45:21Z"
+      },
+      "message": "[fix] remove vendor/ using bundleDeps and correcting .gitignore",
+      "tree": {
+        "sha": "4cd7fe45c311316b7652d6599ac4997c78558f52",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/4cd7fe45c311316b7652d6599ac4997c78558f52"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/1c5e14761d42b958b6973864915fdc0d05cba74e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/1c5e14761d42b958b6973864915fdc0d05cba74e",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/1c5e14761d42b958b6973864915fdc0d05cba74e",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/1c5e14761d42b958b6973864915fdc0d05cba74e/comments",
+    "author": {
+      "login": "dominictarr",
+      "id": 259374,
+      "avatar_url": "https://avatars.githubusercontent.com/u/259374?",
+      "gravatar_id": "8225d7ca5e83a3f9f0bb89a61d5df72c",
+      "url": "https://api.github.com/users/dominictarr",
+      "html_url": "https://github.com/dominictarr",
+      "followers_url": "https://api.github.com/users/dominictarr/followers",
+      "following_url": "https://api.github.com/users/dominictarr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dominictarr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dominictarr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dominictarr/subscriptions",
+      "organizations_url": "https://api.github.com/users/dominictarr/orgs",
+      "repos_url": "https://api.github.com/users/dominictarr/repos",
+      "events_url": "https://api.github.com/users/dominictarr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dominictarr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dominictarr",
+      "id": 259374,
+      "avatar_url": "https://avatars.githubusercontent.com/u/259374?",
+      "gravatar_id": "8225d7ca5e83a3f9f0bb89a61d5df72c",
+      "url": "https://api.github.com/users/dominictarr",
+      "html_url": "https://github.com/dominictarr",
+      "followers_url": "https://api.github.com/users/dominictarr/followers",
+      "following_url": "https://api.github.com/users/dominictarr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dominictarr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dominictarr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dominictarr/subscriptions",
+      "organizations_url": "https://api.github.com/users/dominictarr/orgs",
+      "repos_url": "https://api.github.com/users/dominictarr/repos",
+      "events_url": "https://api.github.com/users/dominictarr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dominictarr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2add2777255809253f3d24caac17170a1471ffed",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/2add2777255809253f3d24caac17170a1471ffed",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/2add2777255809253f3d24caac17170a1471ffed"
+      }
+    ]
+  },
+  {
+    "sha": "2add2777255809253f3d24caac17170a1471ffed",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-10-03T22:34:03Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-10-03T22:34:03Z"
+      },
+      "message": "[dist] Version bump v0.2.6",
+      "tree": {
+        "sha": "dbcdb89d560f17f09c45c15c6ac4eaa061253897",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/dbcdb89d560f17f09c45c15c6ac4eaa061253897"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/2add2777255809253f3d24caac17170a1471ffed",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/2add2777255809253f3d24caac17170a1471ffed",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/2add2777255809253f3d24caac17170a1471ffed",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/2add2777255809253f3d24caac17170a1471ffed/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "692478f475f0d1fd1906414942d92a5e71517613",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/692478f475f0d1fd1906414942d92a5e71517613",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/692478f475f0d1fd1906414942d92a5e71517613"
+      }
+    ]
+  },
+  {
+    "sha": "692478f475f0d1fd1906414942d92a5e71517613",
+    "commit": {
+      "author": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-03T22:14:16Z"
+      },
+      "committer": {
+        "name": "Maciej Małecki",
+        "email": "maciej.malecki@notimplemented.org",
+        "date": "2011-10-03T22:17:05Z"
+      },
+      "message": "[minor api] Assign created http server to a property\n\nIt makes using socket.io/dnode way easier.",
+      "tree": {
+        "sha": "99a74573a33aec4d256ddb115c56e7eea3ca067c",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/99a74573a33aec4d256ddb115c56e7eea3ca067c"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/692478f475f0d1fd1906414942d92a5e71517613",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/692478f475f0d1fd1906414942d92a5e71517613",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/692478f475f0d1fd1906414942d92a5e71517613",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/692478f475f0d1fd1906414942d92a5e71517613/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "7874f1bbebdf93f7f4ca360872cd1089f3e21e52",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/7874f1bbebdf93f7f4ca360872cd1089f3e21e52",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/7874f1bbebdf93f7f4ca360872cd1089f3e21e52"
+      }
+    ]
+  },
+  {
+    "sha": "7874f1bbebdf93f7f4ca360872cd1089f3e21e52",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-09-02T04:46:58Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-09-02T04:46:58Z"
+      },
+      "message": "[dist] Bumped to v0.2.5",
+      "tree": {
+        "sha": "fe0e93bce3ea2bed3dd39704086d7ababb56e371",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/fe0e93bce3ea2bed3dd39704086d7ababb56e371"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/7874f1bbebdf93f7f4ca360872cd1089f3e21e52",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/7874f1bbebdf93f7f4ca360872cd1089f3e21e52",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/7874f1bbebdf93f7f4ca360872cd1089f3e21e52",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/7874f1bbebdf93f7f4ca360872cd1089f3e21e52/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b764eba2c7f57f3205f3cd711a54ade6be7f9cc9",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/b764eba2c7f57f3205f3cd711a54ade6be7f9cc9",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/b764eba2c7f57f3205f3cd711a54ade6be7f9cc9"
+      }
+    ]
+  },
+  {
+    "sha": "b764eba2c7f57f3205f3cd711a54ade6be7f9cc9",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-09-02T04:41:14Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-09-02T04:41:14Z"
+      },
+      "message": "Merge pull request #4 from travisperson/master\n\n[fix] Root url links broken",
+      "tree": {
+        "sha": "8aba322ee81bbd9b6b2bb94544d134d076af24b4",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/8aba322ee81bbd9b6b2bb94544d134d076af24b4"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/b764eba2c7f57f3205f3cd711a54ade6be7f9cc9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/b764eba2c7f57f3205f3cd711a54ade6be7f9cc9",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/b764eba2c7f57f3205f3cd711a54ade6be7f9cc9",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/b764eba2c7f57f3205f3cd711a54ade6be7f9cc9/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/cf63eb78a304ce4e29a60c47c7ea595fca2ad166"
+      },
+      {
+        "sha": "4515615e84b1a8e08f90ab872b7622748ccaaf93",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/4515615e84b1a8e08f90ab872b7622748ccaaf93",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/4515615e84b1a8e08f90ab872b7622748ccaaf93"
+      }
+    ]
+  },
+  {
+    "sha": "4515615e84b1a8e08f90ab872b7622748ccaaf93",
+    "commit": {
+      "author": {
+        "name": "Travis Person",
+        "email": "travis.person@gmail.com",
+        "date": "2011-09-02T04:34:34Z"
+      },
+      "committer": {
+        "name": "Travis Person",
+        "email": "travis.person@gmail.com",
+        "date": "2011-09-02T04:34:34Z"
+      },
+      "message": "If req.url was set to `/` it cause the links to think they were pointing to a different domain and the root urls would break.",
+      "tree": {
+        "sha": "8aba322ee81bbd9b6b2bb94544d134d076af24b4",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/8aba322ee81bbd9b6b2bb94544d134d076af24b4"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/4515615e84b1a8e08f90ab872b7622748ccaaf93",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/4515615e84b1a8e08f90ab872b7622748ccaaf93",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/4515615e84b1a8e08f90ab872b7622748ccaaf93",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/4515615e84b1a8e08f90ab872b7622748ccaaf93/comments",
+    "author": {
+      "login": "travisperson",
+      "id": 165274,
+      "avatar_url": "https://avatars.githubusercontent.com/u/165274?",
+      "gravatar_id": "5c97135e7959647399aba3f7f58a3b22",
+      "url": "https://api.github.com/users/travisperson",
+      "html_url": "https://github.com/travisperson",
+      "followers_url": "https://api.github.com/users/travisperson/followers",
+      "following_url": "https://api.github.com/users/travisperson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/travisperson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/travisperson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/travisperson/subscriptions",
+      "organizations_url": "https://api.github.com/users/travisperson/orgs",
+      "repos_url": "https://api.github.com/users/travisperson/repos",
+      "events_url": "https://api.github.com/users/travisperson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/travisperson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "travisperson",
+      "id": 165274,
+      "avatar_url": "https://avatars.githubusercontent.com/u/165274?",
+      "gravatar_id": "5c97135e7959647399aba3f7f58a3b22",
+      "url": "https://api.github.com/users/travisperson",
+      "html_url": "https://github.com/travisperson",
+      "followers_url": "https://api.github.com/users/travisperson/followers",
+      "following_url": "https://api.github.com/users/travisperson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/travisperson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/travisperson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/travisperson/subscriptions",
+      "organizations_url": "https://api.github.com/users/travisperson/orgs",
+      "repos_url": "https://api.github.com/users/travisperson/repos",
+      "events_url": "https://api.github.com/users/travisperson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/travisperson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/cf63eb78a304ce4e29a60c47c7ea595fca2ad166"
+      }
+    ]
+  },
+  {
+    "sha": "cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-30T09:24:50Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-30T09:24:50Z"
+      },
+      "message": "[revert] Bad option parsing code. Force pushing v0.2.3",
+      "tree": {
+        "sha": "8330a02895f44af151fbc3983edd76df00da790d",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/8330a02895f44af151fbc3983edd76df00da790d"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/cf63eb78a304ce4e29a60c47c7ea595fca2ad166",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/cf63eb78a304ce4e29a60c47c7ea595fca2ad166/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f7a36769cea8bd130145dac02969f7ff8ec9bb67",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/f7a36769cea8bd130145dac02969f7ff8ec9bb67",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/f7a36769cea8bd130145dac02969f7ff8ec9bb67"
+      }
+    ]
+  },
+  {
+    "sha": "f7a36769cea8bd130145dac02969f7ff8ec9bb67",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-30T09:02:58Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-30T09:03:33Z"
+      },
+      "message": "[dist] [fix] Patched node-static autoIndex bug. Bumped to v0.2.3",
+      "tree": {
+        "sha": "3187bed32ac56db9750bb8e7defb178cb9162e4a",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/3187bed32ac56db9750bb8e7defb178cb9162e4a"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/f7a36769cea8bd130145dac02969f7ff8ec9bb67",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/f7a36769cea8bd130145dac02969f7ff8ec9bb67",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/f7a36769cea8bd130145dac02969f7ff8ec9bb67",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/f7a36769cea8bd130145dac02969f7ff8ec9bb67/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "30da5d2b116127784a8e547c4b718dacb3ec5e50",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/30da5d2b116127784a8e547c4b718dacb3ec5e50",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/30da5d2b116127784a8e547c4b718dacb3ec5e50"
+      }
+    ]
+  },
+  {
+    "sha": "30da5d2b116127784a8e547c4b718dacb3ec5e50",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T03:11:12Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T03:11:12Z"
+      },
+      "message": "[dist] Version bump v0.2.3",
+      "tree": {
+        "sha": "c194d60c2f382fc31b46a21b818cae86714be7b0",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/c194d60c2f382fc31b46a21b818cae86714be7b0"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/30da5d2b116127784a8e547c4b718dacb3ec5e50",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/30da5d2b116127784a8e547c4b718dacb3ec5e50",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/30da5d2b116127784a8e547c4b718dacb3ec5e50",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/30da5d2b116127784a8e547c4b718dacb3ec5e50/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f0ca044f97761bb42597be767ab53f65f731454f",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/f0ca044f97761bb42597be767ab53f65f731454f",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/f0ca044f97761bb42597be767ab53f65f731454f"
+      }
+    ]
+  },
+  {
+    "sha": "f0ca044f97761bb42597be767ab53f65f731454f",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T03:10:56Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T03:10:56Z"
+      },
+      "message": "[fix] Added default options.",
+      "tree": {
+        "sha": "79d9776796401b4ef8a449359b307d4ce01af270",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/79d9776796401b4ef8a449359b307d4ce01af270"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/f0ca044f97761bb42597be767ab53f65f731454f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/f0ca044f97761bb42597be767ab53f65f731454f",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/f0ca044f97761bb42597be767ab53f65f731454f",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/f0ca044f97761bb42597be767ab53f65f731454f/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "520714887cacbda65a85154d6503f38a1222ab9a",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/520714887cacbda65a85154d6503f38a1222ab9a",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/520714887cacbda65a85154d6503f38a1222ab9a"
+      }
+    ]
+  },
+  {
+    "sha": "520714887cacbda65a85154d6503f38a1222ab9a",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T03:00:01Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T03:00:01Z"
+      },
+      "message": "[refactor] No more dependencies in lib/",
+      "tree": {
+        "sha": "b4cb2b048aa66bef4f42d3e94da222aacffa2cac",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/b4cb2b048aa66bef4f42d3e94da222aacffa2cac"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/520714887cacbda65a85154d6503f38a1222ab9a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/520714887cacbda65a85154d6503f38a1222ab9a",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/520714887cacbda65a85154d6503f38a1222ab9a",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/520714887cacbda65a85154d6503f38a1222ab9a/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0dd8fc2747f42e48161cecd06831dcd0b7fe2552",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/0dd8fc2747f42e48161cecd06831dcd0b7fe2552",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/0dd8fc2747f42e48161cecd06831dcd0b7fe2552"
+      }
+    ]
+  },
+  {
+    "sha": "0dd8fc2747f42e48161cecd06831dcd0b7fe2552",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T02:59:30Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-27T02:59:30Z"
+      },
+      "message": "[bin] Moved argument parsing and colors to bin/",
+      "tree": {
+        "sha": "dd591c34466f5eaa3735c745c88e24ddb93a7bb3",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/dd591c34466f5eaa3735c745c88e24ddb93a7bb3"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/0dd8fc2747f42e48161cecd06831dcd0b7fe2552",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/0dd8fc2747f42e48161cecd06831dcd0b7fe2552",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/0dd8fc2747f42e48161cecd06831dcd0b7fe2552",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/0dd8fc2747f42e48161cecd06831dcd0b7fe2552/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2727b9294927a590778a23ce848b05e4132e7eac",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/2727b9294927a590778a23ce848b05e4132e7eac",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/2727b9294927a590778a23ce848b05e4132e7eac"
+      }
+    ]
+  },
+  {
+    "sha": "2727b9294927a590778a23ce848b05e4132e7eac",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T22:03:29Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T22:03:29Z"
+      },
+      "message": "[dist] Bump version 0.2.2",
+      "tree": {
+        "sha": "5f20fe4fdc268c68d8f7b4b1e4897ebd94df3b60",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/5f20fe4fdc268c68d8f7b4b1e4897ebd94df3b60"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/2727b9294927a590778a23ce848b05e4132e7eac",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/2727b9294927a590778a23ce848b05e4132e7eac",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/2727b9294927a590778a23ce848b05e4132e7eac",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/2727b9294927a590778a23ce848b05e4132e7eac/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6618c666cda07a73efde5033f5bffa42d65539a6",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/6618c666cda07a73efde5033f5bffa42d65539a6",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/6618c666cda07a73efde5033f5bffa42d65539a6"
+      }
+    ]
+  },
+  {
+    "sha": "6618c666cda07a73efde5033f5bffa42d65539a6",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T22:03:16Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T22:03:16Z"
+      },
+      "message": "[api] Removed host option for now",
+      "tree": {
+        "sha": "1b7fabde22244c7d048cbd7e7d3cc121bbdc1074",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/1b7fabde22244c7d048cbd7e7d3cc121bbdc1074"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/6618c666cda07a73efde5033f5bffa42d65539a6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/6618c666cda07a73efde5033f5bffa42d65539a6",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/6618c666cda07a73efde5033f5bffa42d65539a6",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/6618c666cda07a73efde5033f5bffa42d65539a6/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7f43516cd0e6bd434cca4bc034e932d57fb6b883",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/7f43516cd0e6bd434cca4bc034e932d57fb6b883",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/7f43516cd0e6bd434cca4bc034e932d57fb6b883"
+      }
+    ]
+  },
+  {
+    "sha": "7f43516cd0e6bd434cca4bc034e932d57fb6b883",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T21:43:50Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T21:43:50Z"
+      },
+      "message": "[dist] Exposed main script. Bumped to v0.2.1",
+      "tree": {
+        "sha": "31f5a0990c7ddc07eaa12d568b20d52c467c32a9",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/31f5a0990c7ddc07eaa12d568b20d52c467c32a9"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/7f43516cd0e6bd434cca4bc034e932d57fb6b883",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/7f43516cd0e6bd434cca4bc034e932d57fb6b883",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/7f43516cd0e6bd434cca4bc034e932d57fb6b883",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/7f43516cd0e6bd434cca4bc034e932d57fb6b883/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5af50b0506289a92c0d07aa1815de3df6532d27d",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/5af50b0506289a92c0d07aa1815de3df6532d27d",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/5af50b0506289a92c0d07aa1815de3df6532d27d"
+      }
+    ]
+  },
+  {
+    "sha": "5af50b0506289a92c0d07aa1815de3df6532d27d",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T21:32:49Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T21:32:49Z"
+      },
+      "message": "[docs] Updating ReadMe",
+      "tree": {
+        "sha": "8e32ebe5ba2cb9caf2af5f18b650fdf82475ba0a",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/8e32ebe5ba2cb9caf2af5f18b650fdf82475ba0a"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/5af50b0506289a92c0d07aa1815de3df6532d27d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/5af50b0506289a92c0d07aa1815de3df6532d27d",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/5af50b0506289a92c0d07aa1815de3df6532d27d",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/5af50b0506289a92c0d07aa1815de3df6532d27d/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "39374ceb591e52f37be08da62dbf25aaabd34324",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/39374ceb591e52f37be08da62dbf25aaabd34324",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/39374ceb591e52f37be08da62dbf25aaabd34324"
+      }
+    ]
+  },
+  {
+    "sha": "39374ceb591e52f37be08da62dbf25aaabd34324",
+    "commit": {
+      "author": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T21:32:19Z"
+      },
+      "committer": {
+        "name": "Marak Squires",
+        "email": "marak.squires@gmail.com",
+        "date": "2011-08-25T21:32:19Z"
+      },
+      "message": "[vendor] Updated node-static API. Renamed 'AutoIndex' => 'autoIndex'",
+      "tree": {
+        "sha": "a9837c1eb78c8c3933af1a41680395cbfe7d8a54",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/a9837c1eb78c8c3933af1a41680395cbfe7d8a54"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/39374ceb591e52f37be08da62dbf25aaabd34324",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/39374ceb591e52f37be08da62dbf25aaabd34324",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/39374ceb591e52f37be08da62dbf25aaabd34324",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/39374ceb591e52f37be08da62dbf25aaabd34324/comments",
+    "author": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Marak",
+      "id": 70011,
+      "avatar_url": "https://avatars.githubusercontent.com/u/70011?",
+      "gravatar_id": "7972c616246ab60df7cbc374d4ef9d35",
+      "url": "https://api.github.com/users/Marak",
+      "html_url": "https://github.com/Marak",
+      "followers_url": "https://api.github.com/users/Marak/followers",
+      "following_url": "https://api.github.com/users/Marak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Marak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Marak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Marak/subscriptions",
+      "organizations_url": "https://api.github.com/users/Marak/orgs",
+      "repos_url": "https://api.github.com/users/Marak/repos",
+      "events_url": "https://api.github.com/users/Marak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Marak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "68a7b2fb098c9cf8e93895abeacc19aeefa79196",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/68a7b2fb098c9cf8e93895abeacc19aeefa79196",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/68a7b2fb098c9cf8e93895abeacc19aeefa79196"
+      }
+    ]
+  },
+  {
+    "sha": "68a7b2fb098c9cf8e93895abeacc19aeefa79196",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-23T04:36:46Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-23T04:36:46Z"
+      },
+      "message": "[refactor] Moved argument parsing and help from bin/ to lib/",
+      "tree": {
+        "sha": "622ec4fa4c0b713de2c7543f92528b58161a6d55",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/622ec4fa4c0b713de2c7543f92528b58161a6d55"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/68a7b2fb098c9cf8e93895abeacc19aeefa79196",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/68a7b2fb098c9cf8e93895abeacc19aeefa79196",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/68a7b2fb098c9cf8e93895abeacc19aeefa79196",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/68a7b2fb098c9cf8e93895abeacc19aeefa79196/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "45cc4a5fd21aa8238d0a0b995f34c50fd8685200",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/45cc4a5fd21aa8238d0a0b995f34c50fd8685200",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/45cc4a5fd21aa8238d0a0b995f34c50fd8685200"
+      }
+    ]
+  },
+  {
+    "sha": "45cc4a5fd21aa8238d0a0b995f34c50fd8685200",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-23T03:23:52Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-23T03:23:52Z"
+      },
+      "message": "[dist] Version bump v0.2.0",
+      "tree": {
+        "sha": "58d471dea2f895d433a368a5047166eb6642097b",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/58d471dea2f895d433a368a5047166eb6642097b"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/45cc4a5fd21aa8238d0a0b995f34c50fd8685200",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/45cc4a5fd21aa8238d0a0b995f34c50fd8685200",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/45cc4a5fd21aa8238d0a0b995f34c50fd8685200",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/45cc4a5fd21aa8238d0a0b995f34c50fd8685200/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "409f5ac59da4b3e44ec7e42646a203acbfd55bf9",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/409f5ac59da4b3e44ec7e42646a203acbfd55bf9",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/409f5ac59da4b3e44ec7e42646a203acbfd55bf9"
+      }
+    ]
+  },
+  {
+    "sha": "409f5ac59da4b3e44ec7e42646a203acbfd55bf9",
+    "commit": {
+      "author": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-23T03:19:47Z"
+      },
+      "committer": {
+        "name": "Charlie McConnell",
+        "email": "charlie@charlieistheman.com",
+        "date": "2011-08-23T03:19:47Z"
+      },
+      "message": "[refactor] Made http-server usable programmatically.",
+      "tree": {
+        "sha": "853a0d14411d1dda4d5461f84ed3d1fd058de131",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/git/trees/853a0d14411d1dda4d5461f84ed3d1fd058de131"
+      },
+      "url": "https://api.github.com/repos/nodejitsu/http-server/git/commits/409f5ac59da4b3e44ec7e42646a203acbfd55bf9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/nodejitsu/http-server/commits/409f5ac59da4b3e44ec7e42646a203acbfd55bf9",
+    "html_url": "https://github.com/nodejitsu/http-server/commit/409f5ac59da4b3e44ec7e42646a203acbfd55bf9",
+    "comments_url": "https://api.github.com/repos/nodejitsu/http-server/commits/409f5ac59da4b3e44ec7e42646a203acbfd55bf9/comments",
+    "author": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "AvianFlu",
+      "id": 788946,
+      "avatar_url": "https://avatars.githubusercontent.com/u/788946?",
+      "gravatar_id": "ddf7ae05c3264bfd7ffab92301554dba",
+      "url": "https://api.github.com/users/AvianFlu",
+      "html_url": "https://github.com/AvianFlu",
+      "followers_url": "https://api.github.com/users/AvianFlu/followers",
+      "following_url": "https://api.github.com/users/AvianFlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AvianFlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AvianFlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AvianFlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/AvianFlu/orgs",
+      "repos_url": "https://api.github.com/users/AvianFlu/repos",
+      "events_url": "https://api.github.com/users/AvianFlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AvianFlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "73694b091d1bc92591642b7aa720dda2dcb469fe",
+        "url": "https://api.github.com/repos/nodejitsu/http-server/commits/73694b091d1bc92591642b7aa720dda2dcb469fe",
+        "html_url": "https://github.com/nodejitsu/http-server/commit/73694b091d1bc92591642b7aa720dda2dcb469fe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2117 @@
+[
+  {
+    "sha": "40ac54942a47b070cbdaf4b55f5a4116ed25df67",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evan.shortiss@feedhenry.com",
+        "date": "2014-05-19T09:03:32Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evan.shortiss@feedhenry.com",
+        "date": "2014-05-19T09:03:32Z"
+      },
+      "message": "Test",
+      "tree": {
+        "sha": "702167d1df5cbf9cf443ab6caf6b1bcf3da0f93e",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/702167d1df5cbf9cf443ab6caf6b1bcf3da0f93e"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/40ac54942a47b070cbdaf4b55f5a4116ed25df67",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/40ac54942a47b070cbdaf4b55f5a4116ed25df67",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/40ac54942a47b070cbdaf4b55f5a4116ed25df67",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/40ac54942a47b070cbdaf4b55f5a4116ed25df67/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "03e62ff63f0e058112b974c8dd06da9c898e86ca",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/03e62ff63f0e058112b974c8dd06da9c898e86ca",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/03e62ff63f0e058112b974c8dd06da9c898e86ca"
+      }
+    ]
+  },
+  {
+    "sha": "03e62ff63f0e058112b974c8dd06da9c898e86ca",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T20:04:30Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T20:04:30Z"
+      },
+      "message": "Update build",
+      "tree": {
+        "sha": "e01e1949a8eeb183c56e621e28177ed0adc6afc4",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/e01e1949a8eeb183c56e621e28177ed0adc6afc4"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/03e62ff63f0e058112b974c8dd06da9c898e86ca",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/03e62ff63f0e058112b974c8dd06da9c898e86ca",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/03e62ff63f0e058112b974c8dd06da9c898e86ca",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/03e62ff63f0e058112b974c8dd06da9c898e86ca/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "813891452275b5a15ed5b55875346dec049fa56b",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/813891452275b5a15ed5b55875346dec049fa56b",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/813891452275b5a15ed5b55875346dec049fa56b"
+      }
+    ]
+  },
+  {
+    "sha": "813891452275b5a15ed5b55875346dec049fa56b",
+    "commit": {
+      "author": {
+        "name": "Evan",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:55:09Z"
+      },
+      "committer": {
+        "name": "Evan",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:55:09Z"
+      },
+      "message": "Merge pull request #3 from evanshortiss/feature-staticFunctions\n\nFeature static functions",
+      "tree": {
+        "sha": "954cdec298abf26460011f4112d267b90b9f3a4f",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/954cdec298abf26460011f4112d267b90b9f3a4f"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/813891452275b5a15ed5b55875346dec049fa56b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/813891452275b5a15ed5b55875346dec049fa56b",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/813891452275b5a15ed5b55875346dec049fa56b",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/813891452275b5a15ed5b55875346dec049fa56b/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bd77010adab93373c60cf6d94e926a9d788f836a",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/bd77010adab93373c60cf6d94e926a9d788f836a",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/bd77010adab93373c60cf6d94e926a9d788f836a"
+      },
+      {
+        "sha": "cbc81392154dd036a3db59680213f4aaf4a53827",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/cbc81392154dd036a3db59680213f4aaf4a53827",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/cbc81392154dd036a3db59680213f4aaf4a53827"
+      }
+    ]
+  },
+  {
+    "sha": "cbc81392154dd036a3db59680213f4aaf4a53827",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:54:12Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:54:12Z"
+      },
+      "message": "Update version.",
+      "tree": {
+        "sha": "954cdec298abf26460011f4112d267b90b9f3a4f",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/954cdec298abf26460011f4112d267b90b9f3a4f"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/cbc81392154dd036a3db59680213f4aaf4a53827",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/cbc81392154dd036a3db59680213f4aaf4a53827",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/cbc81392154dd036a3db59680213f4aaf4a53827",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/cbc81392154dd036a3db59680213f4aaf4a53827/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "84a8efd128a9e934155c6d931ba7c1ce009dc144",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/84a8efd128a9e934155c6d931ba7c1ce009dc144",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/84a8efd128a9e934155c6d931ba7c1ce009dc144"
+      }
+    ]
+  },
+  {
+    "sha": "84a8efd128a9e934155c6d931ba7c1ce009dc144",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:53:23Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:53:23Z"
+      },
+      "message": "Update readme and versions",
+      "tree": {
+        "sha": "881e04d50f7bbf114675b8d4777776fe8f32e694",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/881e04d50f7bbf114675b8d4777776fe8f32e694"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/84a8efd128a9e934155c6d931ba7c1ce009dc144",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/84a8efd128a9e934155c6d931ba7c1ce009dc144",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/84a8efd128a9e934155c6d931ba7c1ce009dc144",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/84a8efd128a9e934155c6d931ba7c1ce009dc144/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "640ddf710c29c88ed34dc24d7e60267c2c66eeb8",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/640ddf710c29c88ed34dc24d7e60267c2c66eeb8",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/640ddf710c29c88ed34dc24d7e60267c2c66eeb8"
+      }
+    ]
+  },
+  {
+    "sha": "640ddf710c29c88ed34dc24d7e60267c2c66eeb8",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:48:59Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:48:59Z"
+      },
+      "message": "Remove static-like methods in favour of using clone",
+      "tree": {
+        "sha": "0a06f87ba7ee2652357c2e20ec9f2c746901cf58",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/0a06f87ba7ee2652357c2e20ec9f2c746901cf58"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/640ddf710c29c88ed34dc24d7e60267c2c66eeb8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/640ddf710c29c88ed34dc24d7e60267c2c66eeb8",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/640ddf710c29c88ed34dc24d7e60267c2c66eeb8",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/640ddf710c29c88ed34dc24d7e60267c2c66eeb8/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89"
+      }
+    ]
+  },
+  {
+    "sha": "b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:27:01Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T19:27:01Z"
+      },
+      "message": "Update performance tests and clone method operation",
+      "tree": {
+        "sha": "13574e42f73a4c1f390b5aa151d76fec6a3b361f",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/13574e42f73a4c1f390b5aa151d76fec6a3b361f"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b40e2173225fa5b1cf6fa8a16d3c8d3d4edecd89/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bd77010adab93373c60cf6d94e926a9d788f836a",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/bd77010adab93373c60cf6d94e926a9d788f836a",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/bd77010adab93373c60cf6d94e926a9d788f836a"
+      }
+    ]
+  },
+  {
+    "sha": "bd77010adab93373c60cf6d94e926a9d788f836a",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:56:16Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:56:16Z"
+      },
+      "message": "Update tests.",
+      "tree": {
+        "sha": "020527abee8dae050e3e796bc2847d87fc36ad25",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/020527abee8dae050e3e796bc2847d87fc36ad25"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/bd77010adab93373c60cf6d94e926a9d788f836a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/bd77010adab93373c60cf6d94e926a9d788f836a",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/bd77010adab93373c60cf6d94e926a9d788f836a",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/bd77010adab93373c60cf6d94e926a9d788f836a/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "24f5848a34f6e43731192961cbfc1332f3bb9e65",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/24f5848a34f6e43731192961cbfc1332f3bb9e65",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/24f5848a34f6e43731192961cbfc1332f3bb9e65"
+      }
+    ]
+  },
+  {
+    "sha": "24f5848a34f6e43731192961cbfc1332f3bb9e65",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:34:09Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:34:09Z"
+      },
+      "message": "Update tests.",
+      "tree": {
+        "sha": "bdef8fcd3694836864d9e83085040fc0c5ea2168",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/bdef8fcd3694836864d9e83085040fc0c5ea2168"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/24f5848a34f6e43731192961cbfc1332f3bb9e65",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/24f5848a34f6e43731192961cbfc1332f3bb9e65",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/24f5848a34f6e43731192961cbfc1332f3bb9e65",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/24f5848a34f6e43731192961cbfc1332f3bb9e65/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f1a49a98c7600d1221adb89eb751293efe743635",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/f1a49a98c7600d1221adb89eb751293efe743635",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/f1a49a98c7600d1221adb89eb751293efe743635"
+      }
+    ]
+  },
+  {
+    "sha": "f1a49a98c7600d1221adb89eb751293efe743635",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:22:25Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:22:25Z"
+      },
+      "message": "Update tests and readme",
+      "tree": {
+        "sha": "ccd639059f5e7e6307f251af312a6d1674421995",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/ccd639059f5e7e6307f251af312a6d1674421995"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/f1a49a98c7600d1221adb89eb751293efe743635",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/f1a49a98c7600d1221adb89eb751293efe743635",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/f1a49a98c7600d1221adb89eb751293efe743635",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/f1a49a98c7600d1221adb89eb751293efe743635/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332"
+      }
+    ]
+  },
+  {
+    "sha": "5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332",
+    "commit": {
+      "author": {
+        "name": "Evan",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:14:03Z"
+      },
+      "committer": {
+        "name": "Evan",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:14:03Z"
+      },
+      "message": "Merge pull request #2 from evanshortiss/feature-apiStandardisation\n\nFix builds",
+      "tree": {
+        "sha": "d06e02a3170374870c362e456acca9c8c62e7184",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/d06e02a3170374870c362e456acca9c8c62e7184"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/5f0b56d0f35d3e8d0a5ae028b641f3bf2d2be332/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a68ba1b7cc1f739e0262f27f8433a58ebc337cd4",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a68ba1b7cc1f739e0262f27f8433a58ebc337cd4",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/a68ba1b7cc1f739e0262f27f8433a58ebc337cd4"
+      },
+      {
+        "sha": "1ad4d55773f283abc5346d2cba9961ab14e707f3",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/1ad4d55773f283abc5346d2cba9961ab14e707f3",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/1ad4d55773f283abc5346d2cba9961ab14e707f3"
+      }
+    ]
+  },
+  {
+    "sha": "1ad4d55773f283abc5346d2cba9961ab14e707f3",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:12:53Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T16:12:53Z"
+      },
+      "message": "Fix build",
+      "tree": {
+        "sha": "d06e02a3170374870c362e456acca9c8c62e7184",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/d06e02a3170374870c362e456acca9c8c62e7184"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/1ad4d55773f283abc5346d2cba9961ab14e707f3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/1ad4d55773f283abc5346d2cba9961ab14e707f3",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/1ad4d55773f283abc5346d2cba9961ab14e707f3",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/1ad4d55773f283abc5346d2cba9961ab14e707f3/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "48470d33d69188d8bf55e5afd6d4b1b8a165e04e",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/48470d33d69188d8bf55e5afd6d4b1b8a165e04e",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/48470d33d69188d8bf55e5afd6d4b1b8a165e04e"
+      }
+    ]
+  },
+  {
+    "sha": "48470d33d69188d8bf55e5afd6d4b1b8a165e04e",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T15:42:21Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T15:42:21Z"
+      },
+      "message": "Test updates. Browserify no longer working. Need to test",
+      "tree": {
+        "sha": "74799600a0fa4a617142163b6b6976aea0965e23",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/74799600a0fa4a617142163b6b6976aea0965e23"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/48470d33d69188d8bf55e5afd6d4b1b8a165e04e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/48470d33d69188d8bf55e5afd6d4b1b8a165e04e",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/48470d33d69188d8bf55e5afd6d4b1b8a165e04e",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/48470d33d69188d8bf55e5afd6d4b1b8a165e04e/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/4d9a453274f6304918f9b2dd9a7744e532cd25fe"
+      }
+    ]
+  },
+  {
+    "sha": "a68ba1b7cc1f739e0262f27f8433a58ebc337cd4",
+    "commit": {
+      "author": {
+        "name": "Evan",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T15:00:48Z"
+      },
+      "committer": {
+        "name": "Evan",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T15:00:48Z"
+      },
+      "message": "Merge pull request #1 from evanshortiss/feature-apiStandardisation\n\nFeature api standardisation",
+      "tree": {
+        "sha": "1f0dac087cf50547a35c3df9b5123c0f8324dca7",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/1f0dac087cf50547a35c3df9b5123c0f8324dca7"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/a68ba1b7cc1f739e0262f27f8433a58ebc337cd4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a68ba1b7cc1f739e0262f27f8433a58ebc337cd4",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/a68ba1b7cc1f739e0262f27f8433a58ebc337cd4",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a68ba1b7cc1f739e0262f27f8433a58ebc337cd4/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0dd00612e013f9c7dd6222893e49c96bb3d42047",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/0dd00612e013f9c7dd6222893e49c96bb3d42047",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/0dd00612e013f9c7dd6222893e49c96bb3d42047"
+      },
+      {
+        "sha": "4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/4d9a453274f6304918f9b2dd9a7744e532cd25fe"
+      }
+    ]
+  },
+  {
+    "sha": "4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T14:56:29Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T14:56:29Z"
+      },
+      "message": "Update readme",
+      "tree": {
+        "sha": "1f0dac087cf50547a35c3df9b5123c0f8324dca7",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/1f0dac087cf50547a35c3df9b5123c0f8324dca7"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/4d9a453274f6304918f9b2dd9a7744e532cd25fe",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/4d9a453274f6304918f9b2dd9a7744e532cd25fe/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "588e0289389c78ab329a60b507d27d126aaf396c",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/588e0289389c78ab329a60b507d27d126aaf396c",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/588e0289389c78ab329a60b507d27d126aaf396c"
+      }
+    ]
+  },
+  {
+    "sha": "588e0289389c78ab329a60b507d27d126aaf396c",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T14:54:48Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T14:54:48Z"
+      },
+      "message": "Update readme",
+      "tree": {
+        "sha": "9b0c69cc5dafb9d309b1ef663550471cacb7ba05",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/9b0c69cc5dafb9d309b1ef663550471cacb7ba05"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/588e0289389c78ab329a60b507d27d126aaf396c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/588e0289389c78ab329a60b507d27d126aaf396c",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/588e0289389c78ab329a60b507d27d126aaf396c",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/588e0289389c78ab329a60b507d27d126aaf396c/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff"
+      }
+    ]
+  },
+  {
+    "sha": "ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T14:44:23Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T14:44:23Z"
+      },
+      "message": "Update for performance improvements, use of inheritance across vector classes.",
+      "tree": {
+        "sha": "8cc404ec73efb87ebeadf39b8ecfc506d3a49f11",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/8cc404ec73efb87ebeadf39b8ecfc506d3a49f11"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/ea1c1d5dfedc9debcaf8e62b64df65472d76b8ff/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0dd00612e013f9c7dd6222893e49c96bb3d42047",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/0dd00612e013f9c7dd6222893e49c96bb3d42047",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/0dd00612e013f9c7dd6222893e49c96bb3d42047"
+      }
+    ]
+  },
+  {
+    "sha": "0dd00612e013f9c7dd6222893e49c96bb3d42047",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T00:46:58Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T00:46:58Z"
+      },
+      "message": "Update test files to use built version.",
+      "tree": {
+        "sha": "f0c9d40a25d93938bc7df30c58c9c427435318af",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/f0c9d40a25d93938bc7df30c58c9c427435318af"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/0dd00612e013f9c7dd6222893e49c96bb3d42047",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/0dd00612e013f9c7dd6222893e49c96bb3d42047",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/0dd00612e013f9c7dd6222893e49c96bb3d42047",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/0dd00612e013f9c7dd6222893e49c96bb3d42047/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b7f58539f6bbb3f619f2b8cb1e9654027703a15e",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b7f58539f6bbb3f619f2b8cb1e9654027703a15e",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/b7f58539f6bbb3f619f2b8cb1e9654027703a15e"
+      }
+    ]
+  },
+  {
+    "sha": "b7f58539f6bbb3f619f2b8cb1e9654027703a15e",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T00:29:49Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-18T00:29:49Z"
+      },
+      "message": "Update readme and API. Update bower and npm ignores",
+      "tree": {
+        "sha": "f761751d3b4c775d3a62a2fc507d2b88b39d4809",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/f761751d3b4c775d3a62a2fc507d2b88b39d4809"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/b7f58539f6bbb3f619f2b8cb1e9654027703a15e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b7f58539f6bbb3f619f2b8cb1e9654027703a15e",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/b7f58539f6bbb3f619f2b8cb1e9654027703a15e",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b7f58539f6bbb3f619f2b8cb1e9654027703a15e/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f"
+      }
+    ]
+  },
+  {
+    "sha": "8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T23:18:40Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T23:18:40Z"
+      },
+      "message": "Update testling devices/browsers.",
+      "tree": {
+        "sha": "06c4478516b415e4e50346d8c0e27541b256de63",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/06c4478516b415e4e50346d8c0e27541b256de63"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/8ae5aa14321309c2d0dbcc12ab320d1d1de9b29f/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "93259f4b444c60bfb5d9857b4976e0db5128d967",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/93259f4b444c60bfb5d9857b4976e0db5128d967",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/93259f4b444c60bfb5d9857b4976e0db5128d967"
+      }
+    ]
+  },
+  {
+    "sha": "93259f4b444c60bfb5d9857b4976e0db5128d967",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:56:51Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:56:51Z"
+      },
+      "message": "Update readme",
+      "tree": {
+        "sha": "167b7cfc0958ab3c73dbcebe62fa3728ade9c078",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/167b7cfc0958ab3c73dbcebe62fa3728ade9c078"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/93259f4b444c60bfb5d9857b4976e0db5128d967",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/93259f4b444c60bfb5d9857b4976e0db5128d967",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/93259f4b444c60bfb5d9857b4976e0db5128d967",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/93259f4b444c60bfb5d9857b4976e0db5128d967/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740"
+      }
+    ]
+  },
+  {
+    "sha": "b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:54:30Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:54:30Z"
+      },
+      "message": "Fix tests",
+      "tree": {
+        "sha": "83f3af4288f0c1e84326c7df405b224a1ab05cbb",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/83f3af4288f0c1e84326c7df405b224a1ab05cbb"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/b80f1898c3d8dc46e6aab6a9a68d3c0f0c555740/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7"
+      }
+    ]
+  },
+  {
+    "sha": "500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:52:14Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:52:14Z"
+      },
+      "message": "Fix tests",
+      "tree": {
+        "sha": "034740fa6efdb858f81c83e90ce57a449c5cf948",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/034740fa6efdb858f81c83e90ce57a449c5cf948"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/500ce8c4bde1c9d5c892232b0a07c9a9ad6f3ac7/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a3241e19888213e471f793c00eedb0501c1306a5",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a3241e19888213e471f793c00eedb0501c1306a5",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/a3241e19888213e471f793c00eedb0501c1306a5"
+      }
+    ]
+  },
+  {
+    "sha": "a3241e19888213e471f793c00eedb0501c1306a5",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:41:51Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:41:51Z"
+      },
+      "message": "Update for testling with mocha",
+      "tree": {
+        "sha": "7e6071e07c78e863625e3d67ab9cbbe4835115e7",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/7e6071e07c78e863625e3d67ab9cbbe4835115e7"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/a3241e19888213e471f793c00eedb0501c1306a5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a3241e19888213e471f793c00eedb0501c1306a5",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/a3241e19888213e471f793c00eedb0501c1306a5",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a3241e19888213e471f793c00eedb0501c1306a5/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "494bc8a1beee2e9677fc05b5757b4b7676ccb2d3",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/494bc8a1beee2e9677fc05b5757b4b7676ccb2d3",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/494bc8a1beee2e9677fc05b5757b4b7676ccb2d3"
+      }
+    ]
+  },
+  {
+    "sha": "494bc8a1beee2e9677fc05b5757b4b7676ccb2d3",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:38:21Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:38:21Z"
+      },
+      "message": "Update for testling with mocha",
+      "tree": {
+        "sha": "b0a17217db9bf810bf2b18abe9f36fba0993c9b4",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/b0a17217db9bf810bf2b18abe9f36fba0993c9b4"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/494bc8a1beee2e9677fc05b5757b4b7676ccb2d3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/494bc8a1beee2e9677fc05b5757b4b7676ccb2d3",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/494bc8a1beee2e9677fc05b5757b4b7676ccb2d3",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/494bc8a1beee2e9677fc05b5757b4b7676ccb2d3/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a42b10695a9ff5b8fb76a98e20a1cb0a366e855a",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a42b10695a9ff5b8fb76a98e20a1cb0a366e855a",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/a42b10695a9ff5b8fb76a98e20a1cb0a366e855a"
+      }
+    ]
+  },
+  {
+    "sha": "a42b10695a9ff5b8fb76a98e20a1cb0a366e855a",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:32:28Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:32:28Z"
+      },
+      "message": "Upadte with browserify badge",
+      "tree": {
+        "sha": "8e0f4a9e022a122342a779a80873edc9605c2f63",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/8e0f4a9e022a122342a779a80873edc9605c2f63"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/a42b10695a9ff5b8fb76a98e20a1cb0a366e855a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a42b10695a9ff5b8fb76a98e20a1cb0a366e855a",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/a42b10695a9ff5b8fb76a98e20a1cb0a366e855a",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/a42b10695a9ff5b8fb76a98e20a1cb0a366e855a/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "50eabb7031fe068dcbdc9b490065e061f10662d3",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/50eabb7031fe068dcbdc9b490065e061f10662d3",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/50eabb7031fe068dcbdc9b490065e061f10662d3"
+      }
+    ]
+  },
+  {
+    "sha": "50eabb7031fe068dcbdc9b490065e061f10662d3",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:29:29Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:29:29Z"
+      },
+      "message": "Add untracked",
+      "tree": {
+        "sha": "7fd1dd4c50535daf0ba8f1b3ea45e0e5d7a9ee74",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/7fd1dd4c50535daf0ba8f1b3ea45e0e5d7a9ee74"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/50eabb7031fe068dcbdc9b490065e061f10662d3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/50eabb7031fe068dcbdc9b490065e061f10662d3",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/50eabb7031fe068dcbdc9b490065e061f10662d3",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/50eabb7031fe068dcbdc9b490065e061f10662d3/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "309749cea485b6b306ef780c03a60d4d50b06d9b",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/309749cea485b6b306ef780c03a60d4d50b06d9b",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/309749cea485b6b306ef780c03a60d4d50b06d9b"
+      }
+    ]
+  },
+  {
+    "sha": "309749cea485b6b306ef780c03a60d4d50b06d9b",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:27:42Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-05-17T22:27:42Z"
+      },
+      "message": "Update to use browserify",
+      "tree": {
+        "sha": "9fe0a204c294d64c9752fbca335b063279e6bd70",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/9fe0a204c294d64c9752fbca335b063279e6bd70"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/309749cea485b6b306ef780c03a60d4d50b06d9b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/309749cea485b6b306ef780c03a60d4d50b06d9b",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/309749cea485b6b306ef780c03a60d4d50b06d9b",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/309749cea485b6b306ef780c03a60d4d50b06d9b/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "02551accb8512fcbc66d09eb021c08e2604f55ad",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/02551accb8512fcbc66d09eb021c08e2604f55ad",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/02551accb8512fcbc66d09eb021c08e2604f55ad"
+      }
+    ]
+  },
+  {
+    "sha": "02551accb8512fcbc66d09eb021c08e2604f55ad",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-01-26T00:28:17Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-01-26T00:28:17Z"
+      },
+      "message": "Fix example",
+      "tree": {
+        "sha": "0e2feaca327581f21feee1c6fed971a2f1d140ea",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/0e2feaca327581f21feee1c6fed971a2f1d140ea"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/02551accb8512fcbc66d09eb021c08e2604f55ad",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/02551accb8512fcbc66d09eb021c08e2604f55ad",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/02551accb8512fcbc66d09eb021c08e2604f55ad",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/02551accb8512fcbc66d09eb021c08e2604f55ad/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e2635eb2e35b2eafadbb7128ccf87cb8ab78c724",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/e2635eb2e35b2eafadbb7128ccf87cb8ab78c724",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/e2635eb2e35b2eafadbb7128ccf87cb8ab78c724"
+      }
+    ]
+  },
+  {
+    "sha": "e2635eb2e35b2eafadbb7128ccf87cb8ab78c724",
+    "commit": {
+      "author": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-01-26T00:22:06Z"
+      },
+      "committer": {
+        "name": "Evan Shortiss",
+        "email": "evanshortiss@gmail.com",
+        "date": "2014-01-26T00:22:06Z"
+      },
+      "message": "Readme update",
+      "tree": {
+        "sha": "c248d3b57228d7f228b53f10933bbc13afaa6d94",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/git/trees/c248d3b57228d7f228b53f10933bbc13afaa6d94"
+      },
+      "url": "https://api.github.com/repos/evanshortiss/vec2d/git/commits/e2635eb2e35b2eafadbb7128ccf87cb8ab78c724",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/e2635eb2e35b2eafadbb7128ccf87cb8ab78c724",
+    "html_url": "https://github.com/evanshortiss/vec2d/commit/e2635eb2e35b2eafadbb7128ccf87cb8ab78c724",
+    "comments_url": "https://api.github.com/repos/evanshortiss/vec2d/commits/e2635eb2e35b2eafadbb7128ccf87cb8ab78c724/comments",
+    "author": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "evanshortiss",
+      "id": 1303687,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1303687?",
+      "gravatar_id": "67b27a125974039ed8446178ff0d0c7e",
+      "url": "https://api.github.com/users/evanshortiss",
+      "html_url": "https://github.com/evanshortiss",
+      "followers_url": "https://api.github.com/users/evanshortiss/followers",
+      "following_url": "https://api.github.com/users/evanshortiss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evanshortiss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evanshortiss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evanshortiss/subscriptions",
+      "organizations_url": "https://api.github.com/users/evanshortiss/orgs",
+      "repos_url": "https://api.github.com/users/evanshortiss/repos",
+      "events_url": "https://api.github.com/users/evanshortiss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evanshortiss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aefa9dab5cf05fb7936f63fcded77d3d1d175918",
+        "url": "https://api.github.com/repos/evanshortiss/vec2d/commits/aefa9dab5cf05fb7936f63fcded77d3d1d175918",
+        "html_url": "https://github.com/evanshortiss/vec2d/commit/aefa9dab5cf05fb7936f63fcded77d3d1d175918"
+      }
+    ]
+  }
+]

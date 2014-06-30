@@ -1,0 +1,1328 @@
+[
+  {
+    "sha": "952ae5a4732e5959dc16e3b6b9dc15ef58d6732e",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-11T15:11:25Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-11T15:11:25Z"
+      },
+      "message": "Improved speed of the arguments processing.",
+      "tree": {
+        "sha": "67983405a2d19c868f131ddb7b66a14ac6963585",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/67983405a2d19c868f131ddb7b66a14ac6963585"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/952ae5a4732e5959dc16e3b6b9dc15ef58d6732e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/952ae5a4732e5959dc16e3b6b9dc15ef58d6732e",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/952ae5a4732e5959dc16e3b6b9dc15ef58d6732e",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/952ae5a4732e5959dc16e3b6b9dc15ef58d6732e/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7f05a026d19bbb577c06ce29140be83e97d3a4cf",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/7f05a026d19bbb577c06ce29140be83e97d3a4cf",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/7f05a026d19bbb577c06ce29140be83e97d3a4cf"
+      }
+    ]
+  },
+  {
+    "sha": "7f05a026d19bbb577c06ce29140be83e97d3a4cf",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-11T15:05:09Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-11T15:05:09Z"
+      },
+      "message": "Added benchmark",
+      "tree": {
+        "sha": "9bba97f057805689d4d19766922417e0ff003123",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/9bba97f057805689d4d19766922417e0ff003123"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/7f05a026d19bbb577c06ce29140be83e97d3a4cf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/7f05a026d19bbb577c06ce29140be83e97d3a4cf",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/7f05a026d19bbb577c06ce29140be83e97d3a4cf",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/7f05a026d19bbb577c06ce29140be83e97d3a4cf/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2e0cddcc901e137265a5d891a60daa6e893e736",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/a2e0cddcc901e137265a5d891a60daa6e893e736",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/a2e0cddcc901e137265a5d891a60daa6e893e736"
+      }
+    ]
+  },
+  {
+    "sha": "a2e0cddcc901e137265a5d891a60daa6e893e736",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T13:31:46Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T13:31:46Z"
+      },
+      "message": "Travis CI build status image inside the README",
+      "tree": {
+        "sha": "933c066f5d876d416253631f3daf36e6b6e78e14",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/933c066f5d876d416253631f3daf36e6b6e78e14"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/a2e0cddcc901e137265a5d891a60daa6e893e736",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/a2e0cddcc901e137265a5d891a60daa6e893e736",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/a2e0cddcc901e137265a5d891a60daa6e893e736",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/a2e0cddcc901e137265a5d891a60daa6e893e736/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "317612c002b3b3ed039477f32f6faabc8fbb7a96",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/317612c002b3b3ed039477f32f6faabc8fbb7a96",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/317612c002b3b3ed039477f32f6faabc8fbb7a96"
+      }
+    ]
+  },
+  {
+    "sha": "317612c002b3b3ed039477f32f6faabc8fbb7a96",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T13:21:30Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T13:21:30Z"
+      },
+      "message": "Travis config",
+      "tree": {
+        "sha": "dd14c3924aef1595b62d76d8394c23849e530710",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/dd14c3924aef1595b62d76d8394c23849e530710"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/317612c002b3b3ed039477f32f6faabc8fbb7a96",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/317612c002b3b3ed039477f32f6faabc8fbb7a96",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/317612c002b3b3ed039477f32f6faabc8fbb7a96",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/317612c002b3b3ed039477f32f6faabc8fbb7a96/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "31335d546b290f6cbccfaf7325e16e78463b2ec4",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/31335d546b290f6cbccfaf7325e16e78463b2ec4",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/31335d546b290f6cbccfaf7325e16e78463b2ec4"
+      }
+    ]
+  },
+  {
+    "sha": "31335d546b290f6cbccfaf7325e16e78463b2ec4",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T04:31:28Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T04:31:28Z"
+      },
+      "message": "Version bump to update README",
+      "tree": {
+        "sha": "9b4e66f3aa068d0d7b0bb65c0eeb085346df2c40",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/9b4e66f3aa068d0d7b0bb65c0eeb085346df2c40"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/31335d546b290f6cbccfaf7325e16e78463b2ec4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/31335d546b290f6cbccfaf7325e16e78463b2ec4",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/31335d546b290f6cbccfaf7325e16e78463b2ec4",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/31335d546b290f6cbccfaf7325e16e78463b2ec4/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5a68fb309ffdb519294c3a850a53c368216e893d",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/5a68fb309ffdb519294c3a850a53c368216e893d",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/5a68fb309ffdb519294c3a850a53c368216e893d"
+      }
+    ]
+  },
+  {
+    "sha": "5a68fb309ffdb519294c3a850a53c368216e893d",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T04:27:06Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-10T04:27:06Z"
+      },
+      "message": "Minor README fix",
+      "tree": {
+        "sha": "adc867c35611766a72595e2cc3e904cc99e17856",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/adc867c35611766a72595e2cc3e904cc99e17856"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/5a68fb309ffdb519294c3a850a53c368216e893d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/5a68fb309ffdb519294c3a850a53c368216e893d",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/5a68fb309ffdb519294c3a850a53c368216e893d",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/5a68fb309ffdb519294c3a850a53c368216e893d/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "00c792dbc7c5e76c869be53d3639eabc833daf84",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/00c792dbc7c5e76c869be53d3639eabc833daf84",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/00c792dbc7c5e76c869be53d3639eabc833daf84"
+      }
+    ]
+  },
+  {
+    "sha": "00c792dbc7c5e76c869be53d3639eabc833daf84",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-09T15:53:36Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-09T15:53:36Z"
+      },
+      "message": "Removed Function.prototype.vargs",
+      "tree": {
+        "sha": "6b1747882d46c2e3a5ef4ab3da0a7b5d51d9f6a6",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/6b1747882d46c2e3a5ef4ab3da0a7b5d51d9f6a6"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/00c792dbc7c5e76c869be53d3639eabc833daf84",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/00c792dbc7c5e76c869be53d3639eabc833daf84",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/00c792dbc7c5e76c869be53d3639eabc833daf84",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/00c792dbc7c5e76c869be53d3639eabc833daf84/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "adb09dee117fdbc243ef6602d7c2f0736149df50",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/adb09dee117fdbc243ef6602d7c2f0736149df50",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/adb09dee117fdbc243ef6602d7c2f0736149df50"
+      }
+    ]
+  },
+  {
+    "sha": "adb09dee117fdbc243ef6602d7c2f0736149df50",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:31:32Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:31:32Z"
+      },
+      "message": "Minor README fix and version bump",
+      "tree": {
+        "sha": "8ae25f3b6667421dc68c9d979b7e2cd1d5bf0f66",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/8ae25f3b6667421dc68c9d979b7e2cd1d5bf0f66"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/adb09dee117fdbc243ef6602d7c2f0736149df50",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/adb09dee117fdbc243ef6602d7c2f0736149df50",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/adb09dee117fdbc243ef6602d7c2f0736149df50",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/adb09dee117fdbc243ef6602d7c2f0736149df50/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "97f1dcbf8040985476e9e47ef737fd4ec1a199ad",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/97f1dcbf8040985476e9e47ef737fd4ec1a199ad",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/97f1dcbf8040985476e9e47ef737fd4ec1a199ad"
+      }
+    ]
+  },
+  {
+    "sha": "97f1dcbf8040985476e9e47ef737fd4ec1a199ad",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:20:58Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:20:58Z"
+      },
+      "message": "Version bump",
+      "tree": {
+        "sha": "a94fbb6cb261f4603f8bd577a890b184866f485d",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/a94fbb6cb261f4603f8bd577a890b184866f485d"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/97f1dcbf8040985476e9e47ef737fd4ec1a199ad",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/97f1dcbf8040985476e9e47ef737fd4ec1a199ad",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/97f1dcbf8040985476e9e47ef737fd4ec1a199ad",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/97f1dcbf8040985476e9e47ef737fd4ec1a199ad/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d32802f96a169c2528f67ce241821223b46a7608",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/d32802f96a169c2528f67ce241821223b46a7608",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/d32802f96a169c2528f67ce241821223b46a7608"
+      }
+    ]
+  },
+  {
+    "sha": "d32802f96a169c2528f67ce241821223b46a7608",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:20:37Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:20:37Z"
+      },
+      "message": "Unnecessary newline",
+      "tree": {
+        "sha": "c6f910a59a737a4bed14785f077699979f0f81ed",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/c6f910a59a737a4bed14785f077699979f0f81ed"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/d32802f96a169c2528f67ce241821223b46a7608",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/d32802f96a169c2528f67ce241821223b46a7608",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/d32802f96a169c2528f67ce241821223b46a7608",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/d32802f96a169c2528f67ce241821223b46a7608/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329"
+      }
+    ]
+  },
+  {
+    "sha": "d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:12:40Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-08T10:12:40Z"
+      },
+      "message": "Completed the README",
+      "tree": {
+        "sha": "529ae54796bf118da37b28fb7ea2bf2930a1952a",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/529ae54796bf118da37b28fb7ea2bf2930a1952a"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/d7704ef814a7e3c62e1fdd4d4f13ef2f1932c329/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "82b93f9e392b53b5de76d88409df5622351aa231",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/82b93f9e392b53b5de76d88409df5622351aa231",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/82b93f9e392b53b5de76d88409df5622351aa231"
+      }
+    ]
+  },
+  {
+    "sha": "82b93f9e392b53b5de76d88409df5622351aa231",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-06T17:30:02Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-06T17:30:02Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "45c77ddc36d9f3a9767b8f58403da2246e2dc5cd",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/45c77ddc36d9f3a9767b8f58403da2246e2dc5cd"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/82b93f9e392b53b5de76d88409df5622351aa231",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/82b93f9e392b53b5de76d88409df5622351aa231",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/82b93f9e392b53b5de76d88409df5622351aa231",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/82b93f9e392b53b5de76d88409df5622351aa231/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1322831efcbe11b0bb0d826b83f051e7e550a507",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/1322831efcbe11b0bb0d826b83f051e7e550a507",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/1322831efcbe11b0bb0d826b83f051e7e550a507"
+      }
+    ]
+  },
+  {
+    "sha": "1322831efcbe11b0bb0d826b83f051e7e550a507",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-06T09:24:44Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-06T09:24:44Z"
+      },
+      "message": "Introduction part",
+      "tree": {
+        "sha": "c51d9088dc96afbb8193f47c115f289d722cfeeb",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/c51d9088dc96afbb8193f47c115f289d722cfeeb"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/1322831efcbe11b0bb0d826b83f051e7e550a507",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/1322831efcbe11b0bb0d826b83f051e7e550a507",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/1322831efcbe11b0bb0d826b83f051e7e550a507",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/1322831efcbe11b0bb0d826b83f051e7e550a507/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "12ae337fec80dc47d86e2bcf9cee7668d8ad7104",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/12ae337fec80dc47d86e2bcf9cee7668d8ad7104",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/12ae337fec80dc47d86e2bcf9cee7668d8ad7104"
+      }
+    ]
+  },
+  {
+    "sha": "12ae337fec80dc47d86e2bcf9cee7668d8ad7104",
+    "commit": {
+      "author": {
+        "name": "furagu",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-05T08:41:27Z"
+      },
+      "committer": {
+        "name": "furagu",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-05T08:41:27Z"
+      },
+      "message": "Two more tests",
+      "tree": {
+        "sha": "9de6dd312861c3db8e15ff00734122097d743230",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/9de6dd312861c3db8e15ff00734122097d743230"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/12ae337fec80dc47d86e2bcf9cee7668d8ad7104",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/12ae337fec80dc47d86e2bcf9cee7668d8ad7104",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/12ae337fec80dc47d86e2bcf9cee7668d8ad7104",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/12ae337fec80dc47d86e2bcf9cee7668d8ad7104/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6b4ff16d76e8ca48418b3d7bad11c73ddac531e9",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/6b4ff16d76e8ca48418b3d7bad11c73ddac531e9",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/6b4ff16d76e8ca48418b3d7bad11c73ddac531e9"
+      }
+    ]
+  },
+  {
+    "sha": "6b4ff16d76e8ca48418b3d7bad11c73ddac531e9",
+    "commit": {
+      "author": {
+        "name": "furagu",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-05T08:36:04Z"
+      },
+      "committer": {
+        "name": "furagu",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-05T08:36:04Z"
+      },
+      "message": "Added two more tests",
+      "tree": {
+        "sha": "09af489160b1a6d9834946147244ff4dc727af15",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/09af489160b1a6d9834946147244ff4dc727af15"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/6b4ff16d76e8ca48418b3d7bad11c73ddac531e9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/6b4ff16d76e8ca48418b3d7bad11c73ddac531e9",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/6b4ff16d76e8ca48418b3d7bad11c73ddac531e9",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/6b4ff16d76e8ca48418b3d7bad11c73ddac531e9/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8"
+      }
+    ]
+  },
+  {
+    "sha": "c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-05T05:20:55Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-05T05:20:55Z"
+      },
+      "message": "More tests",
+      "tree": {
+        "sha": "2161cd5f04e91c0d07a0f4b33688411c13a100d4",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/2161cd5f04e91c0d07a0f4b33688411c13a100d4"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/c9f1e5d67e24b03f8ead8287f28b6bd77f7d78b8/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de6be130aae3175e4cfa16d4dbb29b6b6c99f897",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/de6be130aae3175e4cfa16d4dbb29b6b6c99f897",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/de6be130aae3175e4cfa16d4dbb29b6b6c99f897"
+      }
+    ]
+  },
+  {
+    "sha": "de6be130aae3175e4cfa16d4dbb29b6b6c99f897",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-04T16:48:53Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-04T16:48:53Z"
+      },
+      "message": "Initial commit. Should add more tests and documentation.",
+      "tree": {
+        "sha": "7118a588de37e49dfa33d722a50fc3363a469a54",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/7118a588de37e49dfa33d722a50fc3363a469a54"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/de6be130aae3175e4cfa16d4dbb29b6b6c99f897",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/de6be130aae3175e4cfa16d4dbb29b6b6c99f897",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/de6be130aae3175e4cfa16d4dbb29b6b6c99f897",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/de6be130aae3175e4cfa16d4dbb29b6b6c99f897/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f0bff8aba65278d860f7cc03800fcab1f4812fea",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/f0bff8aba65278d860f7cc03800fcab1f4812fea",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/f0bff8aba65278d860f7cc03800fcab1f4812fea"
+      }
+    ]
+  },
+  {
+    "sha": "f0bff8aba65278d860f7cc03800fcab1f4812fea",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-04T16:09:10Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-04T16:09:10Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "78802cdfe2096a6342cf0252586545c327bd58f4",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/78802cdfe2096a6342cf0252586545c327bd58f4"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/f0bff8aba65278d860f7cc03800fcab1f4812fea",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/f0bff8aba65278d860f7cc03800fcab1f4812fea",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/f0bff8aba65278d860f7cc03800fcab1f4812fea",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/f0bff8aba65278d860f7cc03800fcab1f4812fea/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "01314b4f984d6580e061fe63a5171e9b8e8bd38a",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/commits/01314b4f984d6580e061fe63a5171e9b8e8bd38a",
+        "html_url": "https://github.com/furagu/vargs-callback/commit/01314b4f984d6580e061fe63a5171e9b8e8bd38a"
+      }
+    ]
+  },
+  {
+    "sha": "01314b4f984d6580e061fe63a5171e9b8e8bd38a",
+    "commit": {
+      "author": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-04T16:07:21Z"
+      },
+      "committer": {
+        "name": "Egor Balyshev",
+        "email": "frag.trials@gmail.com",
+        "date": "2013-12-04T16:07:21Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "67f9fe447091bae0e8edb74e87b8e81f00deb225",
+        "url": "https://api.github.com/repos/furagu/vargs-callback/git/trees/67f9fe447091bae0e8edb74e87b8e81f00deb225"
+      },
+      "url": "https://api.github.com/repos/furagu/vargs-callback/git/commits/01314b4f984d6580e061fe63a5171e9b8e8bd38a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/furagu/vargs-callback/commits/01314b4f984d6580e061fe63a5171e9b8e8bd38a",
+    "html_url": "https://github.com/furagu/vargs-callback/commit/01314b4f984d6580e061fe63a5171e9b8e8bd38a",
+    "comments_url": "https://api.github.com/repos/furagu/vargs-callback/commits/01314b4f984d6580e061fe63a5171e9b8e8bd38a/comments",
+    "author": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "furagu",
+      "id": 832976,
+      "avatar_url": "https://avatars.githubusercontent.com/u/832976?",
+      "gravatar_id": "c08e16d19480aaa39e970b3ec94f6a52",
+      "url": "https://api.github.com/users/furagu",
+      "html_url": "https://github.com/furagu",
+      "followers_url": "https://api.github.com/users/furagu/followers",
+      "following_url": "https://api.github.com/users/furagu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furagu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furagu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furagu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furagu/orgs",
+      "repos_url": "https://api.github.com/users/furagu/repos",
+      "events_url": "https://api.github.com/users/furagu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furagu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+
+    ]
+  }
+]

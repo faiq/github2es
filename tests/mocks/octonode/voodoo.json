@@ -1,0 +1,2102 @@
+[
+  {
+    "sha": "06b14f5fb97d15fc14843a81559c1fb40fe85db8",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:50:41Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:50:41Z"
+      },
+      "message": "bumped",
+      "tree": {
+        "sha": "6cca48bf142fd8b96f5846618f7139efe0c51939",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/6cca48bf142fd8b96f5846618f7139efe0c51939"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/06b14f5fb97d15fc14843a81559c1fb40fe85db8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/06b14f5fb97d15fc14843a81559c1fb40fe85db8",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/06b14f5fb97d15fc14843a81559c1fb40fe85db8",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/06b14f5fb97d15fc14843a81559c1fb40fe85db8/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3cead07477d02a5a59e59f9117ae45defad2ab9d",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/3cead07477d02a5a59e59f9117ae45defad2ab9d",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/3cead07477d02a5a59e59f9117ae45defad2ab9d"
+      }
+    ]
+  },
+  {
+    "sha": "3cead07477d02a5a59e59f9117ae45defad2ab9d",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:49:38Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:49:38Z"
+      },
+      "message": "modules...",
+      "tree": {
+        "sha": "eda130d33134299fd7443edb8b07ee7022d8142f",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/eda130d33134299fd7443edb8b07ee7022d8142f"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/3cead07477d02a5a59e59f9117ae45defad2ab9d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/3cead07477d02a5a59e59f9117ae45defad2ab9d",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/3cead07477d02a5a59e59f9117ae45defad2ab9d",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/3cead07477d02a5a59e59f9117ae45defad2ab9d/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d"
+      }
+    ]
+  },
+  {
+    "sha": "1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:48:44Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:48:44Z"
+      },
+      "message": "updated modules and versions",
+      "tree": {
+        "sha": "74894d1135774aa5dabfaf9c7114207e8c3f11c1",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/74894d1135774aa5dabfaf9c7114207e8c3f11c1"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/1b42e3b4b60eb6db44ece220e4fb9ba36fbcb11d/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "193127e212dfce09a77f504aca6f644b4318979b",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/193127e212dfce09a77f504aca6f644b4318979b",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/193127e212dfce09a77f504aca6f644b4318979b"
+      }
+    ]
+  },
+  {
+    "sha": "193127e212dfce09a77f504aca6f644b4318979b",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:25:06Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-05-23T08:25:06Z"
+      },
+      "message": "voodoo fix",
+      "tree": {
+        "sha": "7bdc1ad2169b50488395a7fcd9bc1f4a3c1fb551",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/7bdc1ad2169b50488395a7fcd9bc1f4a3c1fb551"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/193127e212dfce09a77f504aca6f644b4318979b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/193127e212dfce09a77f504aca6f644b4318979b",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/193127e212dfce09a77f504aca6f644b4318979b",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/193127e212dfce09a77f504aca6f644b4318979b/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf"
+      }
+    ]
+  },
+  {
+    "sha": "0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T22:37:53Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T22:37:53Z"
+      },
+      "message": "small todo update",
+      "tree": {
+        "sha": "60975f9c108ac2f84ba664beeee18d14d5b9dcd5",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/60975f9c108ac2f84ba664beeee18d14d5b9dcd5"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0df4e2a9a8e581bf4c29c4196d3a53dd2e1909cf/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7d51784819b7499f29718b208eab927cbb082638",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/7d51784819b7499f29718b208eab927cbb082638",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/7d51784819b7499f29718b208eab927cbb082638"
+      }
+    ]
+  },
+  {
+    "sha": "7d51784819b7499f29718b208eab927cbb082638",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T22:32:08Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T22:32:08Z"
+      },
+      "message": "updated todo and changelog, bumping the version",
+      "tree": {
+        "sha": "4f0db67340f717846cea35a5664f72f53765cb55",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/4f0db67340f717846cea35a5664f72f53765cb55"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/7d51784819b7499f29718b208eab927cbb082638",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/7d51784819b7499f29718b208eab927cbb082638",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/7d51784819b7499f29718b208eab927cbb082638",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/7d51784819b7499f29718b208eab927cbb082638/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "923a1300489ec0428e23ad21ad8601f71bbff4f3",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/923a1300489ec0428e23ad21ad8601f71bbff4f3",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/923a1300489ec0428e23ad21ad8601f71bbff4f3"
+      }
+    ]
+  },
+  {
+    "sha": "923a1300489ec0428e23ad21ad8601f71bbff4f3",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T22:29:52Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T22:29:52Z"
+      },
+      "message": "added generate parameter to generate a default voodoo.js without running voodoo + fixed bug with checking for default voodoo.js existance",
+      "tree": {
+        "sha": "85b8ec521d65a256304696739c85eb34956f2b07",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/85b8ec521d65a256304696739c85eb34956f2b07"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/923a1300489ec0428e23ad21ad8601f71bbff4f3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/923a1300489ec0428e23ad21ad8601f71bbff4f3",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/923a1300489ec0428e23ad21ad8601f71bbff4f3",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/923a1300489ec0428e23ad21ad8601f71bbff4f3/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7b47ba1342c5d69b6ab900eb324de8817e463a6e",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/7b47ba1342c5d69b6ab900eb324de8817e463a6e",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/7b47ba1342c5d69b6ab900eb324de8817e463a6e"
+      }
+    ]
+  },
+  {
+    "sha": "7b47ba1342c5d69b6ab900eb324de8817e463a6e",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T21:51:20Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-22T21:51:20Z"
+      },
+      "message": "cleaning up",
+      "tree": {
+        "sha": "f2bb923cb710a0d8d95a25df490ac82ae040a151",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/f2bb923cb710a0d8d95a25df490ac82ae040a151"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/7b47ba1342c5d69b6ab900eb324de8817e463a6e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/7b47ba1342c5d69b6ab900eb324de8817e463a6e",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/7b47ba1342c5d69b6ab900eb324de8817e463a6e",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/7b47ba1342c5d69b6ab900eb324de8817e463a6e/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "56a3e749d26036b34299bff633d49aef9cd287cb",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/56a3e749d26036b34299bff633d49aef9cd287cb",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/56a3e749d26036b34299bff633d49aef9cd287cb"
+      }
+    ]
+  },
+  {
+    "sha": "56a3e749d26036b34299bff633d49aef9cd287cb",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T22:19:57Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T22:19:57Z"
+      },
+      "message": "updated readme and changelog",
+      "tree": {
+        "sha": "402bf51ec721515efee039f464a8b137d826cc3f",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/402bf51ec721515efee039f464a8b137d826cc3f"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/56a3e749d26036b34299bff633d49aef9cd287cb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/56a3e749d26036b34299bff633d49aef9cd287cb",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/56a3e749d26036b34299bff633d49aef9cd287cb",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/56a3e749d26036b34299bff633d49aef9cd287cb/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0c31ede32eea3f6dfc89ef76151b62226da08be9",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0c31ede32eea3f6dfc89ef76151b62226da08be9",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/0c31ede32eea3f6dfc89ef76151b62226da08be9"
+      }
+    ]
+  },
+  {
+    "sha": "0c31ede32eea3f6dfc89ef76151b62226da08be9",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T22:17:52Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T22:17:52Z"
+      },
+      "message": "pulverization",
+      "tree": {
+        "sha": "82314c9e76f26d6055922ba6f09cdaad64c19962",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/82314c9e76f26d6055922ba6f09cdaad64c19962"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/0c31ede32eea3f6dfc89ef76151b62226da08be9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0c31ede32eea3f6dfc89ef76151b62226da08be9",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/0c31ede32eea3f6dfc89ef76151b62226da08be9",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0c31ede32eea3f6dfc89ef76151b62226da08be9/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca"
+      }
+    ]
+  },
+  {
+    "sha": "dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T21:08:40Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T21:08:40Z"
+      },
+      "message": "fixed force param",
+      "tree": {
+        "sha": "6ab32cd4a29e55cfee11eb60a7b97d116652c7aa",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/6ab32cd4a29e55cfee11eb60a7b97d116652c7aa"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/dd0cd13b9ec0aa8b878121f9a5211c65fd2243ca/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "463f5f5412176fbce3982e8f4d9c872ac6668759",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/463f5f5412176fbce3982e8f4d9c872ac6668759",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/463f5f5412176fbce3982e8f4d9c872ac6668759"
+      }
+    ]
+  },
+  {
+    "sha": "463f5f5412176fbce3982e8f4d9c872ac6668759",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T21:06:45Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T21:06:45Z"
+      },
+      "message": "forgot to edit readme",
+      "tree": {
+        "sha": "4b358e719851f40a806ae8e364c3250414c4b8ff",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/4b358e719851f40a806ae8e364c3250414c4b8ff"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/463f5f5412176fbce3982e8f4d9c872ac6668759",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/463f5f5412176fbce3982e8f4d9c872ac6668759",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/463f5f5412176fbce3982e8f4d9c872ac6668759",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/463f5f5412176fbce3982e8f4d9c872ac6668759/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8b490f48e7a2c497c7dbe01c696d73a119a186ca",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/8b490f48e7a2c497c7dbe01c696d73a119a186ca",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/8b490f48e7a2c497c7dbe01c696d73a119a186ca"
+      }
+    ]
+  },
+  {
+    "sha": "8b490f48e7a2c497c7dbe01c696d73a119a186ca",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T21:05:01Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T21:05:01Z"
+      },
+      "message": "bumping version to 0.8, removed --custom param, cleaned up, added TODO file, ...",
+      "tree": {
+        "sha": "aba2d8043a6f159bdf2ab6b31f63770ae6c2f742",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/aba2d8043a6f159bdf2ab6b31f63770ae6c2f742"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/8b490f48e7a2c497c7dbe01c696d73a119a186ca",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/8b490f48e7a2c497c7dbe01c696d73a119a186ca",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/8b490f48e7a2c497c7dbe01c696d73a119a186ca",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/8b490f48e7a2c497c7dbe01c696d73a119a186ca/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5dd88db6097d7f3830f7977f0391237d3beb6ab7",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/5dd88db6097d7f3830f7977f0391237d3beb6ab7",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/5dd88db6097d7f3830f7977f0391237d3beb6ab7"
+      }
+    ]
+  },
+  {
+    "sha": "5dd88db6097d7f3830f7977f0391237d3beb6ab7",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T20:49:51Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T20:49:51Z"
+      },
+      "message": "for later, hook into stderr",
+      "tree": {
+        "sha": "7500c242e843f3921f980b55344874ba5342cd47",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/7500c242e843f3921f980b55344874ba5342cd47"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/5dd88db6097d7f3830f7977f0391237d3beb6ab7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/5dd88db6097d7f3830f7977f0391237d3beb6ab7",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/5dd88db6097d7f3830f7977f0391237d3beb6ab7",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/5dd88db6097d7f3830f7977f0391237d3beb6ab7/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b18d9b482f3925b7d8b1db30c7a2317e07db3961",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/b18d9b482f3925b7d8b1db30c7a2317e07db3961",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/b18d9b482f3925b7d8b1db30c7a2317e07db3961"
+      }
+    ]
+  },
+  {
+    "sha": "b18d9b482f3925b7d8b1db30c7a2317e07db3961",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:49:27Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:49:27Z"
+      },
+      "message": "added TODO file, going TDD now ;) Todo Driven Dev",
+      "tree": {
+        "sha": "bbd2800fe0a54d167823f5bf3e33352cd65e407f",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/bbd2800fe0a54d167823f5bf3e33352cd65e407f"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/b18d9b482f3925b7d8b1db30c7a2317e07db3961",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/b18d9b482f3925b7d8b1db30c7a2317e07db3961",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/b18d9b482f3925b7d8b1db30c7a2317e07db3961",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/b18d9b482f3925b7d8b1db30c7a2317e07db3961/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "76751a1d6c71426fb072a698df854f39e8ac49c4",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/76751a1d6c71426fb072a698df854f39e8ac49c4",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/76751a1d6c71426fb072a698df854f39e8ac49c4"
+      }
+    ]
+  },
+  {
+    "sha": "76751a1d6c71426fb072a698df854f39e8ac49c4",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:45:09Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:45:09Z"
+      },
+      "message": "no more grunt cli, and general cleanup",
+      "tree": {
+        "sha": "c91413611d3f71a6d51e510da9d7f5d951ec386b",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/c91413611d3f71a6d51e510da9d7f5d951ec386b"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/76751a1d6c71426fb072a698df854f39e8ac49c4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/76751a1d6c71426fb072a698df854f39e8ac49c4",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/76751a1d6c71426fb072a698df854f39e8ac49c4",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/76751a1d6c71426fb072a698df854f39e8ac49c4/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cc058244c7ce724b2161dfac131767de226cdb95",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/cc058244c7ce724b2161dfac131767de226cdb95",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/cc058244c7ce724b2161dfac131767de226cdb95"
+      }
+    ]
+  },
+  {
+    "sha": "cc058244c7ce724b2161dfac131767de226cdb95",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:19:59Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:19:59Z"
+      },
+      "message": "terminology consistency",
+      "tree": {
+        "sha": "86f5879081c33e32e11ac47449add629d2742535",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/86f5879081c33e32e11ac47449add629d2742535"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/cc058244c7ce724b2161dfac131767de226cdb95",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/cc058244c7ce724b2161dfac131767de226cdb95",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/cc058244c7ce724b2161dfac131767de226cdb95",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/cc058244c7ce724b2161dfac131767de226cdb95/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cd717dacd0c1a99a1d5d8f134870f9a5482c1560",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/cd717dacd0c1a99a1d5d8f134870f9a5482c1560",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/cd717dacd0c1a99a1d5d8f134870f9a5482c1560"
+      }
+    ]
+  },
+  {
+    "sha": "cd717dacd0c1a99a1d5d8f134870f9a5482c1560",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:16:22Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:16:22Z"
+      },
+      "message": "comment",
+      "tree": {
+        "sha": "8f0ff6516a57a7b3c96a80d3b7f07a7d946def7a",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/8f0ff6516a57a7b3c96a80d3b7f07a7d946def7a"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/cd717dacd0c1a99a1d5d8f134870f9a5482c1560",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/cd717dacd0c1a99a1d5d8f134870f9a5482c1560",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/cd717dacd0c1a99a1d5d8f134870f9a5482c1560",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/cd717dacd0c1a99a1d5d8f134870f9a5482c1560/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "375a822b6c68e59a7cf3c46944fbb7386da569b2",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/375a822b6c68e59a7cf3c46944fbb7386da569b2",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/375a822b6c68e59a7cf3c46944fbb7386da569b2"
+      }
+    ]
+  },
+  {
+    "sha": "375a822b6c68e59a7cf3c46944fbb7386da569b2",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:15:53Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:15:53Z"
+      },
+      "message": "uncoupling the version number",
+      "tree": {
+        "sha": "a4429469d2c11e6d136cc0dac648cf32c963b497",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/a4429469d2c11e6d136cc0dac648cf32c963b497"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/375a822b6c68e59a7cf3c46944fbb7386da569b2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/375a822b6c68e59a7cf3c46944fbb7386da569b2",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/375a822b6c68e59a7cf3c46944fbb7386da569b2",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/375a822b6c68e59a7cf3c46944fbb7386da569b2/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c882815b63f7860252e1a9c9b13144159a101944",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/c882815b63f7860252e1a9c9b13144159a101944",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/c882815b63f7860252e1a9c9b13144159a101944"
+      }
+    ]
+  },
+  {
+    "sha": "c882815b63f7860252e1a9c9b13144159a101944",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:14:45Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:14:45Z"
+      },
+      "message": "removed log util, we don't really need our own custom logging for now, grunt has all the power",
+      "tree": {
+        "sha": "f79d01dc54c9df1103ea9203cce6e02c049a09cc",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/f79d01dc54c9df1103ea9203cce6e02c049a09cc"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/c882815b63f7860252e1a9c9b13144159a101944",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/c882815b63f7860252e1a9c9b13144159a101944",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/c882815b63f7860252e1a9c9b13144159a101944",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/c882815b63f7860252e1a9c9b13144159a101944/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9c85bb25b33db2074275add0ba1e6e41370faa42",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/9c85bb25b33db2074275add0ba1e6e41370faa42",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/9c85bb25b33db2074275add0ba1e6e41370faa42"
+      }
+    ]
+  },
+  {
+    "sha": "9c85bb25b33db2074275add0ba1e6e41370faa42",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:13:03Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:13:03Z"
+      },
+      "message": "version number is now in one place only: package.json",
+      "tree": {
+        "sha": "906eb8f2873d028f19d47c25d7e209d784c1b2a2",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/906eb8f2873d028f19d47c25d7e209d784c1b2a2"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/9c85bb25b33db2074275add0ba1e6e41370faa42",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/9c85bb25b33db2074275add0ba1e6e41370faa42",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/9c85bb25b33db2074275add0ba1e6e41370faa42",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/9c85bb25b33db2074275add0ba1e6e41370faa42/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1"
+      }
+    ]
+  },
+  {
+    "sha": "28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:12:27Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:12:27Z"
+      },
+      "message": "working on the default voodoo.js file",
+      "tree": {
+        "sha": "4e02476eb530ef1779f99d3d6e76eee9ecf66684",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/4e02476eb530ef1779f99d3d6e76eee9ecf66684"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/28cd383b55ad40bd70cb2e1e70578c3d0ddf4ae1/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "70562f0c5df94f14ee0443dca2daf7d0077470d7",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/70562f0c5df94f14ee0443dca2daf7d0077470d7",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/70562f0c5df94f14ee0443dca2daf7d0077470d7"
+      }
+    ]
+  },
+  {
+    "sha": "70562f0c5df94f14ee0443dca2daf7d0077470d7",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:12:03Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T14:12:03Z"
+      },
+      "message": "working on the default voodoo.js file",
+      "tree": {
+        "sha": "4d379ffcc04232888811fc921ad547fa9c6f5b09",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/4d379ffcc04232888811fc921ad547fa9c6f5b09"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/70562f0c5df94f14ee0443dca2daf7d0077470d7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/70562f0c5df94f14ee0443dca2daf7d0077470d7",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/70562f0c5df94f14ee0443dca2daf7d0077470d7",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/70562f0c5df94f14ee0443dca2daf7d0077470d7/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eb78167fd919e05e4b273b1afd365415cd90e9f3",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/eb78167fd919e05e4b273b1afd365415cd90e9f3",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/eb78167fd919e05e4b273b1afd365415cd90e9f3"
+      }
+    ]
+  },
+  {
+    "sha": "eb78167fd919e05e4b273b1afd365415cd90e9f3",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T13:01:55Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T13:01:55Z"
+      },
+      "message": "nothing",
+      "tree": {
+        "sha": "822158e905dd006f93369f001d8c7d6b48699f33",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/822158e905dd006f93369f001d8c7d6b48699f33"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/eb78167fd919e05e4b273b1afd365415cd90e9f3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/eb78167fd919e05e4b273b1afd365415cd90e9f3",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/eb78167fd919e05e4b273b1afd365415cd90e9f3",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/eb78167fd919e05e4b273b1afd365415cd90e9f3/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367"
+      }
+    ]
+  },
+  {
+    "sha": "2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T12:57:50Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-16T12:57:50Z"
+      },
+      "message": "small change",
+      "tree": {
+        "sha": "59bbf83c3bd1383f997d925c2b4d570e03ed3077",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/59bbf83c3bd1383f997d925c2b4d570e03ed3077"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/2be08591cb79eb7e8c2ffe0ace35f85b8e1a4367/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a557a3d1d7d90f90d1e3a1f8922d7cf996be7055",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/a557a3d1d7d90f90d1e3a1f8922d7cf996be7055",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/a557a3d1d7d90f90d1e3a1f8922d7cf996be7055"
+      }
+    ]
+  },
+  {
+    "sha": "a557a3d1d7d90f90d1e3a1f8922d7cf996be7055",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T16:02:37Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T16:02:37Z"
+      },
+      "message": "readme fix",
+      "tree": {
+        "sha": "958474b2a2f3b21f081ec3cd1273103fdbf7bd1e",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/958474b2a2f3b21f081ec3cd1273103fdbf7bd1e"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/a557a3d1d7d90f90d1e3a1f8922d7cf996be7055",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/a557a3d1d7d90f90d1e3a1f8922d7cf996be7055",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/a557a3d1d7d90f90d1e3a1f8922d7cf996be7055",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/a557a3d1d7d90f90d1e3a1f8922d7cf996be7055/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0e066eaa268020766456fc5057933abb639fd5ab",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0e066eaa268020766456fc5057933abb639fd5ab",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/0e066eaa268020766456fc5057933abb639fd5ab"
+      }
+    ]
+  },
+  {
+    "sha": "0e066eaa268020766456fc5057933abb639fd5ab",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:58:19Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:58:19Z"
+      },
+      "message": "removed index.js file, updated readme, updated changelog and fixed --custom param",
+      "tree": {
+        "sha": "baaa080f91908e01a396072e5de01a95ddb3bb34",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/baaa080f91908e01a396072e5de01a95ddb3bb34"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/0e066eaa268020766456fc5057933abb639fd5ab",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0e066eaa268020766456fc5057933abb639fd5ab",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/0e066eaa268020766456fc5057933abb639fd5ab",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0e066eaa268020766456fc5057933abb639fd5ab/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ec3cb3bce82e694db9450b187a3c69f97d021622",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/ec3cb3bce82e694db9450b187a3c69f97d021622",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/ec3cb3bce82e694db9450b187a3c69f97d021622"
+      }
+    ]
+  },
+  {
+    "sha": "ec3cb3bce82e694db9450b187a3c69f97d021622",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:31:30Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:31:30Z"
+      },
+      "message": "config.js is now voodoo.js",
+      "tree": {
+        "sha": "6ec3d78f38ee69d80454901a1c54bae26134759b",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/6ec3d78f38ee69d80454901a1c54bae26134759b"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/ec3cb3bce82e694db9450b187a3c69f97d021622",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/ec3cb3bce82e694db9450b187a3c69f97d021622",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/ec3cb3bce82e694db9450b187a3c69f97d021622",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/ec3cb3bce82e694db9450b187a3c69f97d021622/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ea4079094eed66b4a11f395dd61c8eacf81658da",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/ea4079094eed66b4a11f395dd61c8eacf81658da",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/ea4079094eed66b4a11f395dd61c8eacf81658da"
+      }
+    ]
+  },
+  {
+    "sha": "ea4079094eed66b4a11f395dd61c8eacf81658da",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:30:54Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:30:54Z"
+      },
+      "message": "bye bye tests",
+      "tree": {
+        "sha": "eac812bf79ae8ea328e7a2b3e2706f3ca5132369",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/eac812bf79ae8ea328e7a2b3e2706f3ca5132369"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/ea4079094eed66b4a11f395dd61c8eacf81658da",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/ea4079094eed66b4a11f395dd61c8eacf81658da",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/ea4079094eed66b4a11f395dd61c8eacf81658da",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/ea4079094eed66b4a11f395dd61c8eacf81658da/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0e9ccb4f0435a236bbce850752a5a35baf0cd573",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0e9ccb4f0435a236bbce850752a5a35baf0cd573",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/0e9ccb4f0435a236bbce850752a5a35baf0cd573"
+      }
+    ]
+  },
+  {
+    "sha": "0e9ccb4f0435a236bbce850752a5a35baf0cd573",
+    "commit": {
+      "author": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:26:57Z"
+      },
+      "committer": {
+        "name": "Jeroen Bourgois",
+        "email": "jeroenbourgois@gmail.com",
+        "date": "2012-02-15T15:26:57Z"
+      },
+      "message": "cleanup",
+      "tree": {
+        "sha": "6e8e9abf88b5264261bbc56e7a6e1ef2d0c3738b",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/trees/6e8e9abf88b5264261bbc56e7a6e1ef2d0c3738b"
+      },
+      "url": "https://api.github.com/repos/proximitybbdo/voodoo/git/commits/0e9ccb4f0435a236bbce850752a5a35baf0cd573",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0e9ccb4f0435a236bbce850752a5a35baf0cd573",
+    "html_url": "https://github.com/proximitybbdo/voodoo/commit/0e9ccb4f0435a236bbce850752a5a35baf0cd573",
+    "comments_url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/0e9ccb4f0435a236bbce850752a5a35baf0cd573/comments",
+    "author": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jeroenbourgois",
+      "id": 202312,
+      "avatar_url": "https://avatars.githubusercontent.com/u/202312?",
+      "gravatar_id": "14c5b09e06dbe744021543adb9f1c597",
+      "url": "https://api.github.com/users/jeroenbourgois",
+      "html_url": "https://github.com/jeroenbourgois",
+      "followers_url": "https://api.github.com/users/jeroenbourgois/followers",
+      "following_url": "https://api.github.com/users/jeroenbourgois/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeroenbourgois/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeroenbourgois/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeroenbourgois/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeroenbourgois/orgs",
+      "repos_url": "https://api.github.com/users/jeroenbourgois/repos",
+      "events_url": "https://api.github.com/users/jeroenbourgois/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeroenbourgois/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6c28ed3cb9adfb9d1799d00cd81fe96765cec91a",
+        "url": "https://api.github.com/repos/proximitybbdo/voodoo/commits/6c28ed3cb9adfb9d1799d00cd81fe96765cec91a",
+        "html_url": "https://github.com/proximitybbdo/voodoo/commit/6c28ed3cb9adfb9d1799d00cd81fe96765cec91a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2147 @@
+[
+  {
+    "sha": "9846fc3ac7726ef4d1a5311f838b17ba92cb0086",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-29T17:21:54Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-29T17:21:54Z"
+      },
+      "message": "Merge pull request #949 from charlespwd/master\n\nManually enter querystring in form option",
+      "tree": {
+        "sha": "3956a0de364c2f9c6941fccd22c3fa123a0a7304",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/3956a0de364c2f9c6941fccd22c3fa123a0a7304"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/9846fc3ac7726ef4d1a5311f838b17ba92cb0086",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/9846fc3ac7726ef4d1a5311f838b17ba92cb0086",
+    "html_url": "https://github.com/mikeal/request/commit/9846fc3ac7726ef4d1a5311f838b17ba92cb0086",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/9846fc3ac7726ef4d1a5311f838b17ba92cb0086/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "83dfba3db19eab6f61367aeacae850d0a7b92d26",
+        "url": "https://api.github.com/repos/mikeal/request/commits/83dfba3db19eab6f61367aeacae850d0a7b92d26",
+        "html_url": "https://github.com/mikeal/request/commit/83dfba3db19eab6f61367aeacae850d0a7b92d26"
+      },
+      {
+        "sha": "a55627cd9f468cefb2971bb501ebc0c2fc27aa8b",
+        "url": "https://api.github.com/repos/mikeal/request/commits/a55627cd9f468cefb2971bb501ebc0c2fc27aa8b",
+        "html_url": "https://github.com/mikeal/request/commit/a55627cd9f468cefb2971bb501ebc0c2fc27aa8b"
+      }
+    ]
+  },
+  {
+    "sha": "a55627cd9f468cefb2971bb501ebc0c2fc27aa8b",
+    "commit": {
+      "author": {
+        "name": "charles",
+        "email": "charles.pclermont@gmail.com",
+        "date": "2014-06-28T21:47:16Z"
+      },
+      "committer": {
+        "name": "charles",
+        "email": "charles.pclermont@gmail.com",
+        "date": "2014-06-28T22:01:51Z"
+      },
+      "message": "Updated README",
+      "tree": {
+        "sha": "3956a0de364c2f9c6941fccd22c3fa123a0a7304",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/3956a0de364c2f9c6941fccd22c3fa123a0a7304"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/a55627cd9f468cefb2971bb501ebc0c2fc27aa8b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/a55627cd9f468cefb2971bb501ebc0c2fc27aa8b",
+    "html_url": "https://github.com/mikeal/request/commit/a55627cd9f468cefb2971bb501ebc0c2fc27aa8b",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/a55627cd9f468cefb2971bb501ebc0c2fc27aa8b/comments",
+    "author": {
+      "login": "charlespwd",
+      "id": 4990691,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4990691?",
+      "gravatar_id": "001b18078534fe4b3e8c01c6a4c061a4",
+      "url": "https://api.github.com/users/charlespwd",
+      "html_url": "https://github.com/charlespwd",
+      "followers_url": "https://api.github.com/users/charlespwd/followers",
+      "following_url": "https://api.github.com/users/charlespwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charlespwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charlespwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charlespwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/charlespwd/orgs",
+      "repos_url": "https://api.github.com/users/charlespwd/repos",
+      "events_url": "https://api.github.com/users/charlespwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charlespwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "charlespwd",
+      "id": 4990691,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4990691?",
+      "gravatar_id": "001b18078534fe4b3e8c01c6a4c061a4",
+      "url": "https://api.github.com/users/charlespwd",
+      "html_url": "https://github.com/charlespwd",
+      "followers_url": "https://api.github.com/users/charlespwd/followers",
+      "following_url": "https://api.github.com/users/charlespwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charlespwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charlespwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charlespwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/charlespwd/orgs",
+      "repos_url": "https://api.github.com/users/charlespwd/repos",
+      "events_url": "https://api.github.com/users/charlespwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charlespwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa",
+        "url": "https://api.github.com/repos/mikeal/request/commits/4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa",
+        "html_url": "https://github.com/mikeal/request/commit/4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa"
+      }
+    ]
+  },
+  {
+    "sha": "4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa",
+    "commit": {
+      "author": {
+        "name": "charles",
+        "email": "charles.pclermont@gmail.com",
+        "date": "2014-06-04T19:28:18Z"
+      },
+      "committer": {
+        "name": "charles",
+        "email": "charles.pclermont@gmail.com",
+        "date": "2014-06-28T22:01:26Z"
+      },
+      "message": "Added support for manual querystring in form option\n\nEnables greater flexibility in setting the form for a post method.\nObjects do not accept duplicate keys",
+      "tree": {
+        "sha": "b280d62b0eb8fc98fc1c4b2ebaf7983b7dc3c49e",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/b280d62b0eb8fc98fc1c4b2ebaf7983b7dc3c49e"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa",
+    "html_url": "https://github.com/mikeal/request/commit/4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/4ab40ba2f9aca8958cab149eb9cfbd9edb5534aa/comments",
+    "author": {
+      "login": "charlespwd",
+      "id": 4990691,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4990691?",
+      "gravatar_id": "001b18078534fe4b3e8c01c6a4c061a4",
+      "url": "https://api.github.com/users/charlespwd",
+      "html_url": "https://github.com/charlespwd",
+      "followers_url": "https://api.github.com/users/charlespwd/followers",
+      "following_url": "https://api.github.com/users/charlespwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charlespwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charlespwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charlespwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/charlespwd/orgs",
+      "repos_url": "https://api.github.com/users/charlespwd/repos",
+      "events_url": "https://api.github.com/users/charlespwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charlespwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "charlespwd",
+      "id": 4990691,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4990691?",
+      "gravatar_id": "001b18078534fe4b3e8c01c6a4c061a4",
+      "url": "https://api.github.com/users/charlespwd",
+      "html_url": "https://github.com/charlespwd",
+      "followers_url": "https://api.github.com/users/charlespwd/followers",
+      "following_url": "https://api.github.com/users/charlespwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charlespwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charlespwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charlespwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/charlespwd/orgs",
+      "repos_url": "https://api.github.com/users/charlespwd/repos",
+      "events_url": "https://api.github.com/users/charlespwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charlespwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "83dfba3db19eab6f61367aeacae850d0a7b92d26",
+        "url": "https://api.github.com/repos/mikeal/request/commits/83dfba3db19eab6f61367aeacae850d0a7b92d26",
+        "html_url": "https://github.com/mikeal/request/commit/83dfba3db19eab6f61367aeacae850d0a7b92d26"
+      }
+    ]
+  },
+  {
+    "sha": "83dfba3db19eab6f61367aeacae850d0a7b92d26",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-25T19:31:44Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-25T19:31:44Z"
+      },
+      "message": "Merge pull request #944 from eiriksm/browserify-changes\n\nMake request work with browserify",
+      "tree": {
+        "sha": "70335074c0be311dd5b4b3d7ccebd95d6742cd19",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/70335074c0be311dd5b4b3d7ccebd95d6742cd19"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/83dfba3db19eab6f61367aeacae850d0a7b92d26",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/83dfba3db19eab6f61367aeacae850d0a7b92d26",
+    "html_url": "https://github.com/mikeal/request/commit/83dfba3db19eab6f61367aeacae850d0a7b92d26",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/83dfba3db19eab6f61367aeacae850d0a7b92d26/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79117941634c54a5f8f62a45bae9eb8a25b4722e",
+        "url": "https://api.github.com/repos/mikeal/request/commits/79117941634c54a5f8f62a45bae9eb8a25b4722e",
+        "html_url": "https://github.com/mikeal/request/commit/79117941634c54a5f8f62a45bae9eb8a25b4722e"
+      },
+      {
+        "sha": "561454d18a68b7a03163308f6d29e127afe97426",
+        "url": "https://api.github.com/repos/mikeal/request/commits/561454d18a68b7a03163308f6d29e127afe97426",
+        "html_url": "https://github.com/mikeal/request/commit/561454d18a68b7a03163308f6d29e127afe97426"
+      }
+    ]
+  },
+  {
+    "sha": "561454d18a68b7a03163308f6d29e127afe97426",
+    "commit": {
+      "author": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-25T18:41:28Z"
+      },
+      "committer": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-25T18:41:28Z"
+      },
+      "message": "Add some code comments about why we do the extra checks.",
+      "tree": {
+        "sha": "e6894c5729bf7f44037c4db3ccfa3c7dcded7127",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/e6894c5729bf7f44037c4db3ccfa3c7dcded7127"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/561454d18a68b7a03163308f6d29e127afe97426",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/561454d18a68b7a03163308f6d29e127afe97426",
+    "html_url": "https://github.com/mikeal/request/commit/561454d18a68b7a03163308f6d29e127afe97426",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/561454d18a68b7a03163308f6d29e127afe97426/comments",
+    "author": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6ebd748a02a49976d41ebbc4f8396acf8fda1c14",
+        "url": "https://api.github.com/repos/mikeal/request/commits/6ebd748a02a49976d41ebbc4f8396acf8fda1c14",
+        "html_url": "https://github.com/mikeal/request/commit/6ebd748a02a49976d41ebbc4f8396acf8fda1c14"
+      }
+    ]
+  },
+  {
+    "sha": "79117941634c54a5f8f62a45bae9eb8a25b4722e",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-25T17:18:34Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-25T17:18:34Z"
+      },
+      "message": "Merge pull request #943 from eiriksm/new-mime\n\nNew mime module",
+      "tree": {
+        "sha": "157f51f65da9a3f146cc99b35984ca2ad76cf2c3",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/157f51f65da9a3f146cc99b35984ca2ad76cf2c3"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/79117941634c54a5f8f62a45bae9eb8a25b4722e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/79117941634c54a5f8f62a45bae9eb8a25b4722e",
+    "html_url": "https://github.com/mikeal/request/commit/79117941634c54a5f8f62a45bae9eb8a25b4722e",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/79117941634c54a5f8f62a45bae9eb8a25b4722e/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c42dcec10a307cb2299861f87720d491a89142b4",
+        "url": "https://api.github.com/repos/mikeal/request/commits/c42dcec10a307cb2299861f87720d491a89142b4",
+        "html_url": "https://github.com/mikeal/request/commit/c42dcec10a307cb2299861f87720d491a89142b4"
+      },
+      {
+        "sha": "d92395e638cbfe5c31eb4ff54941b98b09057486",
+        "url": "https://api.github.com/repos/mikeal/request/commits/d92395e638cbfe5c31eb4ff54941b98b09057486",
+        "html_url": "https://github.com/mikeal/request/commit/d92395e638cbfe5c31eb4ff54941b98b09057486"
+      }
+    ]
+  },
+  {
+    "sha": "6ebd748a02a49976d41ebbc4f8396acf8fda1c14",
+    "commit": {
+      "author": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-25T16:34:17Z"
+      },
+      "committer": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-25T16:34:17Z"
+      },
+      "message": "Add some additional hacks to work in the browser.",
+      "tree": {
+        "sha": "e2d61e79dcbc72fe7b8d9a491997cedb23355d8f",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/e2d61e79dcbc72fe7b8d9a491997cedb23355d8f"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/6ebd748a02a49976d41ebbc4f8396acf8fda1c14",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/6ebd748a02a49976d41ebbc4f8396acf8fda1c14",
+    "html_url": "https://github.com/mikeal/request/commit/6ebd748a02a49976d41ebbc4f8396acf8fda1c14",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/6ebd748a02a49976d41ebbc4f8396acf8fda1c14/comments",
+    "author": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d92395e638cbfe5c31eb4ff54941b98b09057486",
+        "url": "https://api.github.com/repos/mikeal/request/commits/d92395e638cbfe5c31eb4ff54941b98b09057486",
+        "html_url": "https://github.com/mikeal/request/commit/d92395e638cbfe5c31eb4ff54941b98b09057486"
+      }
+    ]
+  },
+  {
+    "sha": "d92395e638cbfe5c31eb4ff54941b98b09057486",
+    "commit": {
+      "author": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-25T05:40:56Z"
+      },
+      "committer": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-25T05:40:56Z"
+      },
+      "message": "Make package.json so node .8 understands it.",
+      "tree": {
+        "sha": "2d38fd5ed05f76097d9f5c06ca7d41d2b7e64b85",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/2d38fd5ed05f76097d9f5c06ca7d41d2b7e64b85"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/d92395e638cbfe5c31eb4ff54941b98b09057486",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/d92395e638cbfe5c31eb4ff54941b98b09057486",
+    "html_url": "https://github.com/mikeal/request/commit/d92395e638cbfe5c31eb4ff54941b98b09057486",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/d92395e638cbfe5c31eb4ff54941b98b09057486/comments",
+    "author": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8892cb7bb8945807ff25038e888222d4e902acc8",
+        "url": "https://api.github.com/repos/mikeal/request/commits/8892cb7bb8945807ff25038e888222d4e902acc8",
+        "html_url": "https://github.com/mikeal/request/commit/8892cb7bb8945807ff25038e888222d4e902acc8"
+      }
+    ]
+  },
+  {
+    "sha": "8892cb7bb8945807ff25038e888222d4e902acc8",
+    "commit": {
+      "author": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-24T17:41:17Z"
+      },
+      "committer": {
+        "name": "Eirik S. Morland",
+        "email": "eirik@morland.no",
+        "date": "2014-06-25T05:31:22Z"
+      },
+      "message": "Swap mime module.",
+      "tree": {
+        "sha": "aede136276f8e0e1c950a2f02bea2dbc64674ce3",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/aede136276f8e0e1c950a2f02bea2dbc64674ce3"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/8892cb7bb8945807ff25038e888222d4e902acc8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/8892cb7bb8945807ff25038e888222d4e902acc8",
+    "html_url": "https://github.com/mikeal/request/commit/8892cb7bb8945807ff25038e888222d4e902acc8",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/8892cb7bb8945807ff25038e888222d4e902acc8/comments",
+    "author": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "eiriksm",
+      "id": 865153,
+      "avatar_url": "https://avatars.githubusercontent.com/u/865153?",
+      "gravatar_id": "74bc1e7a7ca566a66bdd69b06b4afbc5",
+      "url": "https://api.github.com/users/eiriksm",
+      "html_url": "https://github.com/eiriksm",
+      "followers_url": "https://api.github.com/users/eiriksm/followers",
+      "following_url": "https://api.github.com/users/eiriksm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eiriksm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eiriksm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eiriksm/subscriptions",
+      "organizations_url": "https://api.github.com/users/eiriksm/orgs",
+      "repos_url": "https://api.github.com/users/eiriksm/repos",
+      "events_url": "https://api.github.com/users/eiriksm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eiriksm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+        "url": "https://api.github.com/repos/mikeal/request/commits/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+        "html_url": "https://github.com/mikeal/request/commit/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7"
+      }
+    ]
+  },
+  {
+    "sha": "c42dcec10a307cb2299861f87720d491a89142b4",
+    "commit": {
+      "author": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "date": "2014-06-25T00:53:40Z"
+      },
+      "committer": {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "date": "2014-06-25T00:53:40Z"
+      },
+      "message": "package.json: use OSI-style license name\n\nThis way, it'll link to the actual license file properly on the npm website.\r\n\r\nApproved by @mikeal via SMS",
+      "tree": {
+        "sha": "dace5ded70d557cd227e93aef135cc23391ad21f",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/dace5ded70d557cd227e93aef135cc23391ad21f"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/c42dcec10a307cb2299861f87720d491a89142b4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/c42dcec10a307cb2299861f87720d491a89142b4",
+    "html_url": "https://github.com/mikeal/request/commit/c42dcec10a307cb2299861f87720d491a89142b4",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/c42dcec10a307cb2299861f87720d491a89142b4/comments",
+    "author": {
+      "login": "isaacs",
+      "id": 9287,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9287?",
+      "gravatar_id": "73a2b24daecb976af81e010b7a3ce3c6",
+      "url": "https://api.github.com/users/isaacs",
+      "html_url": "https://github.com/isaacs",
+      "followers_url": "https://api.github.com/users/isaacs/followers",
+      "following_url": "https://api.github.com/users/isaacs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isaacs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isaacs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isaacs/subscriptions",
+      "organizations_url": "https://api.github.com/users/isaacs/orgs",
+      "repos_url": "https://api.github.com/users/isaacs/repos",
+      "events_url": "https://api.github.com/users/isaacs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isaacs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "isaacs",
+      "id": 9287,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9287?",
+      "gravatar_id": "73a2b24daecb976af81e010b7a3ce3c6",
+      "url": "https://api.github.com/users/isaacs",
+      "html_url": "https://github.com/isaacs",
+      "followers_url": "https://api.github.com/users/isaacs/followers",
+      "following_url": "https://api.github.com/users/isaacs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isaacs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isaacs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isaacs/subscriptions",
+      "organizations_url": "https://api.github.com/users/isaacs/orgs",
+      "repos_url": "https://api.github.com/users/isaacs/repos",
+      "events_url": "https://api.github.com/users/isaacs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isaacs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+        "url": "https://api.github.com/repos/mikeal/request/commits/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+        "html_url": "https://github.com/mikeal/request/commit/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7"
+      }
+    ]
+  },
+  {
+    "sha": "a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-09T17:31:04Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-06-09T17:31:04Z"
+      },
+      "message": "Merge pull request #927 from samccone/sjs/bump-hawk\n\nBump version of hawk dep.",
+      "tree": {
+        "sha": "9bf5765b7588c1146ba0b39528f5335942d5237d",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/9bf5765b7588c1146ba0b39528f5335942d5237d"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+    "html_url": "https://github.com/mikeal/request/commit/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/a591aff437f67ef9d0f1c9e0e6d121f06eafafe7/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+        "url": "https://api.github.com/repos/mikeal/request/commits/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+        "html_url": "https://github.com/mikeal/request/commit/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3"
+      },
+      {
+        "sha": "83e370d54ca2a5fb162e40e7e705e1e9d702ba0a",
+        "url": "https://api.github.com/repos/mikeal/request/commits/83e370d54ca2a5fb162e40e7e705e1e9d702ba0a",
+        "html_url": "https://github.com/mikeal/request/commit/83e370d54ca2a5fb162e40e7e705e1e9d702ba0a"
+      }
+    ]
+  },
+  {
+    "sha": "83e370d54ca2a5fb162e40e7e705e1e9d702ba0a",
+    "commit": {
+      "author": {
+        "name": "Sam Saccone",
+        "email": "samccone@gmail.com",
+        "date": "2014-06-08T02:14:21Z"
+      },
+      "committer": {
+        "name": "Sam Saccone",
+        "email": "samccone@gmail.com",
+        "date": "2014-06-08T02:19:18Z"
+      },
+      "message": "Bump version of hawk dep.\n\nHawk used to be locked to node 8 and below.\nThis was fixed in the 1.1.1 release:\nhttps://github.com/hueniverse/hawk/commit/a523a412afbda2eca1fb1d253b8e3511fdbd371d",
+      "tree": {
+        "sha": "9bf5765b7588c1146ba0b39528f5335942d5237d",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/9bf5765b7588c1146ba0b39528f5335942d5237d"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/83e370d54ca2a5fb162e40e7e705e1e9d702ba0a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/83e370d54ca2a5fb162e40e7e705e1e9d702ba0a",
+    "html_url": "https://github.com/mikeal/request/commit/83e370d54ca2a5fb162e40e7e705e1e9d702ba0a",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/83e370d54ca2a5fb162e40e7e705e1e9d702ba0a/comments",
+    "author": {
+      "login": "samccone",
+      "id": 883126,
+      "avatar_url": "https://avatars.githubusercontent.com/u/883126?",
+      "gravatar_id": "41041169880bec75fbe51de48443cefb",
+      "url": "https://api.github.com/users/samccone",
+      "html_url": "https://github.com/samccone",
+      "followers_url": "https://api.github.com/users/samccone/followers",
+      "following_url": "https://api.github.com/users/samccone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/samccone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/samccone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/samccone/subscriptions",
+      "organizations_url": "https://api.github.com/users/samccone/orgs",
+      "repos_url": "https://api.github.com/users/samccone/repos",
+      "events_url": "https://api.github.com/users/samccone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/samccone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "samccone",
+      "id": 883126,
+      "avatar_url": "https://avatars.githubusercontent.com/u/883126?",
+      "gravatar_id": "41041169880bec75fbe51de48443cefb",
+      "url": "https://api.github.com/users/samccone",
+      "html_url": "https://github.com/samccone",
+      "followers_url": "https://api.github.com/users/samccone/followers",
+      "following_url": "https://api.github.com/users/samccone/following{/other_user}",
+      "gists_url": "https://api.github.com/users/samccone/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/samccone/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/samccone/subscriptions",
+      "organizations_url": "https://api.github.com/users/samccone/orgs",
+      "repos_url": "https://api.github.com/users/samccone/repos",
+      "events_url": "https://api.github.com/users/samccone/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/samccone/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+        "url": "https://api.github.com/repos/mikeal/request/commits/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+        "html_url": "https://github.com/mikeal/request/commit/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3"
+      }
+    ]
+  },
+  {
+    "sha": "4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+    "commit": {
+      "author": {
+        "name": "Lalit Kapoor",
+        "email": "lalitkapoor@gmail.com",
+        "date": "2014-06-04T20:12:10Z"
+      },
+      "committer": {
+        "name": "Lalit Kapoor",
+        "email": "lalitkapoor@gmail.com",
+        "date": "2014-06-04T20:12:10Z"
+      },
+      "message": "Merge branch 'charlespwd-master'",
+      "tree": {
+        "sha": "a633ca5edef931597bd3a62b80719b665a0eaa6d",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/a633ca5edef931597bd3a62b80719b665a0eaa6d"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+    "html_url": "https://github.com/mikeal/request/commit/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/4fdf13b57dcd20b9fe03c0956f5df70c82d6e4a3/comments",
+    "author": {
+      "login": "lalitkapoor",
+      "id": 140436,
+      "avatar_url": "https://avatars.githubusercontent.com/u/140436?",
+      "gravatar_id": "77705dc70e837ee9a85cc7bcb6c7e637",
+      "url": "https://api.github.com/users/lalitkapoor",
+      "html_url": "https://github.com/lalitkapoor",
+      "followers_url": "https://api.github.com/users/lalitkapoor/followers",
+      "following_url": "https://api.github.com/users/lalitkapoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lalitkapoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lalitkapoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lalitkapoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lalitkapoor/orgs",
+      "repos_url": "https://api.github.com/users/lalitkapoor/repos",
+      "events_url": "https://api.github.com/users/lalitkapoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lalitkapoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lalitkapoor",
+      "id": 140436,
+      "avatar_url": "https://avatars.githubusercontent.com/u/140436?",
+      "gravatar_id": "77705dc70e837ee9a85cc7bcb6c7e637",
+      "url": "https://api.github.com/users/lalitkapoor",
+      "html_url": "https://github.com/lalitkapoor",
+      "followers_url": "https://api.github.com/users/lalitkapoor/followers",
+      "following_url": "https://api.github.com/users/lalitkapoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lalitkapoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lalitkapoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lalitkapoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lalitkapoor/orgs",
+      "repos_url": "https://api.github.com/users/lalitkapoor/repos",
+      "events_url": "https://api.github.com/users/lalitkapoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lalitkapoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ab347da7c18c5a88c86999f97297c8179d676c37",
+        "url": "https://api.github.com/repos/mikeal/request/commits/ab347da7c18c5a88c86999f97297c8179d676c37",
+        "html_url": "https://github.com/mikeal/request/commit/ab347da7c18c5a88c86999f97297c8179d676c37"
+      },
+      {
+        "sha": "adcf62bf45ec19a28198ca8d3f37e7d7babc883a",
+        "url": "https://api.github.com/repos/mikeal/request/commits/adcf62bf45ec19a28198ca8d3f37e7d7babc883a",
+        "html_url": "https://github.com/mikeal/request/commit/adcf62bf45ec19a28198ca8d3f37e7d7babc883a"
+      }
+    ]
+  },
+  {
+    "sha": "adcf62bf45ec19a28198ca8d3f37e7d7babc883a",
+    "commit": {
+      "author": {
+        "name": "charles",
+        "email": "charles.pclermont@gmail.com",
+        "date": "2014-06-04T20:10:23Z"
+      },
+      "committer": {
+        "name": "Lalit Kapoor",
+        "email": "lalitkapoor@gmail.com",
+        "date": "2014-06-04T20:10:23Z"
+      },
+      "message": "update readme",
+      "tree": {
+        "sha": "a633ca5edef931597bd3a62b80719b665a0eaa6d",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/a633ca5edef931597bd3a62b80719b665a0eaa6d"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/adcf62bf45ec19a28198ca8d3f37e7d7babc883a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/adcf62bf45ec19a28198ca8d3f37e7d7babc883a",
+    "html_url": "https://github.com/mikeal/request/commit/adcf62bf45ec19a28198ca8d3f37e7d7babc883a",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/adcf62bf45ec19a28198ca8d3f37e7d7babc883a/comments",
+    "author": {
+      "login": "charlespwd",
+      "id": 4990691,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4990691?",
+      "gravatar_id": "001b18078534fe4b3e8c01c6a4c061a4",
+      "url": "https://api.github.com/users/charlespwd",
+      "html_url": "https://github.com/charlespwd",
+      "followers_url": "https://api.github.com/users/charlespwd/followers",
+      "following_url": "https://api.github.com/users/charlespwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charlespwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charlespwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charlespwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/charlespwd/orgs",
+      "repos_url": "https://api.github.com/users/charlespwd/repos",
+      "events_url": "https://api.github.com/users/charlespwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charlespwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lalitkapoor",
+      "id": 140436,
+      "avatar_url": "https://avatars.githubusercontent.com/u/140436?",
+      "gravatar_id": "77705dc70e837ee9a85cc7bcb6c7e637",
+      "url": "https://api.github.com/users/lalitkapoor",
+      "html_url": "https://github.com/lalitkapoor",
+      "followers_url": "https://api.github.com/users/lalitkapoor/followers",
+      "following_url": "https://api.github.com/users/lalitkapoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lalitkapoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lalitkapoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lalitkapoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lalitkapoor/orgs",
+      "repos_url": "https://api.github.com/users/lalitkapoor/repos",
+      "events_url": "https://api.github.com/users/lalitkapoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lalitkapoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4dcad0fa6e2f2388abae508ad7256a1e1214ab2",
+        "url": "https://api.github.com/repos/mikeal/request/commits/f4dcad0fa6e2f2388abae508ad7256a1e1214ab2",
+        "html_url": "https://github.com/mikeal/request/commit/f4dcad0fa6e2f2388abae508ad7256a1e1214ab2"
+      }
+    ]
+  },
+  {
+    "sha": "f4dcad0fa6e2f2388abae508ad7256a1e1214ab2",
+    "commit": {
+      "author": {
+        "name": "charles",
+        "email": "charles.pclermont@gmail.com",
+        "date": "2014-06-04T20:10:01Z"
+      },
+      "committer": {
+        "name": "Lalit Kapoor",
+        "email": "lalitkapoor@gmail.com",
+        "date": "2014-06-04T20:10:01Z"
+      },
+      "message": "test getCookies method",
+      "tree": {
+        "sha": "55d1f0b5668664cf95cf392c188d4a4e5c19309b",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/55d1f0b5668664cf95cf392c188d4a4e5c19309b"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/f4dcad0fa6e2f2388abae508ad7256a1e1214ab2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/f4dcad0fa6e2f2388abae508ad7256a1e1214ab2",
+    "html_url": "https://github.com/mikeal/request/commit/f4dcad0fa6e2f2388abae508ad7256a1e1214ab2",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/f4dcad0fa6e2f2388abae508ad7256a1e1214ab2/comments",
+    "author": {
+      "login": "charlespwd",
+      "id": 4990691,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4990691?",
+      "gravatar_id": "001b18078534fe4b3e8c01c6a4c061a4",
+      "url": "https://api.github.com/users/charlespwd",
+      "html_url": "https://github.com/charlespwd",
+      "followers_url": "https://api.github.com/users/charlespwd/followers",
+      "following_url": "https://api.github.com/users/charlespwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charlespwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charlespwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charlespwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/charlespwd/orgs",
+      "repos_url": "https://api.github.com/users/charlespwd/repos",
+      "events_url": "https://api.github.com/users/charlespwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charlespwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lalitkapoor",
+      "id": 140436,
+      "avatar_url": "https://avatars.githubusercontent.com/u/140436?",
+      "gravatar_id": "77705dc70e837ee9a85cc7bcb6c7e637",
+      "url": "https://api.github.com/users/lalitkapoor",
+      "html_url": "https://github.com/lalitkapoor",
+      "followers_url": "https://api.github.com/users/lalitkapoor/followers",
+      "following_url": "https://api.github.com/users/lalitkapoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lalitkapoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lalitkapoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lalitkapoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lalitkapoor/orgs",
+      "repos_url": "https://api.github.com/users/lalitkapoor/repos",
+      "events_url": "https://api.github.com/users/lalitkapoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lalitkapoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3",
+        "url": "https://api.github.com/repos/mikeal/request/commits/b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3",
+        "html_url": "https://github.com/mikeal/request/commit/b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3"
+      }
+    ]
+  },
+  {
+    "sha": "b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3",
+    "commit": {
+      "author": {
+        "name": "charles",
+        "email": "charles.pclermont@gmail.com",
+        "date": "2014-06-04T20:09:25Z"
+      },
+      "committer": {
+        "name": "Lalit Kapoor",
+        "email": "lalitkapoor@gmail.com",
+        "date": "2014-06-04T20:09:25Z"
+      },
+      "message": "expose tough-cookie's getCookiesSync",
+      "tree": {
+        "sha": "c95b79a48b7339ca0c62c3e85e8ab892ab41766b",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/c95b79a48b7339ca0c62c3e85e8ab892ab41766b"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3",
+    "html_url": "https://github.com/mikeal/request/commit/b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/b223a8add0cbdd4e699a52da66aeb0f0cb17a0c3/comments",
+    "author": {
+      "login": "charlespwd",
+      "id": 4990691,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4990691?",
+      "gravatar_id": "001b18078534fe4b3e8c01c6a4c061a4",
+      "url": "https://api.github.com/users/charlespwd",
+      "html_url": "https://github.com/charlespwd",
+      "followers_url": "https://api.github.com/users/charlespwd/followers",
+      "following_url": "https://api.github.com/users/charlespwd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charlespwd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charlespwd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charlespwd/subscriptions",
+      "organizations_url": "https://api.github.com/users/charlespwd/orgs",
+      "repos_url": "https://api.github.com/users/charlespwd/repos",
+      "events_url": "https://api.github.com/users/charlespwd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charlespwd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lalitkapoor",
+      "id": 140436,
+      "avatar_url": "https://avatars.githubusercontent.com/u/140436?",
+      "gravatar_id": "77705dc70e837ee9a85cc7bcb6c7e637",
+      "url": "https://api.github.com/users/lalitkapoor",
+      "html_url": "https://github.com/lalitkapoor",
+      "followers_url": "https://api.github.com/users/lalitkapoor/followers",
+      "following_url": "https://api.github.com/users/lalitkapoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lalitkapoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lalitkapoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lalitkapoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lalitkapoor/orgs",
+      "repos_url": "https://api.github.com/users/lalitkapoor/repos",
+      "events_url": "https://api.github.com/users/lalitkapoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lalitkapoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ab347da7c18c5a88c86999f97297c8179d676c37",
+        "url": "https://api.github.com/repos/mikeal/request/commits/ab347da7c18c5a88c86999f97297c8179d676c37",
+        "html_url": "https://github.com/mikeal/request/commit/ab347da7c18c5a88c86999f97297c8179d676c37"
+      }
+    ]
+  },
+  {
+    "sha": "ab347da7c18c5a88c86999f97297c8179d676c37",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-20T19:55:39Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-20T19:55:39Z"
+      },
+      "message": "Merge pull request #907 from medovob/secureOptionsPooling\n\nappend secureOptions to poolKey",
+      "tree": {
+        "sha": "1d8d7484b4a688d0d1fec42b079dbf09bb5e37e9",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/1d8d7484b4a688d0d1fec42b079dbf09bb5e37e9"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/ab347da7c18c5a88c86999f97297c8179d676c37",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/ab347da7c18c5a88c86999f97297c8179d676c37",
+    "html_url": "https://github.com/mikeal/request/commit/ab347da7c18c5a88c86999f97297c8179d676c37",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/ab347da7c18c5a88c86999f97297c8179d676c37/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+        "url": "https://api.github.com/repos/mikeal/request/commits/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+        "html_url": "https://github.com/mikeal/request/commit/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8"
+      },
+      {
+        "sha": "79472b263cde77504a354913a16bdc9fbdc9ed5d",
+        "url": "https://api.github.com/repos/mikeal/request/commits/79472b263cde77504a354913a16bdc9fbdc9ed5d",
+        "html_url": "https://github.com/mikeal/request/commit/79472b263cde77504a354913a16bdc9fbdc9ed5d"
+      }
+    ]
+  },
+  {
+    "sha": "79472b263cde77504a354913a16bdc9fbdc9ed5d",
+    "commit": {
+      "author": {
+        "name": "medovob",
+        "email": "rich@stutfield.net",
+        "date": "2014-05-20T19:30:41Z"
+      },
+      "committer": {
+        "name": "medovob",
+        "email": "rich@stutfield.net",
+        "date": "2014-05-20T19:30:41Z"
+      },
+      "message": "append secureOptions to poolKey",
+      "tree": {
+        "sha": "1d8d7484b4a688d0d1fec42b079dbf09bb5e37e9",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/1d8d7484b4a688d0d1fec42b079dbf09bb5e37e9"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/79472b263cde77504a354913a16bdc9fbdc9ed5d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/79472b263cde77504a354913a16bdc9fbdc9ed5d",
+    "html_url": "https://github.com/mikeal/request/commit/79472b263cde77504a354913a16bdc9fbdc9ed5d",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/79472b263cde77504a354913a16bdc9fbdc9ed5d/comments",
+    "author": {
+      "login": "medovob",
+      "id": 465951,
+      "avatar_url": "https://avatars.githubusercontent.com/u/465951?",
+      "gravatar_id": "6c3462e8f8835683cc6ab2255b90d714",
+      "url": "https://api.github.com/users/medovob",
+      "html_url": "https://github.com/medovob",
+      "followers_url": "https://api.github.com/users/medovob/followers",
+      "following_url": "https://api.github.com/users/medovob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/medovob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/medovob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/medovob/subscriptions",
+      "organizations_url": "https://api.github.com/users/medovob/orgs",
+      "repos_url": "https://api.github.com/users/medovob/repos",
+      "events_url": "https://api.github.com/users/medovob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/medovob/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "medovob",
+      "id": 465951,
+      "avatar_url": "https://avatars.githubusercontent.com/u/465951?",
+      "gravatar_id": "6c3462e8f8835683cc6ab2255b90d714",
+      "url": "https://api.github.com/users/medovob",
+      "html_url": "https://github.com/medovob",
+      "followers_url": "https://api.github.com/users/medovob/followers",
+      "following_url": "https://api.github.com/users/medovob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/medovob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/medovob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/medovob/subscriptions",
+      "organizations_url": "https://api.github.com/users/medovob/orgs",
+      "repos_url": "https://api.github.com/users/medovob/repos",
+      "events_url": "https://api.github.com/users/medovob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/medovob/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+        "url": "https://api.github.com/repos/mikeal/request/commits/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+        "html_url": "https://github.com/mikeal/request/commit/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8"
+      }
+    ]
+  },
+  {
+    "sha": "c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-19T20:59:02Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-19T20:59:02Z"
+      },
+      "message": "2.36.1",
+      "tree": {
+        "sha": "25ca578ac292e5c6248b7610be86bccd8ef2d55f",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/25ca578ac292e5c6248b7610be86bccd8ef2d55f"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+    "html_url": "https://github.com/mikeal/request/commit/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/c3914fcd4a74faf6dbf0fb6a4a188e871e0c51b8/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0",
+        "url": "https://api.github.com/repos/mikeal/request/commits/b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0",
+        "html_url": "https://github.com/mikeal/request/commit/b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0"
+      }
+    ]
+  },
+  {
+    "sha": "b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-19T20:59:01Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-19T20:59:01Z"
+      },
+      "message": "2.36.0",
+      "tree": {
+        "sha": "2a4d2be8ec7982a2c4310f084483bc159e1877d6",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/2a4d2be8ec7982a2c4310f084483bc159e1877d6"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0",
+    "html_url": "https://github.com/mikeal/request/commit/b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/b8bb57efb17e72e2ac6d957c05c3f2570c7ba6a0/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "76a96de75580042aa780e9587ff7a22522119c3f",
+        "url": "https://api.github.com/repos/mikeal/request/commits/76a96de75580042aa780e9587ff7a22522119c3f",
+        "html_url": "https://github.com/mikeal/request/commit/76a96de75580042aa780e9587ff7a22522119c3f"
+      }
+    ]
+  },
+  {
+    "sha": "76a96de75580042aa780e9587ff7a22522119c3f",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-19T20:58:52Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-19T20:58:52Z"
+      },
+      "message": "Reventing lodash merge change.",
+      "tree": {
+        "sha": "21e1eeeda2b6f699ded025e99f99ee047128cdc3",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/21e1eeeda2b6f699ded025e99f99ee047128cdc3"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/76a96de75580042aa780e9587ff7a22522119c3f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/76a96de75580042aa780e9587ff7a22522119c3f",
+    "html_url": "https://github.com/mikeal/request/commit/76a96de75580042aa780e9587ff7a22522119c3f",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/76a96de75580042aa780e9587ff7a22522119c3f/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4bbd1532a68cadf1a88dd69c277645e9b781f364",
+        "url": "https://api.github.com/repos/mikeal/request/commits/4bbd1532a68cadf1a88dd69c277645e9b781f364",
+        "html_url": "https://github.com/mikeal/request/commit/4bbd1532a68cadf1a88dd69c277645e9b781f364"
+      }
+    ]
+  },
+  {
+    "sha": "4bbd1532a68cadf1a88dd69c277645e9b781f364",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-17T20:57:30Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-17T20:57:30Z"
+      },
+      "message": "2.35.1",
+      "tree": {
+        "sha": "d0cfe5fa6b876f8cbdb0d82a7a195eca11857a30",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/d0cfe5fa6b876f8cbdb0d82a7a195eca11857a30"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/4bbd1532a68cadf1a88dd69c277645e9b781f364",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/4bbd1532a68cadf1a88dd69c277645e9b781f364",
+    "html_url": "https://github.com/mikeal/request/commit/4bbd1532a68cadf1a88dd69c277645e9b781f364",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/4bbd1532a68cadf1a88dd69c277645e9b781f364/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6498a5f1ae68050cfeabf8f34f75bc72b08f1805",
+        "url": "https://api.github.com/repos/mikeal/request/commits/6498a5f1ae68050cfeabf8f34f75bc72b08f1805",
+        "html_url": "https://github.com/mikeal/request/commit/6498a5f1ae68050cfeabf8f34f75bc72b08f1805"
+      }
+    ]
+  },
+  {
+    "sha": "6498a5f1ae68050cfeabf8f34f75bc72b08f1805",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-17T20:57:28Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-17T20:57:28Z"
+      },
+      "message": "2.35.0",
+      "tree": {
+        "sha": "adb9f6ff35d0880f272d18cc510ed0a15f7b4db7",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/adb9f6ff35d0880f272d18cc510ed0a15f7b4db7"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/6498a5f1ae68050cfeabf8f34f75bc72b08f1805",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/6498a5f1ae68050cfeabf8f34f75bc72b08f1805",
+    "html_url": "https://github.com/mikeal/request/commit/6498a5f1ae68050cfeabf8f34f75bc72b08f1805",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/6498a5f1ae68050cfeabf8f34f75bc72b08f1805/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec",
+        "url": "https://api.github.com/repos/mikeal/request/commits/dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec",
+        "html_url": "https://github.com/mikeal/request/commit/dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec"
+      }
+    ]
+  },
+  {
+    "sha": "dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-17T14:02:39Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-17T14:02:39Z"
+      },
+      "message": "Merge pull request #901 from pigulla/master\n\nFixes #555",
+      "tree": {
+        "sha": "f29479ed5a59043393afdb022432d241704d109c",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/f29479ed5a59043393afdb022432d241704d109c"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec",
+    "html_url": "https://github.com/mikeal/request/commit/dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/dd8b8c8d14cd08be9ec0a20da9865c40dd7e5cec/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+        "url": "https://api.github.com/repos/mikeal/request/commits/e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+        "html_url": "https://github.com/mikeal/request/commit/e3bab631fe4e0c25b685c1e6df4c99b96f975bff"
+      },
+      {
+        "sha": "a1e4b1a9c2f39ce565fd023bb604da139f689d43",
+        "url": "https://api.github.com/repos/mikeal/request/commits/a1e4b1a9c2f39ce565fd023bb604da139f689d43",
+        "html_url": "https://github.com/mikeal/request/commit/a1e4b1a9c2f39ce565fd023bb604da139f689d43"
+      }
+    ]
+  },
+  {
+    "sha": "a1e4b1a9c2f39ce565fd023bb604da139f689d43",
+    "commit": {
+      "author": {
+        "name": "Raphael Pigulla",
+        "email": "pigulla@four66.com",
+        "date": "2014-05-17T10:47:17Z"
+      },
+      "committer": {
+        "name": "Raphael Pigulla",
+        "email": "pigulla@four66.com",
+        "date": "2014-05-17T10:47:17Z"
+      },
+      "message": "Fixes #555",
+      "tree": {
+        "sha": "f29479ed5a59043393afdb022432d241704d109c",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/f29479ed5a59043393afdb022432d241704d109c"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/a1e4b1a9c2f39ce565fd023bb604da139f689d43",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/a1e4b1a9c2f39ce565fd023bb604da139f689d43",
+    "html_url": "https://github.com/mikeal/request/commit/a1e4b1a9c2f39ce565fd023bb604da139f689d43",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/a1e4b1a9c2f39ce565fd023bb604da139f689d43/comments",
+    "author": {
+      "login": "pigulla",
+      "id": 592561,
+      "avatar_url": "https://avatars.githubusercontent.com/u/592561?",
+      "gravatar_id": "a705ed555ebcdfc309f87b0dc3e581e5",
+      "url": "https://api.github.com/users/pigulla",
+      "html_url": "https://github.com/pigulla",
+      "followers_url": "https://api.github.com/users/pigulla/followers",
+      "following_url": "https://api.github.com/users/pigulla/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pigulla/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pigulla/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pigulla/subscriptions",
+      "organizations_url": "https://api.github.com/users/pigulla/orgs",
+      "repos_url": "https://api.github.com/users/pigulla/repos",
+      "events_url": "https://api.github.com/users/pigulla/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pigulla/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pigulla",
+      "id": 592561,
+      "avatar_url": "https://avatars.githubusercontent.com/u/592561?",
+      "gravatar_id": "a705ed555ebcdfc309f87b0dc3e581e5",
+      "url": "https://api.github.com/users/pigulla",
+      "html_url": "https://github.com/pigulla",
+      "followers_url": "https://api.github.com/users/pigulla/followers",
+      "following_url": "https://api.github.com/users/pigulla/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pigulla/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pigulla/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pigulla/subscriptions",
+      "organizations_url": "https://api.github.com/users/pigulla/orgs",
+      "repos_url": "https://api.github.com/users/pigulla/repos",
+      "events_url": "https://api.github.com/users/pigulla/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pigulla/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+        "url": "https://api.github.com/repos/mikeal/request/commits/e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+        "html_url": "https://github.com/mikeal/request/commit/e3bab631fe4e0c25b685c1e6df4c99b96f975bff"
+      }
+    ]
+  },
+  {
+    "sha": "e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-16T15:17:48Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-16T15:17:48Z"
+      },
+      "message": "Merge pull request #897 from vohof/patch/01\n\nmerge with default options",
+      "tree": {
+        "sha": "638dec40804d396e6592af5333a78d009623c916",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/638dec40804d396e6592af5333a78d009623c916"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+    "html_url": "https://github.com/mikeal/request/commit/e3bab631fe4e0c25b685c1e6df4c99b96f975bff",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/e3bab631fe4e0c25b685c1e6df4c99b96f975bff/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9166a04e63555c009c1b34930da3c828ed3a1892",
+        "url": "https://api.github.com/repos/mikeal/request/commits/9166a04e63555c009c1b34930da3c828ed3a1892",
+        "html_url": "https://github.com/mikeal/request/commit/9166a04e63555c009c1b34930da3c828ed3a1892"
+      },
+      {
+        "sha": "25b95dbdddf874f014386a0a9fe35a7c903b7415",
+        "url": "https://api.github.com/repos/mikeal/request/commits/25b95dbdddf874f014386a0a9fe35a7c903b7415",
+        "html_url": "https://github.com/mikeal/request/commit/25b95dbdddf874f014386a0a9fe35a7c903b7415"
+      }
+    ]
+  },
+  {
+    "sha": "25b95dbdddf874f014386a0a9fe35a7c903b7415",
+    "commit": {
+      "author": {
+        "name": "Cyrus",
+        "email": "david@jcyr.us",
+        "date": "2014-05-15T23:12:57Z"
+      },
+      "committer": {
+        "name": "Cyrus",
+        "email": "david@jcyr.us",
+        "date": "2014-05-15T23:12:57Z"
+      },
+      "message": "tilde?",
+      "tree": {
+        "sha": "638dec40804d396e6592af5333a78d009623c916",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/638dec40804d396e6592af5333a78d009623c916"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/25b95dbdddf874f014386a0a9fe35a7c903b7415",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/25b95dbdddf874f014386a0a9fe35a7c903b7415",
+    "html_url": "https://github.com/mikeal/request/commit/25b95dbdddf874f014386a0a9fe35a7c903b7415",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/25b95dbdddf874f014386a0a9fe35a7c903b7415/comments",
+    "author": {
+      "login": "vohof",
+      "id": 4394420,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4394420?",
+      "gravatar_id": "56fe29019242494fca84d0a2db33a775",
+      "url": "https://api.github.com/users/vohof",
+      "html_url": "https://github.com/vohof",
+      "followers_url": "https://api.github.com/users/vohof/followers",
+      "following_url": "https://api.github.com/users/vohof/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vohof/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vohof/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vohof/subscriptions",
+      "organizations_url": "https://api.github.com/users/vohof/orgs",
+      "repos_url": "https://api.github.com/users/vohof/repos",
+      "events_url": "https://api.github.com/users/vohof/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vohof/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "vohof",
+      "id": 4394420,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4394420?",
+      "gravatar_id": "56fe29019242494fca84d0a2db33a775",
+      "url": "https://api.github.com/users/vohof",
+      "html_url": "https://github.com/vohof",
+      "followers_url": "https://api.github.com/users/vohof/followers",
+      "following_url": "https://api.github.com/users/vohof/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vohof/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vohof/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vohof/subscriptions",
+      "organizations_url": "https://api.github.com/users/vohof/orgs",
+      "repos_url": "https://api.github.com/users/vohof/repos",
+      "events_url": "https://api.github.com/users/vohof/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vohof/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "54a51c665887e162ccb9f6b17b9c1f3b017ccc29",
+        "url": "https://api.github.com/repos/mikeal/request/commits/54a51c665887e162ccb9f6b17b9c1f3b017ccc29",
+        "html_url": "https://github.com/mikeal/request/commit/54a51c665887e162ccb9f6b17b9c1f3b017ccc29"
+      }
+    ]
+  },
+  {
+    "sha": "54a51c665887e162ccb9f6b17b9c1f3b017ccc29",
+    "commit": {
+      "author": {
+        "name": "Cyrus",
+        "email": "david@jcyr.us",
+        "date": "2014-05-15T22:52:20Z"
+      },
+      "committer": {
+        "name": "Cyrus",
+        "email": "david@jcyr.us",
+        "date": "2014-05-15T22:52:20Z"
+      },
+      "message": "merge options",
+      "tree": {
+        "sha": "ece3b50ea96832004cd8c1d02f78a71b1033e667",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/ece3b50ea96832004cd8c1d02f78a71b1033e667"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/54a51c665887e162ccb9f6b17b9c1f3b017ccc29",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/54a51c665887e162ccb9f6b17b9c1f3b017ccc29",
+    "html_url": "https://github.com/mikeal/request/commit/54a51c665887e162ccb9f6b17b9c1f3b017ccc29",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/54a51c665887e162ccb9f6b17b9c1f3b017ccc29/comments",
+    "author": {
+      "login": "vohof",
+      "id": 4394420,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4394420?",
+      "gravatar_id": "56fe29019242494fca84d0a2db33a775",
+      "url": "https://api.github.com/users/vohof",
+      "html_url": "https://github.com/vohof",
+      "followers_url": "https://api.github.com/users/vohof/followers",
+      "following_url": "https://api.github.com/users/vohof/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vohof/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vohof/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vohof/subscriptions",
+      "organizations_url": "https://api.github.com/users/vohof/orgs",
+      "repos_url": "https://api.github.com/users/vohof/repos",
+      "events_url": "https://api.github.com/users/vohof/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vohof/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "vohof",
+      "id": 4394420,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4394420?",
+      "gravatar_id": "56fe29019242494fca84d0a2db33a775",
+      "url": "https://api.github.com/users/vohof",
+      "html_url": "https://github.com/vohof",
+      "followers_url": "https://api.github.com/users/vohof/followers",
+      "following_url": "https://api.github.com/users/vohof/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vohof/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vohof/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vohof/subscriptions",
+      "organizations_url": "https://api.github.com/users/vohof/orgs",
+      "repos_url": "https://api.github.com/users/vohof/repos",
+      "events_url": "https://api.github.com/users/vohof/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vohof/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9166a04e63555c009c1b34930da3c828ed3a1892",
+        "url": "https://api.github.com/repos/mikeal/request/commits/9166a04e63555c009c1b34930da3c828ed3a1892",
+        "html_url": "https://github.com/mikeal/request/commit/9166a04e63555c009c1b34930da3c828ed3a1892"
+      }
+    ]
+  },
+  {
+    "sha": "9166a04e63555c009c1b34930da3c828ed3a1892",
+    "commit": {
+      "author": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-07T10:31:15Z"
+      },
+      "committer": {
+        "name": "Mikeal Rogers",
+        "email": "mikeal.rogers@gmail.com",
+        "date": "2014-05-07T10:31:15Z"
+      },
+      "message": "Merge pull request #891 from lalitkapoor/857-Options-object-is-mutated-by-calling-request\n\nfixes 857 - options object is mutated by calling request",
+      "tree": {
+        "sha": "58505e07112a5993f58bca3065880753a108f607",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/58505e07112a5993f58bca3065880753a108f607"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/9166a04e63555c009c1b34930da3c828ed3a1892",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/9166a04e63555c009c1b34930da3c828ed3a1892",
+    "html_url": "https://github.com/mikeal/request/commit/9166a04e63555c009c1b34930da3c828ed3a1892",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/9166a04e63555c009c1b34930da3c828ed3a1892/comments",
+    "author": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mikeal",
+      "id": 579,
+      "avatar_url": "https://avatars.githubusercontent.com/u/579?",
+      "gravatar_id": "d8eba8dd0e89a0580ec4157681121a79",
+      "url": "https://api.github.com/users/mikeal",
+      "html_url": "https://github.com/mikeal",
+      "followers_url": "https://api.github.com/users/mikeal/followers",
+      "following_url": "https://api.github.com/users/mikeal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikeal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikeal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikeal/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikeal/orgs",
+      "repos_url": "https://api.github.com/users/mikeal/repos",
+      "events_url": "https://api.github.com/users/mikeal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikeal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "86b99b671a3c86f4f963a6c67047343fd8edae8f",
+        "url": "https://api.github.com/repos/mikeal/request/commits/86b99b671a3c86f4f963a6c67047343fd8edae8f",
+        "html_url": "https://github.com/mikeal/request/commit/86b99b671a3c86f4f963a6c67047343fd8edae8f"
+      },
+      {
+        "sha": "39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c",
+        "url": "https://api.github.com/repos/mikeal/request/commits/39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c",
+        "html_url": "https://github.com/mikeal/request/commit/39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c"
+      }
+    ]
+  },
+  {
+    "sha": "39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c",
+    "commit": {
+      "author": {
+        "name": "Lalit Kapoor",
+        "email": "lalitkapoor@gmail.com",
+        "date": "2014-05-06T20:58:27Z"
+      },
+      "committer": {
+        "name": "Lalit Kapoor",
+        "email": "lalitkapoor@gmail.com",
+        "date": "2014-05-06T21:05:32Z"
+      },
+      "message": "extend passed in options",
+      "tree": {
+        "sha": "58505e07112a5993f58bca3065880753a108f607",
+        "url": "https://api.github.com/repos/mikeal/request/git/trees/58505e07112a5993f58bca3065880753a108f607"
+      },
+      "url": "https://api.github.com/repos/mikeal/request/git/commits/39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/mikeal/request/commits/39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c",
+    "html_url": "https://github.com/mikeal/request/commit/39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c",
+    "comments_url": "https://api.github.com/repos/mikeal/request/commits/39396b0bb2e90eb7ec4dfcf5d2e731a2cb156f5c/comments",
+    "author": {
+      "login": "lalitkapoor",
+      "id": 140436,
+      "avatar_url": "https://avatars.githubusercontent.com/u/140436?",
+      "gravatar_id": "77705dc70e837ee9a85cc7bcb6c7e637",
+      "url": "https://api.github.com/users/lalitkapoor",
+      "html_url": "https://github.com/lalitkapoor",
+      "followers_url": "https://api.github.com/users/lalitkapoor/followers",
+      "following_url": "https://api.github.com/users/lalitkapoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lalitkapoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lalitkapoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lalitkapoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lalitkapoor/orgs",
+      "repos_url": "https://api.github.com/users/lalitkapoor/repos",
+      "events_url": "https://api.github.com/users/lalitkapoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lalitkapoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lalitkapoor",
+      "id": 140436,
+      "avatar_url": "https://avatars.githubusercontent.com/u/140436?",
+      "gravatar_id": "77705dc70e837ee9a85cc7bcb6c7e637",
+      "url": "https://api.github.com/users/lalitkapoor",
+      "html_url": "https://github.com/lalitkapoor",
+      "followers_url": "https://api.github.com/users/lalitkapoor/followers",
+      "following_url": "https://api.github.com/users/lalitkapoor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lalitkapoor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lalitkapoor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lalitkapoor/subscriptions",
+      "organizations_url": "https://api.github.com/users/lalitkapoor/orgs",
+      "repos_url": "https://api.github.com/users/lalitkapoor/repos",
+      "events_url": "https://api.github.com/users/lalitkapoor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lalitkapoor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2ba48083ddf2607f85e2c479e0d254483c2610fe",
+        "url": "https://api.github.com/repos/mikeal/request/commits/2ba48083ddf2607f85e2c479e0d254483c2610fe",
+        "html_url": "https://github.com/mikeal/request/commit/2ba48083ddf2607f85e2c479e0d254483c2610fe"
+      }
+    ]
+  }
+]
