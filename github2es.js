@@ -26,16 +26,16 @@ function cleanName (url){
       }
     }
   }
-  if (count != 3) return url;
+  if (count !== 3) return url;
 }
 
 function github2es (packages,  esUrl, apiKey){
+  if (!apiKey){ throw Error('you need an api key for this package'); return }
   this.interval = 2000; 
   this.workSize = 10; 
   this.packages = packages; 
   this.finished = 0;
   this.es = esUrl;   
-  if (!apiKey) throw Error('you need an api key for this package'); return 
   this.ghClient = github.client(apiKey);
 }
 
@@ -44,7 +44,7 @@ github2es.prototype.groupPackages = function () {
   if (this.packages.length === 0){
     console.log('finished populating packages on ES'); 
   } else {
-    //do 10 packages at a time
+    console.log('this is packages ' + this.packages);
     async.parallel(_this.makeFuncs(this), function (err, results){
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
@@ -64,7 +64,7 @@ github2es.prototype.makeFuncs = function (callback) {
   if (this.packages.length < this.workSize) packageNames = this.packages.splice(0, this.packages.length); // we have < 10 packages left do the work on all of them and finish
   else packageNames = this.packages.splice(0, this.workSize);
   packageNames.forEach(function (p){
-    //console.log(p);
+    console.log('processing this package '+ p.id);
     work.push(
       function (callback){
         var packageUrl =  'http://localhost:15984/registry/' + p.id;
@@ -78,7 +78,7 @@ github2es.prototype.makeFuncs = function (callback) {
                 packageInfo = JSON.parse(packageInfo); 
                 if ( !packageInfo.repository || !packageInfo.repository.url){
                   var returnObj = {}; 
-                  returnObj['packageName'] = packageInfo["_id"];
+                  console.log(packageInfo["_id"] + ' contains no repo field'); 
                   callback(null, {err:'package has no repo'});
                   return 
                 }else {
@@ -118,7 +118,8 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
           results[0] = 0;
         }
         results[1] = githubInfo['stargazers_count'];
-        //callback(null,results); 
+        //callback(null,results);
+        console.log(repo);  
         ghRepo.commits(function (err, arr){
           if (err) { 
             console.log('err with commit' + gitUrl); 
@@ -129,8 +130,8 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
             results[2] = arr[0].commit.committer.date;
             console.log(packageName + ' : ' + results); 
             // callback here for testing this function 
-            callback(null, results);
-            // _this.esPost(packageName, results, callback);  
+            //callback(null, results);
+            _this.esPost(packageName, results, callback);  
           }
         });  
      } else callback(null, {err: 'package not found'});  
@@ -174,7 +175,8 @@ github2es.prototype.esPost = function (packageName, results, callback){
       request(opts2, function (err, res, body){ 
         if (err){
           console.log('error posting stars'); 
-          callback(null, {err:err}); 
+          callback(null, {err:err});
+          return 
         }else callback (null, body); 
       });
     },
@@ -183,6 +185,7 @@ github2es.prototype.esPost = function (packageName, results, callback){
         if (err){
           console.log('error posting latest commit');
           callback(null, {err:err});
+          return
         }   
         callback(null, results);
       }); 
