@@ -35,7 +35,8 @@ function github2es (packages,  esUrl, apiKey){
   this.workSize = 10; 
   this.packages = packages; 
   this.finished = 0;
-  this.es = esUrl;   
+  this.es = esUrl;  
+  this.api = apiKey; 
   this.ghClient = github.client(apiKey);
 }
 
@@ -44,8 +45,7 @@ github2es.prototype.groupPackages = function () {
   if (this.packages.length === 0){
     console.log('finished populating packages on ES'); 
   } else {
-    console.log('this is packages ' + this.packages);
-    async.parallel(_this.makeFuncs(this), function (err, results){
+    async.parallel(_this.makeFuncs(), function (err, results){
       if (err) console.log(err);
       console.log('Processing next ' + _this.workSize);
       console.log(results);
@@ -56,44 +56,46 @@ github2es.prototype.groupPackages = function () {
   }
 }
 
-//makes an array of functions for async 
-github2es.prototype.makeFuncs = function (callback) {
+github2es.prototype.makeSingleFunc = function (p){
   var _this = this;
-  var work = []; //array of functions we're going to be returning to async
-  var packageNames;  
-  if (this.packages.length < this.workSize) packageNames = this.packages.splice(0, this.packages.length); // we have < 10 packages left do the work on all of them and finish
-  else packageNames = this.packages.splice(0, this.workSize);
-  packageNames.forEach(function (p){
-    console.log('processing this package '+ p.id);
-    work.push(
-      function (callback){
+    return function (cb){
         var packageUrl =  'http://localhost:15984/registry/' + p.id;
         request(packageUrl, function(err, res, packageInfo){
           if (err){ 
             console.log('error connecting to package');
             console.log(err); 
-            callback(null , {err: err}); // error will show inside results array, cont func exec  
+            cb(null , {err: err}); // error will show inside results array, cont func exec  
             return  
+          }else {
+            packageInfo = JSON.parse(packageInfo);
+            console.log(packageInfo["_id"]); 
+            if ( !packageInfo.repository || !packageInfo.repository.url){
+              var returnObj = {}; 
+              cb(null, {err:'package has no repo'});
+              return 
             }else {
-                packageInfo = JSON.parse(packageInfo); 
-                if ( !packageInfo.repository || !packageInfo.repository.url){
-                  var returnObj = {}; 
-                  console.log(packageInfo["_id"] + ' contains no repo field'); 
-                  callback(null, {err:'package has no repo'});
-                  return 
-                }else {
-                  _this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], callback);
-                }
-            }  
+              _this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], cb);
+            }
+          }  
         });// request for package*/
-      } //closing (callback) 
-    );
+      } //closing (cb)
+} 
+
+//makes an array of functions for async 
+github2es.prototype.makeFuncs = function (cb) {
+  var _this = this;
+  var work = []; //array of functions we're going to be returning to async
+  var packageNames;  
+  if (this.packages.length < this.workSize) packageNames = this.packages.splice(0, this.packages.length); // we have < 10 packages left do the work on all of them and finish
+  else packageNames = this.packages.splice(0, this.workSize);
+  packageNames.forEach( function (p) {
+    work.push(_this.makeSingleFunc(p))
   }); //closes forEach 
   this.finished+=this.workSize;  
   return work; 
 }
 
-github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
+github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
   var _this = this;
   var repo =  cleanName(gitUrl);  
   var results = [];
@@ -108,7 +110,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
      }
   };
   request(options, function (err, res, githubInfo) {
-    if (err){ callback(err, null); console.log(err); }
+    if (err){ cb(err, null); console.log(err); }
     else{
       githubInfo = JSON.parse(githubInfo);
       if (githubInfo.id){
@@ -118,80 +120,53 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  callback){
           results[0] = 0;
         }
         results[1] = githubInfo['stargazers_count'];
-        //callback(null,results);
+        //cb(null,results);
         console.log(repo);  
         ghRepo.commits(function (err, arr){
           if (err) { 
             console.log('err with commit' + gitUrl); 
             results[2] = null;
-            callback(err, null);
+            cb(err, null);
             return
           } else{  
             results[2] = arr[0].commit.committer.date;
             console.log(packageName + ' : ' + results); 
-            // callback here for testing this function 
-            //callback(null, results);
-            _this.esPost(packageName, results, callback);  
+            // cb here for testing this function 
+            //cb(null, results);
+            _this.esPost(packageName, results, cb);  
           }
         });  
-     } else callback(null, {err: 'package not found'});  
+     } else cb(null, {err: 'package not found on github'});  
    }
   }); 
 }
 
-github2es.prototype.esPost = function (packageName, results, callback){ 
+github2es.prototype.esPost = function (packageName, results, cb){ 
   var esPackageString = this.es + '/package/' + packageName + "/_update"; 
   // build scripts
-  var issues = "ctx._source.issues = " + results[0];
+  /*var issues = "ctx._source.issues = " + results[0];
   var stars = "ctx._source.ghstars = "  + results[1];  
-  var com = "ctx._source.recentcommit = " + "\""+ results[2] + "\"";     
+  var com = "ctx._source.recentcommit = " + "\""+ results[2] + "\"";  
+  */   
   var opts1 = { 
     method: 'POST', 
     uri: esPackageString, 
-    json: { "script" : issues }
-  }
-  var opts2 = { 
-    method: 'POST', 
-    uri: esPackageString, 
-    json: { "script" : stars }
-  }
-  var opts3 = { 
-    method: 'POST', 
-    uri: esPackageString, 
-    json: { "script" : com }
+    json: { 
+      doc: { 
+      "issues": results[0],
+      "ghstars": results[1], 
+      "recent-commit": results[2]
+      }  
+    }
   }
   
-  async.parallel([
-    function (callback){
-      request(opts1, function (err, res, body){
-        if (err){
-          console.log('there has been an error with the PUT to elastic search');
-          callback(null, {err:err}); 
-          return 
-        }else callback(null, body); 
-      });
-    },
-    function (callback){ 
-      request(opts2, function (err, res, body){ 
-        if (err){
-          console.log('error posting stars'); 
-          callback(null, {err:err});
-          return 
-        }else callback (null, body); 
-      });
-    },
-    function (callback){ 
-      request(opts3, function (err, res, body){ 
-        if (err){
-          console.log('error posting latest commit');
-          callback(null, {err:err});
-          return
-        }   
-        callback(null, results);
-      }); 
-    }],function (err, results){ 
-      callback(null, results) 
-    }); 
+  request(opts1, function (err, res, body){
+    if (err){
+      console.log('there has been an error with the PUT to elastic search');
+      cb(null, {err:err}); 
+      return 
+    }else cb(null, body);
+  }); 
   
 }
 

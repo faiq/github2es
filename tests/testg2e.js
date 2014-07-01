@@ -16,10 +16,13 @@ var lab = require('lab')
   , async = require('async'); 
 
 var fakeGitCalls;
-var fakeAll = sampleAllDocs.rows; 
+var fakeAll = sampleAllDocs.rows;
+var fakeAll2 = fakeAll.slice(); 
+ 
+console.log(fakeAll.length);
+
 var fakeES = nock('http://localhost:9200').get('/npm').reply(200, 'Fake ES stuff')
-//var follower = new github2es(fakeAll, fakeES, process.env.githubApi);   
-var followerAll = new github2es(fakeAll, fakeES, process.env.githubApi);   
+var followerAll = new github2es(fakeAll2, fakeES, process.env.githubApi);   
 
 //fake registry calls 
 var fake28 = nock('http://localhost:15984').get('/registry/28').times(4).reply(200, fs.readFileSync(__dirname + '/mocks/registry-calls/28_registry.json'));
@@ -78,7 +81,8 @@ describe('github2es functions', {timeout: 7000}, function (){
     var asyncArr = follower.makeFuncs();
     lab.expect(asyncArr.length).to.equal(follower.workSize);
     done();      
-  }); 
+  });
+ 
   it('gets the appropriate info from github', function(done) { 
     var follower2 = new github2es(fakeAll, fakeES, process.env.githubApi);   
     async.parallel(makeGithub(), function (err,results){ 
@@ -93,18 +97,15 @@ describe('github2es functions', {timeout: 7000}, function (){
                         ,'nodejitsu/http-server', 'proximitybbdo/voodoo', 'furagu/vargs-callback', 'evanshortiss/vec2d']; 
       packageUrls.forEach(function (p) { 
         work.push(function (callback){
-          follower2.getGithubInfo(p, null, callback);  
+          follower2.getGithubInfo(p, p.substring('/'), callback);  
         });
       }); 
       return work; 
    }
   });
  
-  it('posts the on to elastic search', function(done){
-    done();
-  }); 
-  
   it('repeats the process until done', function (done){
+    console.log(fakeAll2.length); 
     followerAll.groupPackages(); 
     setTimeout(function () {
       if(followerAll.packages.length === 0) 
