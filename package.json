@@ -1,6 +1,6 @@
 {
   "name": "github2es",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "--- github2es is a utility that serves as a walker to populate metadata from github for each package on npm's couch database to the corresponding ElasticSearch Documents forindexing. In order to not go over github's rate limit the module takes 10 packages at a time, gets the metadata from github, posts it to Elasticsearch, and waits 2000 ms until processing the next 10 packages.",
   "main": "github2es.js",
   "scripts": {

@@ -62,16 +62,14 @@ github2es.prototype.makeSingleFunc = function (p){
         var packageUrl =  'http://localhost:15984/registry/' + p.id;
         request(packageUrl, function(err, res, packageInfo){
           if (err){ 
-            console.log('error connecting to package');
+            console.log('Error connecting to package that is in the all docs!');
             console.log(err); 
-            cb(null , {err: err}); // error will show inside results array, cont func exec  
+            cb({err: err}, null); // error will show inside results array, cont func exec  
             return  
           }else {
             packageInfo = JSON.parse(packageInfo);
-            console.log(packageInfo["_id"]); 
             if ( !packageInfo.repository || !packageInfo.repository.url){
-              var returnObj = {}; 
-              cb(null, {err:'package has no repo'});
+              cb(null, {err:p.id + ' has no repo'});
               return 
             }else {
               _this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], cb);
@@ -112,6 +110,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
   request(options, function (err, res, githubInfo) {
     if (err){ cb(err, null); console.log(err); }
     else{
+      console.log('API Calls Remaining ' + res['headers']['x-ratelimit-remaining']); 
       githubInfo = JSON.parse(githubInfo);
       if (githubInfo.id){
         if (githubInfo.has_issues){
@@ -120,8 +119,6 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
           results[0] = 0;
         }
         results[1] = githubInfo['stargazers_count'];
-        //cb(null,results);
-        console.log(repo);  
         ghRepo.commits(function (err, arr){
           if (err) { 
             console.log('err with commit' + gitUrl); 
@@ -136,18 +133,13 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
             _this.esPost(packageName, results, cb);  
           }
         });  
-     } else cb(null, {err: 'package not found on github'});  
+     } else cb(null, {err: packageName +  ' not found on github'}); 
    }
   }); 
 }
 
 github2es.prototype.esPost = function (packageName, results, cb){ 
   var esPackageString = this.es + '/package/' + packageName + "/_update"; 
-  // build scripts
-  /*var issues = "ctx._source.issues = " + results[0];
-  var stars = "ctx._source.ghstars = "  + results[1];  
-  var com = "ctx._source.recentcommit = " + "\""+ results[2] + "\"";  
-  */   
   var opts1 = { 
     method: 'POST', 
     uri: esPackageString, 
