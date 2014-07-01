@@ -96,7 +96,7 @@ github2es.prototype.makeFuncs = function (cb) {
 github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
   var _this = this;
   var repo =  cleanName(gitUrl);  
-  var results = [];
+  var results = {};
   var uri = 'https://api.github.com/repos/' + repo;
   var ghRepo = this.ghClient.repo(repo); 
   var options = {
@@ -114,19 +114,19 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
       githubInfo = JSON.parse(githubInfo);
       if (githubInfo.id){
         if (githubInfo.has_issues){
-          results[0] = githubInfo.open_issues;
+          results.issues = githubInfo.open_issues;
         }else{
-          results[0] = 0;
+          results.issues = 0;
         }
-        results[1] = githubInfo['stargazers_count'];
+        results.ghstars = githubInfo['stargazers_count'];
         ghRepo.commits(function (err, arr){
           if (err) { 
             console.log('err with commit' + gitUrl); 
-            results[2] = null;
+            results.recent-commit = null;
             cb(err, null);
             return
           } else{  
-            results[2] = arr[0].commit.committer.date;
+            results.recentcommit = arr[0].commit.committer.date;
             console.log(packageName + ' : ' + results); 
             // cb here for testing this function 
             //cb(null, results);
@@ -144,11 +144,7 @@ github2es.prototype.esPost = function (packageName, results, cb){
     method: 'POST', 
     uri: esPackageString, 
     json: { 
-      doc: { 
-      "issues": results[0],
-      "ghstars": results[1], 
-      "recent-commit": results[2]
-      }  
+      doc: results 
     }
   }
   
