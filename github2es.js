@@ -122,7 +122,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
         ghRepo.commits(function (err, arr){
           if (err) { 
             console.log('err with commit' + gitUrl); 
-            results.recent-commit = null;
+            results.recentcommit = null;
             cb(err, null);
             return
           } else{  
