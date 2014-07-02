@@ -29,7 +29,8 @@ ___
 Lab was used to test the package. 
 
 ##Some notes about testing
-- Since the functionality of the module depends on one function calling another, that calls another, all being called by the async parallel function, the way unit testing was implemented 
-was a little different. In order to test a function you need to call the callback that the async function expects as oppossed to calling the next function in the sequence. There is an example of this on lines 131 and 132. When testing in that case, take the `cb` out of the comments and put `_this.esPost` in. 
-
-- If you have have any suggestions on how to make it better, please submit an issue on Github 
+- Testing is done through the lab framework
+- When testing the module, the tests require the Github API key to be passed in through an enviorment variable 
+`
+githubApi=MY_API_KEY npm test
+` 
