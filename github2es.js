@@ -72,15 +72,16 @@ github2es.prototype.makeSingleFunc = function (p){
               cb(null, {err:p.id + ' has no repo'});
               return 
             }else {
-              _this.getGithubInfo(packageInfo.repository.url, packageInfo["_id"], cb);
+              _this.postGithubInfoToEs(packageInfo.repository.url, packageInfo["_id"], cb);
             }
           }  
         });// request for package*/
       } //closing (cb)
 } 
 
+
 //makes an array of functions for async 
-github2es.prototype.makeFuncs = function (cb) {
+github2es.prototype.makeFuncs = function () {
   var _this = this;
   var work = []; //array of functions we're going to be returning to async
   var packageNames;  
@@ -91,6 +92,14 @@ github2es.prototype.makeFuncs = function (cb) {
   }); //closes forEach 
   this.finished+=this.workSize;  
   return work; 
+}
+
+github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){ 
+  var _this = this; 
+  this.getGithubInfo(gitUrl, packageName, function (err, results){ 
+    if(err){  console.log('got error from GH'); cb(err, null); return } 
+    else{  console.log('attempting post on GH'); console.log(results); _this.esPost(packageName, results, cb); } 
+  });
 }
 
 github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
