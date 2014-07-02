@@ -138,8 +138,8 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
             results.recentcommit = arr[0].commit.committer.date;
             console.log(packageName + ' : ' + results); 
             // cb here for testing this function 
-            //cb(null, results);
-            _this.esPost(packageName, results, cb);  
+            cb(null, results);
+            //_this.esPost(packageName, results, cb);  
           }
         });  
      } else cb(null, {err: packageName +  ' not found on github'}); 

@@ -26,7 +26,6 @@ var registryObj = nockCalls.registryCalls;
 var fakeGitCalls; 
 
 function NockFactory(Package) { 
-  console.log(Package);
   nock(Package.host).get(Package.path).times(Package.times).reply(Package.statusCode || 200, Package.file); 
 }  
 function makeCalls ()  {
@@ -76,23 +75,19 @@ describe('github2es functions', {timeout: 7000}, function (){
  
   it('gets the appropriate info from github', function(done) { 
     var follower2 = new github2es(fakeAll, fakeES, process.env.githubApi);   
-    async.parallel(makeGithub(), function (err,results){ 
-    expect(results.length).to.equal(fakeGitCalls); //we should only be making the same number of calls that we have git urls from 
-      //dont throw any errs
-      expect(err).to.equal(undefined); 
-      done();
-    }); 
+    makeGithub(); 
     function makeGithub(){
-      var work = []; 
       var packageUrls = ['28msec/28', 'spiceapps/cashew', 'mikeal/request', 'kaisellgren/Frog', 'visionmedia/express', 'douglascrockford/JSON-js'
                         ,'nodejitsu/http-server', 'proximitybbdo/voodoo', 'furagu/vargs-callback', 'evanshortiss/vec2d']; 
       packageUrls.forEach(function (p) { 
-        work.push(function (callback){
-          follower2.getGithubInfo(p, p.substring('/'), callback);  
-        });
+          follower2.getGithubInfo(p, p.substring('/'), function (err, res){
+            console.log('on this package ' + p);
+            if(p.substring('/') === 'cashew'){expect(res).to.equal(null); }
+            else {  expect(err).to.equal(null) }
+          });  
       }); 
-      return work; 
-   }
+    done();  
+  }
   });
  
   it('repeats the process until done', function (done){
@@ -103,5 +98,4 @@ describe('github2es functions', {timeout: 7000}, function (){
         done();
     }, 5000);  
   });
-
 });
