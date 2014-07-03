@@ -53,7 +53,7 @@ function makeCalls ()  {
 }
 makeCalls();
 var fakeES = nock('http://localhost:9200').get('/npm').reply(200, 'Fake ES stuff')
-var followerAll = new github2es(fakeAll2, fakeES, process.env.githubApi);   
+var followerAll = new github2es(fakeAll2, fakeES, process.env.githubApi, null, null);   
 
 describe('github2es constrctor', function () {
   it('needs an api parameter', function(done){ 
@@ -62,7 +62,23 @@ describe('github2es constrctor', function () {
     function noApi (){
       return new github2es(fakeAll, fakeES);
     }
-  });  
+  });
+ 
+  it('needs a client id & secret', function (done){ 
+    expect(noClient).to.throw(Error);
+    done(); 
+    function noClient () { 
+      return new github2es(fakeAll, fakeES, null, null,null); 
+    }  
+  });
+
+  it('fails when you send no Api and 1 oauth thing', function (done) {
+    expect(oneParam).to.throw(Error); 
+    done();
+    function oneParam (){ 
+      return new github2es(fakeAll, fakeES, null, 'dsfsdf', null); 
+    } 
+   });  
 });
 
 describe('github2es functions', {timeout: 7000}, function (){

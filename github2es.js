@@ -29,15 +29,22 @@ function cleanName (url){
   if (count !== 3) return url;
 }
 
-function github2es (packages,  esUrl, apiKey){
-  if (!apiKey){ throw Error('you need an api key for this package'); return }
+function github2es (packages,  esUrl, apiKey, id, secret){
+  if (!apiKey && (!id && !secret) ){ 
+    throw new Error('you need an api key for this package'); 
+    return 
+  }
+  if (apiKey && id && secret){ throw Error('You can\'t pass in all three parameters, either an client id & secret || apiKey')}
+  if (!apiKey && id && !secret) throw Error ('balh');
+  if (!apiKey && !id && secret) throw Error ('balh'); 
   this.interval = 2000; 
   this.workSize = 10; 
   this.packages = packages; 
   this.finished = 0;
   this.es = esUrl;  
   this.api = apiKey; 
-  this.ghClient = github.client(apiKey);
+  if(!apiKey) { this.ghClient = github.client({id: id, secret:secret});}
+  else {  console.log(apiKey);this.ghClient = github.client(apiKey);  } 
 }
 
 github2es.prototype.groupPackages = function () {

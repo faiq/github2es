@@ -14,7 +14,8 @@
     "knock": "^0.1.0",
     "nock": "^0.37.0",
     "octonode": "^0.6.3",
-    "request": "^2.36.0"
+    "request": "^2.36.0",
+    "yargs": "^1.2.6"
   },
   "devDependencies": {
     "lab": "^3.2.1"
