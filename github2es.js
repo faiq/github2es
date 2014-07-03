@@ -30,21 +30,15 @@ function cleanName (url){
 }
 
 function github2es (packages,  esUrl, apiKey, id, secret){
-  if (!apiKey && (!id && !secret) ){ 
-    throw new Error('you need an api key for this package'); 
-    return 
-  }
-  if (apiKey && id && secret){ throw Error('You can\'t pass in all three parameters, either an client id & secret || apiKey')}
-  if (!apiKey && id && !secret) throw Error ('balh');
-  if (!apiKey && !id && secret) throw Error ('balh'); 
   this.interval = 2000; 
   this.workSize = 10; 
   this.packages = packages; 
   this.finished = 0;
   this.es = esUrl;  
   this.api = apiKey; 
-  if(!apiKey) { this.ghClient = github.client({id: id, secret:secret});}
-  else {  console.log(apiKey);this.ghClient = github.client(apiKey);  } 
+  if(!apiKey && id && secret) {  console.log(apiKey);this.ghClient = github.client(apiKey); }
+  else if(apiKey && !id && !secret) { this.ghClient = github.client({id: id, secret:secret}); } 
+  else throw Error('You must include either an API key or GH credentials, not both');
 }
 
 github2es.prototype.groupPackages = function () {
