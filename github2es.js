@@ -36,8 +36,8 @@ function github2es (packages,  esUrl, apiKey, id, secret){
   this.finished = 0;
   this.es = esUrl;  
   this.api = apiKey; 
-  if(!apiKey && id && secret) {  console.log(apiKey);this.ghClient = github.client(apiKey); }
-  else if(apiKey && !id && !secret) { this.ghClient = github.client({id: id, secret:secret}); } 
+  if(!apiKey && id && secret) { this.ghClient = github.client({id: id, secret:secret}); }
+  else if(apiKey && !id && !secret) { console.log(apiKey);this.ghClient = github.client(apiKey); } 
   else throw Error('You must include either an API key or GH credentials, not both');
 }
 
@@ -130,6 +130,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
         }
         results.ghstars = githubInfo['stargazers_count'];
         ghRepo.commits(function (err, arr){
+          console.log(_this.ghClient);  
           if (err) { 
             console.log('err with commit' + gitUrl); 
             results.recentcommit = null;
