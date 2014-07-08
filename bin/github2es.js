@@ -20,6 +20,7 @@ request('http://localhost:15984/registry/_all_docs', function(err, res, body){
   }
   console.log(argv);
   body = JSON.parse(body);
-  var worker = new github2es(body.rows, argv.esUrl, API_KEY, 0);
-  worker.groupPackages();
+  var worker = new github2es(body.rows, argv.esUrl, argv.apiKey, function () { 
+    console.log('finished elasitc search population');
+  });
 });
