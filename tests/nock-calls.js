@@ -74,70 +74,70 @@ var octonode = {
   git28: {
     host: 'https://api.github.com',
     path: '/repos/28msec/28/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/octonode/28.json')
   },
   cashGit: {
     host: 'https://api.github.com',
     path: '/repos/spiceapps/cashew/commits', 
-    times: 2,
+    times: 4,
     statusCode: 404,
     file: fs.readFileSync(__dirname + '/mocks/octonode/cashew.json')
   },
   reqGit: {
     host: 'https://api.github.com',
     path: '/repos/mikeal/request/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/octonode/request.json') 
   },
   frogGit: {
     host: 'https://api.github.com',
     path: '/repos/kaisellgren/Frog/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/octonode/frog.json')
   },
   expressGit: {
     host: 'https://api.github.com',
     path: '/repos/visionmedia/express/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/octonode/express.json') 
   },
   jsonGit: {
     host: 'https://api.github.com',
     path: '/repos/douglascrockford/JSON-js/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/octonode/json.json')
   },
   osxhGit: {
     host: 'https://api.github.com',
     path: '/repos/nodejitsu/http-server/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/octonode/osxh.json') 
   },
   voodooGit: {
     host: 'https://api.github.com',
     path: '/repos/proximitybbdo/voodoo/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/octonode/voodoo.json')
   },
   vargsGit: {
     host: 'https://api.github.com',
     path:  '/repos/furagu/vargs-callback/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/octonode/vargs.json')
   }, 
   vectGit: {
     host: 'https://api.github.com',
     path: '/repos/evanshortiss/vec2d/commits', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/octonode/vector.json') 
   }
@@ -147,70 +147,70 @@ var gitCalls = {
   git28: {
     host: 'https://api.github.com',
     path: '/repos/28msec/28', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/git/28.json')
   },
   cashGit: {
     host: 'https://api.github.com',
     path: '/repos/spiceapps/cashew', 
-    times: 2,
+    times: 4,
     statusCode: 404,
     file: fs.readFileSync(__dirname + '/mocks/git/cash.json')
   },
   reqGit: {
     host: 'https://api.github.com',
     path: '/repos/mikeal/request', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/git/request.json') 
   },
   frogGit: {
     host: 'https://api.github.com',
     path: '/repos/kaisellgren/Frog', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/git/frog.json')
   },
   expressGit: {
     host: 'https://api.github.com',
     path: '/repos/visionmedia/express', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/git/express.json') 
   },
   jsonGit: {
     host: 'https://api.github.com',
     path: '/repos/douglascrockford/JSON-js', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/git/json.json')
   },
   osxhGit: {
     host: 'https://api.github.com',
     path: '/repos/nodejitsu/http-server', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/git/osxh.json') 
   },
   voodooGit: {
     host: 'https://api.github.com',
     path: '/repos/proximitybbdo/voodoo', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/git/voodoo.json')
   },
   vargsGit: {
     host: 'https://api.github.com',
     path:  '/repos/furagu/vargs-callback', 
-    times: 2,
+    times: 4,
     statusCode: 200,
     file: fs.readFileSync(__dirname + '/mocks/git/vargs.json')
   },
   vectGit: {
     host: 'https://api.github.com',
     path: '/repos/evanshortiss/vec2d', 
-    times: 2,
+    times: 4,
     statusCode: 200, 
     file: fs.readFileSync(__dirname + '/mocks/git/vector.json') 
   }

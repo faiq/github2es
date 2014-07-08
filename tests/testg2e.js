@@ -27,7 +27,12 @@ var fakeGitCalls;
 
 function NockFactory(Package) { 
   nock(Package.host).get(Package.path).times(Package.times).reply(Package.statusCode || 200, Package.file); 
-}  
+}
+  
+function NockFactoryOctonode(Package) { 
+  nock(Package.host).get(Package.path + '?access_token=' + process.env.githubApi).times(Package.times).reply(Package.statusCode || 200, Package.file); 
+} 
+ 
 function makeCalls ()  {
   var octonodeCalls = [];
   var githubCalls = []; 
@@ -35,7 +40,7 @@ function makeCalls ()  {
   
   var oc = 0; 
   Object.keys(octonodeObj).forEach(function (Package){
-    octonodeCalls[oc] = NockFactory(octonodeObj[Package]);  
+    octonodeCalls[oc] = NockFactoryOctonode(octonodeObj[Package]);  
     oc++; 
   }); 
   

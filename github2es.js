@@ -1,8 +1,6 @@
 var async = require('async')
   , request = require('request')
   , SF = require('seq-file')
-  , s = new SF('sequence.seq')
-  , sfpath = __dirname + '/sequence.seq'
   , fs = require('fs') 
   , github = require('octonode');
 
@@ -33,7 +31,7 @@ function cleanName (url){
   if (count !== 3) return url;
 }
 
-function github2es (packages,  esUrl, apiKey, callback){
+function github2es (packages,  esUrl, apiKey, sfpath, callback){
   this.interval = 2000; 
   this.workSize = 10;
   this.packages = packages; 
@@ -42,18 +40,20 @@ function github2es (packages,  esUrl, apiKey, callback){
   this.api = apiKey; 
   if(apiKey) { this.ghClient = github.client(apiKey); } 
   else throw Error('You must include either an API key');
+  if (!sfpath) { throw Error('You must include an absolute path to a log file'); 
   var _this = this; 
+  var s = new SF(sfpath); 
   fs.exists(sfpath, function (exists) {
     if (exists){
       var data = fs.readFileSync(sfpath, 'ascii');
       if (data !== 0){
         _this.packages = _this.packages.splice(data);
-        console.log('Starting Process Now');
+        console.log('Starting process now from ' + data);
         _this.groupPackages(callback);
       }else
         console.err('check the sequence file, a non zero value should be saved');
     }else{
-      console.log('Starting Process Now');
+      console.log('Starting process now from 0');
       _this.groupPackages(callback);
     }
   });
@@ -158,9 +158,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
           } else{  
             results.recentcommit = arr[0].commit.committer.date;
             console.log(packageName + ' : ' + results); 
-            // cb here for testing this function 
             cb(null, results);
-            //_this.esPost(packageName, results, cb);  
           }
         });  
      } else cb(null, {err: packageName +  ' not found on github'}); 
