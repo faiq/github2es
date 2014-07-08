@@ -15,6 +15,7 @@
     "nock": "^0.37.0",
     "octonode": "^0.6.3",
     "request": "^2.36.0",
+    "seq-file": "^1.0.2",
     "yargs": "^1.2.6"
   },
   "devDependencies": {
