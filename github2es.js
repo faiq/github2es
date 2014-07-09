@@ -1,5 +1,6 @@
 var async = require('async')
   , request = require('request')
+  , moment = require('moment') 
   , SF = require('seq-file')
   , fs = require('fs') 
   , github = require('octonode');
@@ -118,7 +119,7 @@ github2es.prototype.makeFuncs = function () {
 github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){ 
   var _this = this; 
   this.getGithubInfo(gitUrl, packageName, function (err, results){ 
-    if(err){  console.log('got error from GH'); cb(err, null); return } 
+    if(err){  console.log('got error from GH'); cb(null, err); return } 
     else{  console.log('attempting post on Elasticsearch'); _this.esPost(packageName, results, cb); } 
   });
 }
@@ -140,29 +141,38 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
   request(options, function (err, res, githubInfo) {
     if (err){ cb(err, null); console.log(err); }
     else{
-      console.log('API Calls Remaining ' + res['headers']['x-ratelimit-remaining']); 
+      console.log('not an error'); 
+      var remaining = res['headers']['x-ratelimit-remaining'];
       githubInfo = JSON.parse(githubInfo);
-      if (githubInfo.id){
-        if (githubInfo.has_issues){
-          results.issues = githubInfo.open_issues;
-        }else{
-          results.issues = 0;
-        }
-        results.ghstars = githubInfo['stargazers_count'];
-        ghRepo.commits(function (err, arr){
-          if (err) { 
-            console.log('err with commit' + gitUrl); 
-            results.recentcommit = null;
-            cb(err, null);
-            return
-          } else{  
-            results.recentcommit = arr[0].commit.committer.date;
-            console.log(packageName + ' : ' + results); 
-            cb(null, results);
+      if (remaining === 0){
+        var timeToReset = res['headers']['x-ratelimit-reset']; 
+        var now = new moment();
+        var resetMoment = new moment.unix(timeToReset);
+        var remaining = resetMoment.diff(now); 
+        setTimeout(_this.getGithubInfo(gitUrl,packageName, cb), remaining);  
+      }else{   
+        if (githubInfo.id){
+          if (githubInfo.has_issues){
+            results.issues = githubInfo.open_issues;
+          }else{
+            results.issues = 0;
           }
-        });  
-     } else cb(null, {err: packageName +  ' not found on github'}); 
-   }
+          results.ghstars = githubInfo['stargazers_count'];
+          ghRepo.commits(function (err, arr){
+            if (err) { 
+              console.log('err with commit' + gitUrl); 
+              results.recentcommit = null;
+              cb(err, null);
+              return
+            } else{  
+              results.recentcommit = arr[0].commit.committer.date;
+              console.log(packageName + ' : ' + results); 
+              cb(null, results);
+            }
+          });  
+        } else cb({err: packageName +  ' not found on github'}, null);
+      } 
+   }//end else for err
   }); 
 }
 
