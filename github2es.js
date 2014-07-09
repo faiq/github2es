@@ -119,7 +119,7 @@ github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){
   var _this = this; 
   this.getGithubInfo(gitUrl, packageName, function (err, results){ 
     if(err){  console.log('got error from GH'); cb(err, null); return } 
-    else{  console.log('attempting post on GH'); _this.esPost(packageName, results, cb); } 
+    else{  console.log('attempting post on Elasticsearch'); _this.esPost(packageName, results, cb); } 
   });
 }
 
