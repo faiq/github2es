@@ -40,9 +40,10 @@ function github2es (packages,  esUrl, apiKey, sfpath, callback){
   this.api = apiKey; 
   if(apiKey) { this.ghClient = github.client(apiKey); } 
   else throw Error('You must include either an API key');
-  if (!sfpath) { throw Error('You must include an absolute path to a log file'); 
+  if (!sfpath) { throw Error('You must include an absolute path to a log file'); }
   var _this = this; 
-  var s = new SF(sfpath); 
+  console.error(sfpath); 
+  this.s = new SF(sfpath); 
   fs.exists(sfpath, function (exists) {
     if (exists){
       var data = fs.readFileSync(sfpath, 'ascii');
@@ -110,7 +111,7 @@ github2es.prototype.makeFuncs = function () {
   packageNames.forEach( function (p, i) {
     work.push(_this.makeSingleFunc(p)); 
     _this.finished++; 
-    s.save(this.finished); //save the index of the last  
+    _this.s.save(_this.finished); //save the index of the last  
   }); //closes forEach 
   return work; 
 }

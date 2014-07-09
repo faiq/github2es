@@ -10,6 +10,7 @@ var lab = require('lab')
   , before = lab.before
   , github2es = require('../github2es')
   , fs = require('fs')
+  , path = require('path')
   , expect = lab.expect  
   , sampleAllDocs = require('./mocks/all-docs-mock.json')
   , nockCalls = require('./nock-calls')
@@ -57,8 +58,9 @@ function makeCalls ()  {
   }); 
 }
 makeCalls();
-var fakeES = nock('http://localhost:9200').get('/npm').reply(200, 'Fake ES stuff')
-var followerAll = new github2es(fakeAll2, fakeES, process.env.githubApi, function () {console.log('done with all the packages'); } );   
+var fakeES = nock('http://localhost:9200').get('/npm').reply(200, 'Fake ES stuff');
+
+var followerAll = new github2es(fakeAll2, fakeES, process.env.githubApi, path.join(__dirname , 'sequence.seq'), function () {console.log('done with all the packages'); } );   
 
 describe('github2es constrctor', function () {
   it('needs an api parameter', function(done){ 
@@ -73,14 +75,14 @@ describe('github2es constrctor', function () {
 
 describe('github2es functions', {timeout: 7000}, function (){
   it('processes the worksize amount of packages at a time', function(done){
-    var follower = new github2es(fakeAll, fakeES, process.env.githubApi); 
+    var follower = new github2es(fakeAll, fakeES, process.env.githubApi, path.join(__dirname , 'sequence2.seq'), function () {console.log('done with all the packages'); }); 
     var asyncArr = follower.makeFuncs();
     lab.expect(asyncArr.length).to.equal(follower.workSize);
     done();      
   });
  
   it('gets the appropriate info from github', function(done) { 
-    var follower2 = new github2es(fakeAll, fakeES, process.env.githubApi);   
+    var follower2 = new github2es(fakeAll, fakeES, process.env.githubApi, path.join(__dirname , 'sequence3.seq'), function () {console.log('done with all the packages'); } );   
     makeGithub(); 
     function makeGithub(){
       var packageUrls = ['28msec/28', 'spiceapps/cashew', 'mikeal/request', 'kaisellgren/Frog', 'visionmedia/express', 'douglascrockford/JSON-js'
