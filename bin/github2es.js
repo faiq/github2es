@@ -10,7 +10,7 @@ var github2es = require('../github2es')
     options('a', {
       alias: 'apiKey',
       describe: 'ID of service to perform operation on',
-      demand: false 
+      demand: true 
     }).argv; 
 
 request('http://localhost:15984/registry/_all_docs', function(err, res, body){
