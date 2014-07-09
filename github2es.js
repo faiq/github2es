@@ -42,7 +42,6 @@ function github2es (packages,  esUrl, apiKey, sfpath, callback){
   else throw Error('You must include either an API key');
   if (!sfpath) { throw Error('You must include an absolute path to a log file'); }
   var _this = this; 
-  console.error(sfpath); 
   this.s = new SF(sfpath); 
   fs.exists(sfpath, function (exists) {
     if (exists){
