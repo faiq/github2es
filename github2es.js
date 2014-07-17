@@ -64,10 +64,10 @@ github2es.prototype.groupPackages = function (callback) {
   var _this = this; //save the context of the IssuePopulator object
   if (this.packages.length === 0){
     console.log('finished populating packages on ES'); 
-    if (typeof callback === 'function') callback();
-  } else {
+    if (typeof callback === 'function') callback(null);
+  }else {
     async.parallel(_this.makeFuncs(), function (err, results){
-      if (err) console.log(err);
+      if (err) callback(err);
       console.log('Processing next ' + _this.workSize);
       console.log(results);
       setTimeout(function() {
@@ -141,7 +141,6 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
   request(options, function (err, res, githubInfo) {
     if (err){ cb(err, null); console.log(err); }
     else{
-      console.log('not an error'); 
       var remaining = res['headers']['x-ratelimit-remaining'];
       githubInfo = JSON.parse(githubInfo);
       if (remaining === 0){
@@ -189,6 +188,7 @@ github2es.prototype.esPost = function (packageName, results, cb){
   request(opts1, function (err, res, body){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
+      console.log(err);
       cb(null, {err:err}); 
       return 
     }else cb(null, body);
