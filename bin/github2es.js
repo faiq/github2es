@@ -13,9 +13,14 @@ var github2es = require('../github2es')
       alias: 'apiKey',
       describe: 'ID of service to perform operation on',
       demand: true 
+    }).
+    options('c', {
+      alias: 'couchUrl',
+      describe: 'url of all endpoints',
+      demand: true 
     }).argv; 
 
-request('http://localhost:15984/registry/_all_docs', function(err, res, body){
+request(argv.couchUrl, function(err, res, body){
   if (err){
     console.log('error getting all docs');
     return
