@@ -60,6 +60,14 @@ function github2es (packages,  esUrl, apiKey, sfpath, callback){
   });
 }
 
+
+
+
+
+
+
+
+/*
 github2es.prototype.groupPackages = function (callback) {
   var _this = this; //save the context of the IssuePopulator object
   if (this.packages.length === 0){
@@ -96,7 +104,7 @@ github2es.prototype.makeSingleFunc = function (p){
             _this.postGithubInfoToEs(packageInfo.repository.url, packageInfo["_id"], cb);
           }
         }  
-      });// request for package*/
+      });// request for package
     } //closing (cb)
 } 
 
@@ -197,3 +205,4 @@ github2es.prototype.esPost = function (packageName, results, cb){
 }
 
 module.exports = github2es;
+*/ 
