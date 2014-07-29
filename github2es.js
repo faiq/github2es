@@ -3,7 +3,8 @@ var async = require('async')
   , moment = require('moment') 
   , SF = require('seq-file')
   , fs = require('fs') 
-  , github = require('octonode');
+  , github = require('octonode')
+  , redis = require('redis'); 
 
 // utility function to clean reponames
 
@@ -41,7 +42,7 @@ function github2es (packages,  esUrl, apiKey, sfpath, callback){
   this.api = apiKey; 
   if(apiKey) { this.ghClient = github.client(apiKey); } 
   else throw Error('You must include either an API key');
-  if (!sfpath) { throw Error('You must include an absolute path to a log file'); }
+  /*if (!sfpath) { throw Error('You must include an absolute path to a log file'); }
   var _this = this; 
   this.s = new SF(sfpath); 
   fs.exists(sfpath, function (exists) {
@@ -57,7 +58,7 @@ function github2es (packages,  esUrl, apiKey, sfpath, callback){
       console.log('Starting process now from 0');
       _this.groupPackages(callback);
     }
-  });
+  });*/ 
 }
 
 github2es.prototype.groupPackages = function (callback) {
@@ -77,6 +78,7 @@ github2es.prototype.groupPackages = function (callback) {
   }
 }
 
+/*
 github2es.prototype.makeSingleFunc = function (p){
   var _this = this;
     return function (cb){
@@ -96,7 +98,7 @@ github2es.prototype.makeSingleFunc = function (p){
             _this.postGithubInfoToEs(packageInfo.repository.url, packageInfo["_id"], cb);
           }
         }  
-      });// request for package*/
+      });// request for package
     } //closing (cb)
 } 
 
@@ -195,5 +197,5 @@ github2es.prototype.esPost = function (packageName, results, cb){
   }); 
   
 }
-
+*/
 module.exports = github2es;
