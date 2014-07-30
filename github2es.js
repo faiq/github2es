@@ -78,8 +78,9 @@ github2es.prototype.checkStale = function (uTime){
 github2es.prototype.grabPackages = function () {
   var _this = this;
   var workArray = [];
+
   client.zrange(zkey, 0, 10, function(err, res){ 
-    res.forEach(function (p){
+    res.forEach(function (p, i, a){
       client.zscore(this.zKey, p, function(err, res){
         if(err){ console.log(err); return } 
         if (!res){ 
@@ -88,6 +89,11 @@ github2es.prototype.grabPackages = function () {
         } 
         else{
           if(_this.checkStale(res)){
+            var now = Math.round((new Date()).getTime() / 1000);
+            client.zadd(_this.zkey, p, now, function(err,res){
+                if(err) console.log(err)
+                else console.log('added ' + res + ' items.')
+            }); 
             workArray.push(p); 
           } 
         } 
@@ -218,6 +224,6 @@ github2es.prototype.esPost = function (packageName, results, cb){
   }); 
   
 }
-*/
+
 module.exports = github2es;
  
