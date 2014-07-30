@@ -4,7 +4,9 @@ var async = require('async')
   , SF = require('seq-file')
   , fs = require('fs') 
   , github = require('octonode')
-  , redis = require('redis'); 
+  , walker = require('walker') 
+  , redis = require('redis')
+  , client = redis.createClient(); 
 
 // utility function to clean reponames
 
@@ -33,15 +35,16 @@ function cleanName (url){
   if (count !== 3) return url;
 }
 
-function github2es (packages,  esUrl, apiKey, sfpath, callback){
+
+function github2es (esUrl, apiKey, sfpath, zKey, secs){
+  if(!apiKey || !esUrl || !zKey || !secs)  throw Error('the constructor is not right')  
   this.interval = 2000; 
   this.workSize = 10;
-  this.packages = packages; 
   this.finished = 0;
   this.es = esUrl;  
   this.api = apiKey; 
-  if(apiKey) { this.ghClient = github.client(apiKey); } 
-  else throw Error('You must include either an API key');
+  this.zKey = zKey;  
+  this.secs = secs; 
   /*if (!sfpath) { throw Error('You must include an absolute path to a log file'); }
   var _this = this; 
   this.s = new SF(sfpath); 
@@ -61,33 +64,59 @@ function github2es (packages,  esUrl, apiKey, sfpath, callback){
   });*/ 
 }
 
+github2es.prototype.checkStale = function (uTime){
+  var now = Math.round((new Date()).getTime() / 1000);
+  if (Math.abs(now - uTime) >= this.secs){return true }
+  else{ return false }
+}
 
+// grab 10 packages highest in the priority q 
+// check to see if they're stale
+// if stale put on work array
+// p refers to package name 
 
-
-
-
-
-
-/*
-github2es.prototype.groupPackages = function (callback) {
-  var _this = this; //save the context of the IssuePopulator object
-  if (this.packages.length === 0){
-    console.log('finished populating packages on ES'); 
-    if (typeof callback === 'function') callback(null);
-  }else {
-    async.parallel(_this.makeFuncs(), function (err, results){
+github2es.prototype.grabPackages = function () {
+  var _this = this;
+  var workArray = [];
+  client.zrange(zkey, 0, 10, function(err, res){ 
+    res.forEach(function (p){
+      client.zscore(this.zKey, p, function(err, res){
+        if(err){ console.log(err); return } 
+        if (!res){ 
+          throw Error('A package has no score associated with it packageName: ' + p + ' in redis Key '
+          + _this.zKey) 
+        } 
+        else{
+          if(_this.checkStale(res)){
+            workArray.push(p); 
+          } 
+        } 
+      });  
+    });           
+    async.parallel(_this.makeFuncs(workArray), function (err, results){
       if (err) callback(err);
       console.log('Processing next ' + _this.workSize);
       console.log(results);
       setTimeout(function() {
-        _this.groupPackages(); 
+      _this.groupPackages(); 
       }, _this.interval);
     });
-  }
+  });  
+} 
+
+//makes an array of functions for async 
+github2es.prototype.makeFuncs = function (packs) {
+  var _this = this;
+  var work = []; //array of functions we're going to be returning to async
+  packs.forEach(function (p) {
+    work.push(_this.makeSingleFunc(p)); 
+    _this.finished++; 
+    _this.s.save(_this.finished); //save the index of the last  
+  }); //closes forEach 
+  return work; 
 }
 
-/*
-github2es.prototype.makeSingleFunc = function (p){
+github2es.prototype.makeSingleFunc = function (p){ 
   var _this = this;
     return function (cb){
       var packageUrl =  'http://localhost:15984/registry/' + p.id;
@@ -109,22 +138,6 @@ github2es.prototype.makeSingleFunc = function (p){
       });// request for package
     } //closing (cb)
 } 
-
-
-//makes an array of functions for async 
-github2es.prototype.makeFuncs = function () {
-  var _this = this;
-  var work = []; //array of functions we're going to be returning to async
-  var packageNames;  
-  if (this.packages.length < this.workSize) packageNames = this.packages.splice(0, this.packages.length); // we have < 10 packages left do the work on all of them and finish
-  else packageNames = this.packages.splice(0, this.workSize);
-  packageNames.forEach( function (p, i) {
-    work.push(_this.makeSingleFunc(p)); 
-    _this.finished++; 
-    _this.s.save(_this.finished); //save the index of the last  
-  }); //closes forEach 
-  return work; 
-}
 
 github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){ 
   var _this = this; 
@@ -207,4 +220,4 @@ github2es.prototype.esPost = function (packageName, results, cb){
 }
 */
 module.exports = github2es;
-*/ 
+ 
