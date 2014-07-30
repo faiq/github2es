@@ -20,14 +20,4 @@ var github2es = require('../github2es')
       demand: true 
     }).argv; 
 
-request(argv.couchUrl, function(err, res, body){
-  if (err){
-    console.log('error getting all docs');
-    return
-  }
-  console.log(argv);
-  body = JSON.parse(body);
-  var worker = new github2es(body.rows, argv.esUrl, argv.apiKey, path.join(__dirname, 'sequence.seq'), function (err) { 
-    console.log('finished elasitc search population');
-  });
-});
+  var worker = new github2es(argv.esUrl, argv.apiKey, path.join(__dirname, 'sequence.seq'), 'packages'  , 30); 
