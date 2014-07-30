@@ -4,7 +4,7 @@ var async = require('async')
   , SF = require('seq-file')
   , fs = require('fs') 
   , github = require('octonode')
-  , walker = require('walker') 
+  , walker = require('./lib/crawler') 
   , redis = require('redis')
   , client = redis.createClient(); 
 
