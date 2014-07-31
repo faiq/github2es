@@ -1,10 +1,8 @@
 var async = require('async')
   , request = require('request')
   , moment = require('moment') 
-  , SF = require('seq-file')
-  , fs = require('fs') 
   , github = require('octonode')
-  , walker = require('./lib/crawler') 
+  , walker = require('walker') 
   , redis = require('redis')
   , client = redis.createClient(); 
 
@@ -36,7 +34,7 @@ function cleanName (url){
 }
 
 
-function github2es (esUrl, apiKey, sfpath, zKey, secs){
+function github2es (esUrl, apiKey, zKey, secs){
   if(!apiKey || !esUrl || !zKey || !secs)  throw Error('the constructor is not right')  
   this.interval = 2000; 
   this.workSize = 10;
@@ -45,23 +43,6 @@ function github2es (esUrl, apiKey, sfpath, zKey, secs){
   this.api = apiKey; 
   this.zKey = zKey;  
   this.secs = secs; 
-  /*if (!sfpath) { throw Error('You must include an absolute path to a log file'); }
-  var _this = this; 
-  this.s = new SF(sfpath); 
-  fs.exists(sfpath, function (exists) {
-    if (exists){
-      var data = fs.readFileSync(sfpath, 'ascii');
-      if (data !== 0){
-        _this.packages = _this.packages.splice(data);
-        console.log('Starting process now from ' + data);
-        _this.groupPackages(callback);
-      }else
-        console.err('check the sequence file, a non zero value should be saved');
-    }else{
-      console.log('Starting process now from 0');
-      _this.groupPackages(callback);
-    }
-  });*/ 
 }
 
 github2es.prototype.checkStale = function (uTime){
@@ -78,16 +59,15 @@ github2es.prototype.checkStale = function (uTime){
 github2es.prototype.grabPackages = function () {
   var _this = this;
   var workArray = [];
-
   client.zrange(zkey, 0, 10, function(err, res){ 
-    res.forEach(function (p, i, a){
-      client.zscore(this.zKey, p, function(err, res){
-        if(err){ console.log(err); return } 
-        if (!res){ 
-          throw Error('A package has no score associated with it packageName: ' + p + ' in redis Key '
-          + _this.zKey) 
-        } 
-        else{
+    if (err) console.log(err);
+    async.each(res, function(p, callback){  
+      client.zscore(_this.zKey, p, function(err, res){
+        if(err){ callback(err, null); return } 
+        if (!res){
+          var errstr ='A package has no score associated with it packageName: ' + p + ' in redis Key '+ _this.zKey 
+          callback({err:errstr}, null);
+        }else{
           if(_this.checkStale(res)){
             var now = Math.round((new Date()).getTime() / 1000);
             client.zadd(_this.zkey, p, now, function(err,res){
@@ -98,14 +78,16 @@ github2es.prototype.grabPackages = function () {
           } 
         } 
       });  
-    });           
-    async.parallel(_this.makeFuncs(workArray), function (err, results){
-      if (err) callback(err);
-      console.log('Processing next ' + _this.workSize);
-      console.log(results);
-      setTimeout(function() {
-      _this.groupPackages(); 
-      }, _this.interval);
+    },function (err){ 
+      if (err) console.log(err); 
+      async.parallel(_this.makeFuncs(workArray), function (err, results){
+        if (err) console.log(err);
+        console.log('Processing next ' + _this.workSize);
+        console.log(results);
+        setTimeout(function() {
+        _this.groupPackages(); 
+        }, _this.interval);
+      });
     });
   });  
 } 
