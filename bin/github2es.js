@@ -20,4 +20,5 @@ var github2es = require('../github2es')
       demand: true 
     }).argv; 
 
-  var worker = new github2es(argv.esUrl, argv.apiKey, path.join(__dirname, 'sequence.seq'), 'packages'  , 30); 
+var worker = new github2es(argv.esUrl, argv.couchUrl, argv.apiKey, 'packages' , 30, path.join(__dirname, 'sequence.seq')); 
+worker.grabPackages();
