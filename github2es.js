@@ -2,7 +2,7 @@ var async = require('async')
   , request = require('request')
   , moment = require('moment') 
   , github = require('octonode')
-  , walker = require('walker') 
+  , Couch2redis  = require('./lib/index') 
   , redis = require('redis')
   , client = redis.createClient(); 
 
@@ -34,8 +34,10 @@ function cleanName (url){
 }
 
 
-function github2es (esUrl, apiKey, zKey, secs){
-  if(!apiKey || !esUrl || !zKey || !secs)  throw Error('the constructor is not right')  
+function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath){
+  if(!apiKey || !esUrl || !zKey || !secs || !sfPath || !couchUrl)  throw Error('the constructor is missing some parameters'); 
+  var c2r = new Couch2redis(couchUrl, zKey, sfPath) 
+  c2r.startFollower();  
   this.interval = 2000; 
   this.workSize = 10;
   this.finished = 0;
@@ -85,7 +87,7 @@ github2es.prototype.grabPackages = function () {
         console.log('Processing next ' + _this.workSize);
         console.log(results);
         setTimeout(function() {
-        _this.groupPackages(); 
+        _this.grabPackages(); 
         }, _this.interval);
       });
     });
@@ -107,7 +109,7 @@ github2es.prototype.makeFuncs = function (packs) {
 github2es.prototype.makeSingleFunc = function (p){ 
   var _this = this;
     return function (cb){
-      var packageUrl =  'http://localhost:15984/registry/' + p.id;
+      var packageUrl =  'http://localhost:15984/registry/' + p;
       request(packageUrl, function(err, res, packageInfo){
         if (err){ 
           console.log('Error connecting to package that is in the all docs!');
