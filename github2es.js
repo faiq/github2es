@@ -58,7 +58,7 @@ github2es.prototype.checkStale = function (uTime){
 // if stale put on work array
 // p refers to package name 
 
-github2es.prototype.grabPackages = function () {
+github2es.prototype.grabPackages = function (cb) {
   var _this = this;
   var workArray = [];
   client.zrange(zkey, 0, 10, function(err, res){ 
@@ -81,11 +81,11 @@ github2es.prototype.grabPackages = function () {
         } 
       });  
     },function (err){ 
-      if (err) console.log(err); 
+      if (err) cb(err)  
       async.parallel(_this.makeFuncs(workArray), function (err, results){
-        if (err) console.log(err);
+        if (err) cb(err, null);
         console.log('Processing next ' + _this.workSize);
-        console.log(results);
+        cb(null, workArray)
         setTimeout(function() {
         _this.grabPackages(); 
         }, _this.interval);
