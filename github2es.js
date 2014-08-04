@@ -33,9 +33,9 @@ function cleanName (url){
   if (count !== 3) return url;
 }
 
-
 function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath){
   if(!apiKey || !esUrl || !zKey || !secs || !sfPath || !couchUrl)  throw Error('the constructor is missing some parameters'); 
+  this.couchUrl = couchUrl; 
   var c2r = new Couch2redis(couchUrl, zKey, sfPath) 
   c2r.startFollower();  
   this.interval = 2000; 
@@ -43,14 +43,15 @@ function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath){
   this.finished = 0;
   this.es = esUrl;  
   this.api = apiKey; 
+  this.ghClient = github.client(apiKey);
   this.zKey = zKey;  
   this.secs = secs; 
 }
 
 github2es.prototype.checkStale = function (uTime){
   var now = Math.round((new Date()).getTime() / 1000);
-  if (Math.abs(now - uTime) >= this.secs){return true }
-  else{ return false }
+  if (Math.abs(now - uTime) >= this.secs) return true 
+  else return false 
 }
 
 // grab 10 packages highest in the priority q 
@@ -61,37 +62,24 @@ github2es.prototype.checkStale = function (uTime){
 github2es.prototype.grabPackages = function (cb) {
   var _this = this;
   var workArray = [];
-  client.zrange(zkey, 0, 10, function(err, res){ 
+  var scoreArray = [];
+  client.zrange(this.zKey, 0, 9,'WITHSCORES', function(err, res){ 
     if (err) console.log(err);
-    async.each(res, function(p, callback){  
-      client.zscore(_this.zKey, p, function(err, res){
-        if(err){ callback(err, null); return } 
-        if (!res){
-          var errstr ='A package has no score associated with it packageName: ' + p + ' in redis Key '+ _this.zKey 
-          callback({err:errstr}, null);
-        }else{
-          if(_this.checkStale(res)){
-            var now = Math.round((new Date()).getTime() / 1000);
-            client.zadd(_this.zkey, p, now, function(err,res){
-                if(err) console.log(err)
-                else console.log('added ' + res + ' items.')
-            }); 
-            workArray.push(p); 
-          } 
-        } 
-      });  
-    },function (err){ 
-      if (err) cb(err)  
-      async.parallel(_this.makeFuncs(workArray), function (err, results){
-        if (err) cb(err, null);
-        console.log('Processing next ' + _this.workSize);
-        cb(null, workArray)
-        setTimeout(function() {
-        _this.grabPackages(); 
-        }, _this.interval);
-      });
+    console.log(res)
+    for(var i =  0; i < res.length; i+=2){ 
+      var packageName = res[i];
+      var packageScore = res[i + 1];
+      scoreArray.push(packageScore); 
+      if (_this.checkStale(packageScore)) workArray.push(packageName) 
+    }
+    async.parallel(_this.makeFuncs(workArray), function (err, results){
+      if (err){ cb(err, null); }
+      console.log('Processing next ' + _this.workSize);
+      setTimeout(function() {
+        _this.grabPackages(cb); 
+      }, _this.interval);
     });
-  });  
+  });
 } 
 
 //makes an array of functions for async 
@@ -101,7 +89,6 @@ github2es.prototype.makeFuncs = function (packs) {
   packs.forEach(function (p) {
     work.push(_this.makeSingleFunc(p)); 
     _this.finished++; 
-    _this.s.save(_this.finished); //save the index of the last  
   }); //closes forEach 
   return work; 
 }
@@ -109,7 +96,7 @@ github2es.prototype.makeFuncs = function (packs) {
 github2es.prototype.makeSingleFunc = function (p){ 
   var _this = this;
     return function (cb){
-      var packageUrl =  'http://localhost:15984/registry/' + p;
+      var packageUrl =  _this.couchUrl + '/'+  p;
       request(packageUrl, function(err, res, packageInfo){
         if (err){ 
           console.log('Error connecting to package that is in the all docs!');
@@ -132,7 +119,7 @@ github2es.prototype.makeSingleFunc = function (p){
 github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){ 
   var _this = this; 
   this.getGithubInfo(gitUrl, packageName, function (err, results){ 
-    if(err){  console.log('got error from GH'); cb(null, err); return }  //pass back the error to the results array to keep async going 
+    if(err){ cb(null, err); return }  //pass back the error to the results array to keep async going 
     else{  console.log('attempting post on Elasticsearch'); _this.esPost(packageName, results, cb); } 
   });
 }
@@ -152,7 +139,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
      }
   };
   request(options, function (err, res, githubInfo) {
-    if (err){ cb(err, null); console.log(err); }
+    if (err){ console.log('error from GH ' + err + ' on this package ' + packageName); cb(err, null); }
     else{
       var remaining = res['headers']['x-ratelimit-remaining'];
       githubInfo = JSON.parse(githubInfo);
@@ -182,7 +169,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
               cb(null, results);
             }
           });  
-        } else cb({err: packageName +  ' not found on github'}, null);
+        } else{ console.log(packageName + ' not found on github'); cb({err: packageName +  ' not found on github'}, null); } 
       } 
    }//end else for err
   }); 
@@ -202,11 +189,12 @@ github2es.prototype.esPost = function (packageName, results, cb){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
       console.log(err);
+      process.exit(0);
       cb(null, {err:err}); 
       return 
-    }else cb(null, body);
+    }else if(res.statusCode === 404) return
+    else  cb(null, body);
   }); 
-  
 }
 
 module.exports = github2es;
