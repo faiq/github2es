@@ -204,7 +204,8 @@ github2es.prototype.esPost = function (packageName, results, cb){
       console.log(err);
       cb(null, {err:err}); 
       return 
-    }else cb(null, body);
+    }else if(res.statusCode === 404) return
+    else  cb(null, body);
   }); 
   
 }
