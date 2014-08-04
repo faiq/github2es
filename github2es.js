@@ -2,7 +2,7 @@ var async = require('async')
   , request = require('request')
   , moment = require('moment') 
   , github = require('octonode')
-  , Couch2redis  = require('./lib/index') 
+  , Couch2redis  = require('couch2redis') 
   , redis = require('redis')
   , client = redis.createClient(); 
 
