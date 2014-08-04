@@ -8,5 +8,5 @@ var opts = {
 
 request(opts, function(err, res){ 
   if (err) console.error(err)
-  console.log(res.statuscode)   
+  console.log(res.statusCode)   
 })
