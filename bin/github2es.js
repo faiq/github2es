@@ -20,7 +20,8 @@ var github2es = require('../github2es')
       demand: true 
     }).argv; 
 
-var worker = new github2es(argv.esUrl, argv.couchUrl, argv.apiKey, 'packages' , 30, path.join(__dirname, 'sequence.seq')); 
+var worker = new github2es(argv.esUrl, argv.couchUrl, argv.apiKey, 'packages' , 30, path.join(__dirname, '/sequence.seq')); 
+
 worker.grabPackages(function(err, res){ 
   if (err) console.error(err)
   console.log(res + ' these packages have been updated') 
