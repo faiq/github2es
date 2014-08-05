@@ -48,9 +48,9 @@ function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath){
   this.secs = secs; 
 }
 
-github2es.prototype.checkStale = function (uTime){
+github2es.prototype.checkStale = function (pTime){
   var now = Math.round((new Date()).getTime() / 1000);
-  if (Math.abs(now - uTime) >= this.secs) return true 
+  if (Math.abs(now - pTime) >= this.secs) return true 
   else return false 
 }
 
@@ -62,6 +62,7 @@ github2es.prototype.checkStale = function (uTime){
 github2es.prototype.grabPackages = function (cb) {
   var _this = this;
   var workArray = [];
+<<<<<<< HEAD
   client.zrange(this.zKey, 0, 10, function(err, res){ 
     if (err) console.log(err);
     console.log(res)  
@@ -99,8 +100,34 @@ github2es.prototype.grabPackages = function (cb) {
         _this.grabPackages(cb); 
         }, _this.interval );
       }); 
+=======
+  var scoreArray = [];
+  client.zrange(this.zKey, 0, 9,'WITHSCORES', function(err, res){ 
+    if (err){ cb(err); return } 
+    for(var i =  0; i < res.length; i+=2){ 
+      var packageName = res[i];
+      var packageScore = res[i + 1];
+      scoreArray.push(packageScore); 
+      if (_this.checkStale(packageScore)) workArray.push(packageName) 
+    }
+    async.each(workArray, function (packageName, callback){
+      var now = Math.round((new Date()).getTime() / 1000);
+      client.zadd(_this.zkey, p, now, function(err,res){
+        if(err){ console.error(err); callback(err)} 
+        callback();
+      });  
+    },
+    function (err){  
+      async.parallel(_this.makeFuncs(workArray), function (err, results){
+        if (err){ cb(err); }
+        console.log('Processing next ' + _this.workSize); 
+        setTimeout(function() {
+          _this.grabPackages(cb); 
+        }, _this.interval);
+      });
+>>>>>>> f191d7a3b1042563791e77fca5a5f34d15106489
     });
-  });  
+  }); 
 } 
 
 //makes an array of functions for async 
@@ -120,13 +147,12 @@ github2es.prototype.makeSingleFunc = function (p){
       var packageUrl =  _this.couchUrl + '/'+  p;
       request(packageUrl, function(err, res, packageInfo){
         if (err){ 
-          console.log('Error connecting to package that is in the all docs!');
           console.log(err); 
-          cb({err: err}, null); // error will show inside results array, cont func exec  
+          cb({err: err}, null); //fatal error that should not be ignored   
           return  
         }else {
           packageInfo = JSON.parse(packageInfo);
-          if ( !packageInfo.repository || !packageInfo.repository.url){
+          if (!packageInfo.repository || !packageInfo.repository.url){
             cb(null, {err:p.id + ' has no repo'});
             return 
           }else {
@@ -134,13 +160,13 @@ github2es.prototype.makeSingleFunc = function (p){
           }
         }  
       });// request for package
-    } //closing (cb)
+    } //end of return function 
 } 
 
 github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){ 
   var _this = this; 
   this.getGithubInfo(gitUrl, packageName, function (err, results){ 
-    if(err){  console.log('got error from GH'); cb(null, err); return }  //pass back the error to the results array to keep async going 
+    if(err){ cb(null, err); return }  //pass back the error to the results array to keep async going 
     else{  console.log('attempting post on Elasticsearch'); _this.esPost(packageName, results, cb); } 
   });
 }
@@ -160,39 +186,37 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
      }
   };
   request(options, function (err, res, githubInfo) {
-    if (err){ cb(err, null); console.log(err); }
-    else{
-      var remaining = res['headers']['x-ratelimit-remaining'];
-      githubInfo = JSON.parse(githubInfo);
-      if (remaining === 0){
-        var timeToReset = res['headers']['x-ratelimit-reset']; 
-        var now = new moment();
-        var resetMoment = new moment.unix(timeToReset);
-        var remaining = resetMoment.diff(now); 
-        setTimeout(_this.getGithubInfo(gitUrl,packageName, cb), remaining);  
-      }else{   
-        if (githubInfo.id){
-          if (githubInfo.has_issues){
-            results.issues = githubInfo.open_issues;
-          }else{
-            results.issues = 0;
+    if (err){ console.log('error from GH ' + err + ' on this package ' + packageName); cb(err, null); }
+    var remaining = res['headers']['x-ratelimit-remaining'];
+    githubInfo = JSON.parse(githubInfo);
+    if (remaining === 0){
+      var timeToReset = res['headers']['x-ratelimit-reset']; 
+      var now = new moment();
+      var resetMoment = new moment.unix(timeToReset);
+      var remaining = resetMoment.diff(now); 
+      setTimeout(_this.getGithubInfo(gitUrl,packageName, cb), remaining);  
+    }else{   
+      if (githubInfo.id){
+        if (githubInfo.has_issues){
+          results.issues = githubInfo.open_issues;
+        }else{
+          results.issues = 0;
+        }
+        results.ghstars = githubInfo['stargazers_count'];
+        ghRepo.commits(function (err, arr){
+          if (err) { 
+            console.log('err with commit' + gitUrl); 
+            results.recentcommit = null;
+            cb(err, null);
+            return
+          } else{  
+            results.recentcommit = arr[0].commit.committer.date;
+            console.log(packageName + ' : ' + results); 
+            cb(null, results);
           }
-          results.ghstars = githubInfo['stargazers_count'];
-          ghRepo.commits(function (err, arr){
-            if (err) { 
-              console.log('err with commit' + gitUrl); 
-              results.recentcommit = null;
-              cb(err, null);
-              return
-            } else{  
-              results.recentcommit = arr[0].commit.committer.date;
-              console.log(packageName + ' : ' + results); 
-              cb(null, results);
-            }
-          });  
-        } else cb({err: packageName +  ' not found on github'}, null);
+        });  
+      } else{ console.log(packageName + ' not found on github'); cb({err: packageName +  ' not found on github'}, null); } 
       } 
-   }//end else for err
   }); 
 }
 
@@ -205,17 +229,31 @@ github2es.prototype.esPost = function (packageName, results, cb){
       doc: results 
     }
   }
-  
+  var _this = this;
   request(opts1, function (err, res, body){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
       console.log(err);
+<<<<<<< HEAD
       cb(null, {err:err}); 
       return 
     }else if(res.statusCode === 404) return
     else  cb(null, body);
+=======
+      process.exit(0);
+      cb(err,null); //pretty fatal error with elasticsearch 
+    }else if(res.statusCode === 404){
+      var secs = _this.secs;
+      var now = Math.round((new Date()).getTime() / 1000);
+      var then = now - secs + secs/24; 
+      client.zadd(_this.zkey, packagName, then, function(err,res){
+        if(err){ console.error(err); cb(err, null)} 
+        var str = packageName + ' will be reindexed in a few hours'; 
+        cb(null, str);  
+      });  
+    }else cb(null, body);
+>>>>>>> f191d7a3b1042563791e77fca5a5f34d15106489
   }); 
-  
 }
 
 module.exports = github2es;
