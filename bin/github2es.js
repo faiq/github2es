@@ -13,16 +13,17 @@ var github2es = require('../github2es')
       alias: 'apiKey',
       describe: 'ID of service to perform operation on',
       demand: true 
+    }).
+    options('c', {
+      alias: 'couchUrl',
+      describe: 'url of all endpoints',
+      demand: true 
     }).argv; 
 
-request('http://localhost:15984/registry/_all_docs', function(err, res, body){
-  if (err){
-    console.log('error getting all docs');
-    return
-  }
-  console.log(argv);
-  body = JSON.parse(body);
-  var worker = new github2es(body.rows, argv.esUrl, argv.apiKey, path.join(__dirname, 'sequence.seq'), function (err) { 
-    console.log('finished elasitc search population');
-  });
+var worker = new github2es(argv.esUrl, argv.couchUrl, argv.apiKey, 'packages' , 30, path.join(__dirname, '/sequence.seq')); 
+setTimeout(function (){ 
+worker.grabPackages(function(err, res){ 
+  if (err) console.error(err)
+  console.log(res + ' these packages have been updated') 
 });
+}, 2000 ); 
