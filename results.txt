@@ -1,0 +1,205 @@
+
+> github2es@1.0.4 test /Users/Faiq/Dropbox/github2es
+> lab -vc tests/*.js
+
+github2es constrctor
+  ✔ 1) needs an api parameter (6 ms)
+pause
+resume
+spiceapps/cashew not found on github
+28msec/28 : [object Object]
+mikeal/request : [object Object]
+kaisellgren/Frog : [object Object]
+visionmedia/express : [object Object]
+douglascrockford/JSON-js : [object Object]
+nodejitsu/http-server : [object Object]
+proximitybbdo/voodoo : [object Object]
+furagu/vargs-callback : [object Object]
+evanshortiss/vec2d : [object Object]
+pause
+resume
+pause
+resume
+pause
+resume
+pause
+resume
+pause
+resume
+pause
+resume
+pause
+resume
+pause
+resume
+pause
+resume
+pause
+resume
+processing the functions (getting metadata -> posting ES)
+  ✔ 2) gets the appropriate info from github (3008 ms)
+28 will be reindexed in a few hours
+  ✔ 3) tries to retry on a broken package with an updated timestamp (8 ms)
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+pause
+pause
+resume
+resume
+[]
+Processing next 10
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+pause
+pause
+pause
+resume
+resume
+resume
+[ '28',
+  'Cashew',
+  'Frog',
+  'JSON',
+  'express',
+  'osxh',
+  'request',
+  'vargs-callback',
+  'vector2d',
+  'virtuoso-isql-wrapper' ]
+Cashew not found on github
+28 : [object Object]
+Frog : [object Object]
+JSON : [object Object]
+express : [object Object]
+osxh : [object Object]
+request : [object Object]
+vargs-callback : [object Object]
+vector2d : [object Object]
+28 will be reindexed in a few hours
+Frog has been posted sucessfully
+JSON has been posted sucessfully
+express has been posted sucessfully
+osxh has been posted sucessfully
+request has been posted sucessfully
+vargs-callback has been posted sucessfully
+vector2d has been posted sucessfully
+Processing next 10
+[ 'voodoo' ]
+voodoo : [object Object]
+voodoo has been posted sucessfully
+Processing next 10
+[]
+Processing next 10
+  ✖4) is for fun
+
+
+ 1 of 4 tests failed:
+
+  4) processing the functions (getting metadata -> posting ES) is for fun:
+
+      Error: Timed out (7000ms)
+
+
+
+ No global variable leaks detected.
+
+ Coverage: 85.24%
+
+ github2es.js missing coverage on line(s): 13, 14, 33, 37, 40, 41, 68, 79, 87, 89, 116, 117, 118, 119, 156, 159, 160, 161, 162, 163, 164, 174, 175, 176, 177, 178, 201, 202, 203, 204, 210
+

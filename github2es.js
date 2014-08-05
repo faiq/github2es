@@ -194,7 +194,6 @@ github2es.prototype.esPost = function (packageName, results, cb){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
       console.log(err);
-      process.exit(0);
       cb(err,null); //pretty fatal error with elasticsearch 
     }else if(res.statusCode === 404){
       var secs = _this.secs;
