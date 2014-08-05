@@ -62,45 +62,6 @@ github2es.prototype.checkStale = function (pTime){
 github2es.prototype.grabPackages = function (cb) {
   var _this = this;
   var workArray = [];
-<<<<<<< HEAD
-  client.zrange(this.zKey, 0, 10, function(err, res){ 
-    if (err) console.log(err);
-    console.log(res)  
-    
-    async.eachSeries(res, function(p, callback){  
-      client.zscore(_this.zKey, p, function(err, res){
-        if(err){ console.log('yo dawg u broke'); callback(err); return } 
-        if (!res){
-          var errstr ='A package has no score associated with it packageName: ' + p + ' in redis Key '+ _this.zKey 
-          callback(errstr);
-        }else{
-          if(_this.checkStale(res)){
-            var now = new moment().unix()
-            console.log(typeof now)
- 
-            client.zadd(_this.zkey, now, p, function(err,res){
-                if(err){ console.log('errr hereeee ' + err); callback(err); }  
-                else console.log('added ' + res + ' items.')
-            }); 
-            workArray.push(p); 
-          } 
-          callback();
-        } 
-      });  
-    },function (err){ 
-      if(err) cb(err, null)  
-      
-      console.log('inside callback of each') 
-      async.parallel(_this.makeFuncs(workArray), function (err, results){
-        if (err){ console.log('i have an error');  cb(err, null); }
-        console.log('Processing next ' + _this.workSize);
-        console.log(' this is work array ' + workArray) 
-        setTimeout(function() {
-        console.log('repeating now')
-        _this.grabPackages(cb); 
-        }, _this.interval );
-      }); 
-=======
   var scoreArray = [];
   client.zrange(this.zKey, 0, 9,'WITHSCORES', function(err, res){ 
     if (err){ cb(err); return } 
@@ -125,7 +86,6 @@ github2es.prototype.grabPackages = function (cb) {
           _this.grabPackages(cb); 
         }, _this.interval);
       });
->>>>>>> f191d7a3b1042563791e77fca5a5f34d15106489
     });
   }); 
 } 
@@ -234,13 +194,6 @@ github2es.prototype.esPost = function (packageName, results, cb){
     if (err){
       console.log('there has been an error with the PUT to elastic search');
       console.log(err);
-<<<<<<< HEAD
-      cb(null, {err:err}); 
-      return 
-    }else if(res.statusCode === 404) return
-    else  cb(null, body);
-=======
-      process.exit(0);
       cb(err,null); //pretty fatal error with elasticsearch 
     }else if(res.statusCode === 404){
       var secs = _this.secs;
@@ -252,7 +205,6 @@ github2es.prototype.esPost = function (packageName, results, cb){
         cb(null, str);  
       });  
     }else cb(null, body);
->>>>>>> f191d7a3b1042563791e77fca5a5f34d15106489
   }); 
 }
 
