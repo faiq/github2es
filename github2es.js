@@ -33,9 +33,9 @@ function cleanName (url){
   if (count !== 3) return url;
 }
 
-
 function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath){
   if(!apiKey || !esUrl || !zKey || !secs || !sfPath || !couchUrl)  throw Error('the constructor is missing some parameters'); 
+  this.couchUrl = couchUrl; 
   var c2r = new Couch2redis(couchUrl, zKey, sfPath) 
   c2r.startFollower();  
   this.interval = 2000; 
@@ -43,14 +43,15 @@ function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath){
   this.finished = 0;
   this.es = esUrl;  
   this.api = apiKey; 
+  this.ghClient = github.client(apiKey);
   this.zKey = zKey;  
   this.secs = secs; 
 }
 
 github2es.prototype.checkStale = function (uTime){
   var now = Math.round((new Date()).getTime() / 1000);
-  if (Math.abs(now - uTime) >= this.secs){return true }
-  else{ return false }
+  if (Math.abs(now - uTime) >= this.secs) return true 
+  else return false 
 }
 
 // grab 10 packages highest in the priority q 
@@ -61,35 +62,43 @@ github2es.prototype.checkStale = function (uTime){
 github2es.prototype.grabPackages = function (cb) {
   var _this = this;
   var workArray = [];
-  client.zrange(zkey, 0, 10, function(err, res){ 
+  client.zrange(this.zKey, 0, 10, function(err, res){ 
     if (err) console.log(err);
-    async.each(res, function(p, callback){  
+    console.log(res)  
+    
+    async.eachSeries(res, function(p, callback){  
       client.zscore(_this.zKey, p, function(err, res){
-        if(err){ callback(err, null); return } 
+        if(err){ console.log('yo dawg u broke'); callback(err); return } 
         if (!res){
           var errstr ='A package has no score associated with it packageName: ' + p + ' in redis Key '+ _this.zKey 
-          callback({err:errstr}, null);
+          callback(errstr);
         }else{
           if(_this.checkStale(res)){
-            var now = Math.round((new Date()).getTime() / 1000);
-            client.zadd(_this.zkey, p, now, function(err,res){
-                if(err) console.log(err)
+            var now = new moment().unix()
+            console.log(typeof now)
+ 
+            client.zadd(_this.zkey, now, p, function(err,res){
+                if(err){ console.log('errr hereeee ' + err); callback(err); }  
                 else console.log('added ' + res + ' items.')
             }); 
             workArray.push(p); 
           } 
+          callback();
         } 
       });  
     },function (err){ 
-      if (err) cb(err)  
+      if(err) cb(err, null)  
+      
+      console.log('inside callback of each') 
       async.parallel(_this.makeFuncs(workArray), function (err, results){
-        if (err) cb(err, null);
+        if (err){ console.log('i have an error');  cb(err, null); }
         console.log('Processing next ' + _this.workSize);
-        cb(null, workArray)
+        console.log(' this is work array ' + workArray) 
         setTimeout(function() {
-        _this.grabPackages(); 
-        }, _this.interval);
-      });
+        console.log('repeating now')
+        _this.grabPackages(cb); 
+        }, _this.interval );
+      }); 
     });
   });  
 } 
@@ -101,7 +110,6 @@ github2es.prototype.makeFuncs = function (packs) {
   packs.forEach(function (p) {
     work.push(_this.makeSingleFunc(p)); 
     _this.finished++; 
-    _this.s.save(_this.finished); //save the index of the last  
   }); //closes forEach 
   return work; 
 }
@@ -109,7 +117,7 @@ github2es.prototype.makeFuncs = function (packs) {
 github2es.prototype.makeSingleFunc = function (p){ 
   var _this = this;
     return function (cb){
-      var packageUrl =  'http://localhost:15984/registry/' + p;
+      var packageUrl =  _this.couchUrl + '/'+  p;
       request(packageUrl, function(err, res, packageInfo){
         if (err){ 
           console.log('Error connecting to package that is in the all docs!');
