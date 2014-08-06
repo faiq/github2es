@@ -15,6 +15,8 @@ var lab = require('lab')
   , sampleAllDocs = require('./mocks/all-docs-mock.json')
   , nockCalls = require('./nock-calls')
   , async = require('async')
+  , exec = require('child_process').exec 
+  , redis = require('redis') 
   , nock = require('nock'); 
 
 var fakeGitCalls;
@@ -60,7 +62,7 @@ function makeCalls ()  {
 makeCalls();
 var fakeES = nock('http://localhost:9200').get('/npm').reply(200, 'Fake ES stuff');
 
-var followerAll = new github2es(fakeAll2, fakeES, process.env.githubApi, path.join(__dirname , 'sequence.seq'), function () {console.log('done with all the packages'); } );   
+var followerAll = new github2es('http://loa', process.env.githubApi, path.join(__dirname , 'sequence.seq'));   
 
 describe('github2es constrctor', function () {
   it('needs an api parameter', function(done){ 
@@ -73,7 +75,23 @@ describe('github2es constrctor', function () {
  
 });
 
-describe('github2es functions', {timeout: 7000}, function (){
+describe('processing the functions (getting metadata -> posting ES)'), {timeout: 7000}, function (){ 
+  //fire up a redis server, put things into it that I want, see if they behave the way I want them to 
+  var client; 
+  before(function (done){ 
+    exec('redis-server', function (e, sto, ste){
+      if (e) throw Error('redis is not on your machine or is having trouble starting up')  
+      client = redis.createClient()
+      client.flushall(function (){
+        console.log(arguments);  
+      }) 
+    }) 
+  });   
+
+
+
+
+
   it('processes the worksize amount of packages at a time', function(done){
     var follower = new github2es(fakeAll, fakeES, process.env.githubApi, path.join(__dirname , 'sequence2.seq'), function () {console.log('done with all the packages'); }); 
     var asyncArr = follower.makeFuncs();
@@ -98,12 +116,4 @@ describe('github2es functions', {timeout: 7000}, function (){
   }
   });
  
-  it('repeats the process until done', function (done){
-    console.log(fakeAll2.length); 
-    followerAll.groupPackages(); 
-    setTimeout(function () {
-      if(followerAll.packages.length === 0) 
-        done();
-    }, 5000);  
-  });
 });
