@@ -15,9 +15,11 @@ var lab = require('lab')
   , sampleAllDocs = require('./mocks/all-docs-mock.json')
   , nockCalls = require('./nock-calls')
   , async = require('async')
-  , exec = require('child_process').exec 
-  , redis = require('redis') 
+  , redis = require('redis')
+  , spawn = require('child_process').spawn
   , nock = require('nock'); 
+
+  
 
 var fakeGitCalls;
 var fakeAll = sampleAllDocs.rows;
@@ -78,14 +80,14 @@ describe('github2es constrctor', function () {
 describe('processing the functions (getting metadata -> posting ES)'), {timeout: 7000}, function (){ 
   //fire up a redis server, put things into it that I want, see if they behave the way I want them to 
   var client; 
+  var startRedis;
   before(function (done){ 
-    exec('redis-server', function (e, sto, ste){
-      if (e) throw Error('redis is not on your machine or is having trouble starting up')  
+    startRedis = spawn('redis-server')
+    setTimeout(function(){ 
       client = redis.createClient()
-      client.flushall(function (){
-        console.log(arguments);  
-      }) 
-    }) 
+      client.flushall()
+      
+    }, 2000) 
   });   
 
 
