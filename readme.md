@@ -12,19 +12,14 @@ var config = require('../../config'),
     request = require('request'),
     github2es = require('github2es'); 
 
-request('http://localhost:15984/registry/_all_docs', function(err, res, body){ 
-    if (err){
-      console.log('error getting all docs'); 
-      return
-    }
-    body = JSON.parse(body); 
-    var walker = new github2es(body.rows, config.elasticsearch.url, config.githubAPI,path.join(__dirname, 'sequence.seq'), 
-    function(){ 
-      console.log('done with package population' } 
-    });
-});
+var worker = new github2es(argv.esUrl, argv.couchUrl, argv.apiKey, 'packages' , 30, path.join(__dirname, '/sequence.seq')); 
+worker.grabPackages(function(err, res){
+}); 
 
 ```
+The package will throw errors for several reasons 
+  - a problem with a redis method throws an error 
+  - 
 #Testing
 ___ 
 

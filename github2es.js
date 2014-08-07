@@ -76,11 +76,15 @@ github2es.prototype.grabPackages = function (cb) {
     async.each(workArray, function (packageName, callback){
       var now = Math.round((new Date()).getTime() / 1000);
       client.zadd(_this.zKey, now, packageName, function(err,res){
-        if(err){ console.error(err); callback(err)} 
-        callback();
+        if(err){console.error(err); callback(err)} 
+        callback()
+        /*client.zscore(_this.zKey, packageName, function(e, r){
+          if(r) callback();
+        });*/
       });  
     },
     function (err){  
+      if (err) cb(err)
       async.parallel(_this.makeFuncs(workArray), function (err, results){
         if (err){ cb(err); }
         console.log('Processing next ' + _this.workSize); 
@@ -116,7 +120,6 @@ github2es.prototype.makeSingleFunc = function (p){
         }else {
           packageInfo = JSON.parse(packageInfo);
           if (!packageInfo.repository || !packageInfo.repository.url){
-            console.log(p + 'here no repo ') 
             cb(null, {err:p.id + ' has no repo'});
             return 
           }else {
@@ -200,13 +203,13 @@ github2es.prototype.esPost = function (packageName, results, cb){
       console.log(err);
       cb(err,null); //pretty fatal error with elasticsearch 
     }else if(res.statusCode === 404){
-      console.log('Trying again');
       var secs = _this.secs;
       var now = Math.round((new Date()).getTime() / 1000);
       var then = now - secs + secs/24; 
       client.zadd(_this.zKey, then, packageName, function(err,res){
         if(err){ console.error(err); cb(err, null)} 
         var str = packageName + ' will be reindexed in a few hours'; 
+        console.log(str);
         cb(null, str);  
       });  
     }else{ 

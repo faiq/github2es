@@ -80,16 +80,11 @@ function makeCalls ()  {
     } 
     elasticsearchCalls[yo] = nock('http://localhost').filteringRequestBody(function(path) {
         return '*';
-    }).post('/npm/package/' + p + '/_update', '*')
+    }).post('/npm/package/' + p + '/_update', '*').times(10)
     .reply(statCode, res);
     yo++;
   });
 }
-
-/*var fuck = nock('http://localhost').filteringRequestBody(function(path) {
-      return '*';
-    }).post('/npm/package/Frog/_update', '*')
-      .reply(200, 'OK (excpet for one)');*/
 
 makeCalls();
 var fakeES = nock('http://localhost:9200').get('/npm').reply(200, 'Fake ES stuff');
@@ -117,11 +112,12 @@ describe('processing the functions (getting metadata -> posting ES)', {timeout: 
   beforeEach(function (done){ 
     startRedis = spawn('redis-server')
     setTimeout(function(){ 
-      console.log('before') 
       client = redis.createClient();
-      client.flushall(); 
-      fs.unlinkSync(path.join(__dirname , 'sequence.seq'));
-      done();
+      client.flushall(function(e, r){
+        if(e) process.exit(1)
+        fs.unlinkSync(path.join(__dirname , 'sequence.seq'));
+        done();
+      }); 
     }, 3000); 
   });   
   
@@ -131,7 +127,6 @@ describe('processing the functions (getting metadata -> posting ES)', {timeout: 
     function makeGithub(){
       var packageUrls = ['28msec/28', 'spiceapps/cashew', 'mikeal/request', 'kaisellgren/Frog', 'visionmedia/express', 'douglascrockford/JSON-js'
                         ,'nodejitsu/http-server', 'proximitybbdo/voodoo', 'furagu/vargs-callback', 'evanshortiss/vec2d']; 
-      console.log(packageUrls.length);
       packageUrls.forEach(function (p) { 
           follower2.getGithubInfo(p, p.substring('/'), function (err, res){
             if (p.substring(p.indexOf('/') + 1) === 'cashew') expect(typeof(err)).to.equal('object'); 
@@ -147,10 +142,16 @@ describe('processing the functions (getting metadata -> posting ES)', {timeout: 
   it('tries to retry on a broken package with an updated timestamp', function(done){
     var follower2 = new github2es('http://localhost/npm', 'http://localhost:15984/registry', process.env.githubApi, 'packages', 259200, path.join(__dirname , 'sequence.seq'), opts);
     follower2.esPost('28', {fake:'yo'}, function (err, res){
-      console.log(err)
       expect(err).to.equal(null);
       expect(typeof(res)).to.equal('string'); 
       done(); 
     });  
-    }) 
+  });
+  it('is for fun', function(done){
+  var follower2 = new github2es('http://localhost/npm', 'http://localhost:15984/registry', process.env.githubApi, 'packages', 259200, path.join(__dirname , 'sequence.seq'), opts);
+  follower2.grabPackages(function (e, r) { }) 
+  setTimeout(function (){ 
+  }, 1000)
+    
+  }) 
 });
