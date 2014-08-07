@@ -135,7 +135,7 @@ describe('processing the functions (getting metadata -> posting ES)', {timeout: 
       packageUrls.forEach(function (p) { 
           follower2.getGithubInfo(p, p.substring('/'), function (err, res){
             if (p.substring(p.indexOf('/') + 1) === 'cashew') expect(typeof(err)).to.equal('object'); 
-            else expect(err).to.equal(null); 
+            else{ expect(err).to.equal(null);  expect(typeof(res)).to.equal('object'); } 
           });  
       }); 
     }
