@@ -33,11 +33,12 @@ function cleanName (url){
   if (count !== 3) return url;
 }
 
-function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath){
+function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath, opts){
   if(!apiKey || !esUrl || !zKey || !secs || !sfPath || !couchUrl)  throw Error('the constructor is missing some parameters'); 
   this.couchUrl = couchUrl; 
   var c2r = new Couch2redis(couchUrl, zKey, sfPath) 
-  c2r.startFollower();  
+  if (opts) c2r.startFollower(opts);
+  else c2r.startFollower();  
   this.interval = 2000; 
   this.workSize = 10;
   this.finished = 0;
@@ -71,9 +72,10 @@ github2es.prototype.grabPackages = function (cb) {
       scoreArray.push(packageScore); 
       if (_this.checkStale(packageScore)) workArray.push(packageName) 
     }
+    console.log(workArray) 
     async.each(workArray, function (packageName, callback){
       var now = Math.round((new Date()).getTime() / 1000);
-      client.zadd(_this.zkey, p, now, function(err,res){
+      client.zadd(_this.zKey, now, packageName, function(err,res){
         if(err){ console.error(err); callback(err)} 
         callback();
       });  
@@ -82,6 +84,7 @@ github2es.prototype.grabPackages = function (cb) {
       async.parallel(_this.makeFuncs(workArray), function (err, results){
         if (err){ cb(err); }
         console.log('Processing next ' + _this.workSize); 
+        cb(null, workArray);
         setTimeout(function() {
           _this.grabPackages(cb); 
         }, _this.interval);
@@ -113,6 +116,7 @@ github2es.prototype.makeSingleFunc = function (p){
         }else {
           packageInfo = JSON.parse(packageInfo);
           if (!packageInfo.repository || !packageInfo.repository.url){
+            console.log(p + 'here no repo ') 
             cb(null, {err:p.id + ' has no repo'});
             return 
           }else {
@@ -126,8 +130,8 @@ github2es.prototype.makeSingleFunc = function (p){
 github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){ 
   var _this = this; 
   this.getGithubInfo(gitUrl, packageName, function (err, results){ 
-    if(err){ cb(null, err); return }  //pass back the error to the results array to keep async going 
-    else{  console.log('attempting post on Elasticsearch'); _this.esPost(packageName, results, cb); } 
+    if(err) cb(null, err)  //pass back the error to the results array to keep async going 
+    else  _this.esPost(packageName, results, cb);  
   });
 }
 
@@ -153,7 +157,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
       var timeToReset = res['headers']['x-ratelimit-reset']; 
       var now = new moment();
       var resetMoment = new moment.unix(timeToReset);
-      var remaining = resetMoment.diff(now); 
+      remaining = resetMoment.diff(now); 
       setTimeout(_this.getGithubInfo(gitUrl,packageName, cb), remaining);  
     }else{   
       if (githubInfo.id){
@@ -196,15 +200,18 @@ github2es.prototype.esPost = function (packageName, results, cb){
       console.log(err);
       cb(err,null); //pretty fatal error with elasticsearch 
     }else if(res.statusCode === 404){
+      console.log('Trying again');
       var secs = _this.secs;
       var now = Math.round((new Date()).getTime() / 1000);
       var then = now - secs + secs/24; 
-      client.zadd(_this.zkey, packagName, then, function(err,res){
+      client.zadd(_this.zKey, then, packageName, function(err,res){
         if(err){ console.error(err); cb(err, null)} 
         var str = packageName + ' will be reindexed in a few hours'; 
         cb(null, str);  
       });  
-    }else cb(null, body);
+    }else{ 
+      console.log(packageName + ' has been posted sucessfully');  
+      cb(null, body);} 
   }); 
 }
 
