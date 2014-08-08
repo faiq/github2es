@@ -12,8 +12,9 @@ var config = require('../../config'),
     request = require('request'),
     github2es = require('github2es'); 
 
-var worker = new github2es(argv.esUrl, argv.couchUrl, argv.apiKey, 'packages' , 30, path.join(__dirname, '/sequence.seq')); 
+var worker = new github2es(argv.esUrl, argv.couchUrl, argv.apiKey, zKeyForRedis , numberOfSecondsForAPackageToBeReindexOn, path.join(__dirname, '/sequence.seq')); 
 worker.grabPackages(function(err, res){
+  
 }); 
 
 ```

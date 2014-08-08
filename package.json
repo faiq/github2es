@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
-    "couch2redis": "git://github.com/faiqus/rediscrawler.git",
+    "couch2redis": "^1.0.0",
     "elasticsearch": "^2.2.0",
     "moment": "^2.8.1",
     "nock": "^0.37.0",
