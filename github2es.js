@@ -161,6 +161,7 @@ github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
       var now = new moment();
       var resetMoment = new moment.unix(timeToReset);
       remaining = resetMoment.diff(now); 
+      remaining = remaining * 1000;  
       setTimeout(_this.getGithubInfo(gitUrl,packageName, cb), remaining);  
     }else{   
       if (githubInfo.id){
