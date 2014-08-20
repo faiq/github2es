@@ -20,7 +20,7 @@ worker.grabPackages(function(err, res){
 ```
 The package will throw errors for several reasons 
   - a problem with a redis method throws an error 
-  - 
+   
 #Testing
 ___ 
 
