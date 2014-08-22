@@ -87,11 +87,21 @@ function makeCalls ()  {
 }
 
 makeCalls();
-var fakeES = nock('http://localhost:9200').get('/npm').reply(200, 'Fake ES stuff');
+lab.experiment('github2es', function (){ 
 
+beforeEach(function (done){ 
+  startRedis = spawn('redis-server')
+  setTimeout(function(){ 
+    client = redis.createClient();
+    client.flushall(function(e, r){
+      if(e) process.exit(1)
+        fs.unlinkSync(path.join(__dirname , 'sequence.seq'));
+        done();
+      }); 
+  }, 3000); 
+});   
 
 describe('github2es constrctor', function () {
-  
   it('needs an api parameter', function(done){ 
     expect(noApi).to.throw(Error);
     done();  
@@ -99,7 +109,6 @@ describe('github2es constrctor', function () {
       return new github2es(fakeAll, fakeES);
     }
   });
- 
 });
  
 describe('processing the functions (getting metadata -> posting ES)', {timeout: 7000}, function (){ 
@@ -109,17 +118,6 @@ describe('processing the functions (getting metadata -> posting ES)', {timeout: 
   var opts = {}; 
   opts.follow = follow;
   
-  beforeEach(function (done){ 
-    startRedis = spawn('redis-server')
-    setTimeout(function(){ 
-      client = redis.createClient();
-      client.flushall(function(e, r){
-        if(e) process.exit(1)
-        fs.unlinkSync(path.join(__dirname , 'sequence.seq'));
-        done();
-      }); 
-    }, 3000); 
-  });   
   
   it('gets the appropriate info from github', function(done) { 
     var follower2 = new github2es('http://localhost/npm', 'http://localhost:15984/registry', process.env.githubApi, 'packages', 259200, path.join(__dirname , 'sequence.seq'), opts);
@@ -155,3 +153,4 @@ describe('processing the functions (getting metadata -> posting ES)', {timeout: 
     
   }) 
 });
+})
