@@ -17,10 +17,8 @@ var lab = require('lab')
   , sampleAllDocs = require('./mocks/all-docs-mock.json')
   , nockCalls = require('./nock-calls')
   , follow = require('./fakeApi') 
-  , async = require('async')
-  , redis = require('redis')
-  , spawn = require('child_process').spawn
   , nock = require('nock'); 
+
 
 var fakeGitCalls;
 var fakeAll = sampleAllDocs.rows;
@@ -87,18 +85,10 @@ function makeCalls ()  {
 }
 
 makeCalls();
-lab.experiment('github2es', function (){ 
 
+lab.experiment('github2es', function (){ 
 beforeEach(function (done){ 
-  startRedis = spawn('redis-server')
-  setTimeout(function(){ 
-    client = redis.createClient();
-    client.flushall(function(e, r){
-      if(e) process.exit(1)
-        fs.unlinkSync(path.join(__dirname , 'sequence.seq'));
-        done();
-      }); 
-  }, 3000); 
+  fs.unlinkSync(path.join(__dirname , 'sequence.seq'));
 });   
 
 describe('github2es constrctor', function () {
@@ -106,20 +96,17 @@ describe('github2es constrctor', function () {
     expect(noApi).to.throw(Error);
     done();  
     function noApi (){
-      return new github2es(fakeAll, fakeES);
+      return new github2es(fakeAll, 'yo');
     }
   });
 });
  
 describe('processing the functions (getting metadata -> posting ES)', {timeout: 7000}, function (){ 
-  //fire up a redis server, put things into it that I want, see if they behave the way I want them to 
-  var client; 
-  var startRedis;
   var opts = {}; 
   opts.follow = follow;
-  
-  
-  it('gets the appropriate info from github', function(done) { 
+  opts.client = true;
+
+  /*it('gets the appropriate info from github', function(done) { 
     var follower2 = new github2es('http://localhost/npm', 'http://localhost:15984/registry', process.env.githubApi, 'packages', 259200, path.join(__dirname , 'sequence.seq'), opts);
     makeGithub(); 
     function makeGithub(){
@@ -135,7 +122,7 @@ describe('processing the functions (getting metadata -> posting ES)', {timeout: 
     setTimeout(function(){ 
       done()
     }, 3000)
-  });
+  });*/
   
   it('tries to retry on a broken package with an updated timestamp', function(done){
     var follower2 = new github2es('http://localhost/npm', 'http://localhost:15984/registry', process.env.githubApi, 'packages', 259200, path.join(__dirname , 'sequence.seq'), opts);

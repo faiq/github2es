@@ -11,11 +11,11 @@ function startEvents (){
 } 
 
 fakeFollow.pause = function (){ 
-  console.log('pause')
+  return
 } 
 
 fakeFollow.resume = function (){ 
-  console.log('resume') 
+  return
 } 
 
 function follow(opts, cb) {

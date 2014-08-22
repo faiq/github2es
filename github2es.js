@@ -2,12 +2,11 @@ var async = require('async')
   , request = require('request')
   , moment = require('moment') 
   , github = require('octonode')
-  , Couch2redis  = require('couch2redis') 
-  , redis = require('redis')
-  , client = redis.createClient(); 
+  , Couch2redis  = require('couch2redis')
+  , redis = null 
+  , client = null;  //a redis client to be assigned by the testing fucntion or assigned by this
 
 // utility function to clean reponames
-
 function cleanName (url){ 
   var count = 0; 
   if (url.indexOf('@') !== -1){
@@ -33,12 +32,24 @@ function cleanName (url){
   if (count !== 3) return url;
 }
 
-function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath, opts){
+function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath, testOpts){
   if(!apiKey || !esUrl || !zKey || !secs || !sfPath || !couchUrl)  throw Error('the constructor is missing some parameters'); 
   this.couchUrl = couchUrl; 
-  var c2r = new Couch2redis(couchUrl, zKey, sfPath) 
-  if (opts) c2r.startFollower(opts);
-  else c2r.startFollower();  
+  var c2r;
+  if (testOpts){
+    if (!testOpts.client || !testOpts.follow){ throw Error('If you are passing in an options object to test, please have a follow function'); return } 
+    process.nextTick(function (){  
+      redis = require('fakeredis')
+      client = redis.createClient(); 
+      client.flushdb(); 
+      c2r = new Couch2redis(couchUrl, zKey, sfPath, testOpts) 
+      c2r.startFollower(testOpts);
+    });
+  }else {
+    redis = require('redis')
+    client = redis.createClient();
+    c2r.startFollower(); 
+  }  
   this.interval = 2000; 
   this.workSize = 10;
   this.finished = 0;
@@ -62,39 +73,46 @@ github2es.prototype.checkStale = function (pTime){
 
 github2es.prototype.grabPackages = function (cb) {
   var _this = this;
-  var workArray = [];
-  var scoreArray = [];
-  client.zrange(this.zKey, 0, 9,'WITHSCORES', function(err, res){ 
-    if (err){ cb(err); return } 
-    for(var i =  0; i < res.length; i+=2){ 
-      var packageName = res[i];
-      var packageScore = res[i + 1];
-      scoreArray.push(packageScore); 
-      if (_this.checkStale(packageScore)) workArray.push(packageName) 
-    }
-    console.log(workArray) 
-    async.each(workArray, function (packageName, callback){
-      var now = Math.round((new Date()).getTime() / 1000);
-      client.zadd(_this.zKey, now, packageName, function(err,res){
-        if(err){console.error(err); callback(err)} 
-        callback()
-        /*client.zscore(_this.zKey, packageName, function(e, r){
-          if(r) callback();
-        });*/
-      });  
-    },
-    function (err){  
-      if (err) cb(err)
-      async.parallel(_this.makeFuncs(workArray), function (err, results){
-        if (err){ cb(err); }
-        console.log('Processing next ' + _this.workSize); 
-        cb(null, workArray);
-        setTimeout(function() {
-          _this.grabPackages(cb); 
-        }, _this.interval);
+  if (!client){ 
+    setTimeout(function (){ 
+      _this.grabPackages(cb) 
+    }, 1500);
+  }else { 
+    console.log('this is client '+ client)
+    var workArray = [];
+    var scoreArray = [];
+    client.zrange(this.zKey, 0, 9,'WITHSCORES', function(err, res){ 
+      if (err){ cb(err); return } 
+      for(var i =  0; i < res.length; i+=2){ 
+        var packageName = res[i];
+        var packageScore = res[i + 1];
+        scoreArray.push(packageScore); 
+        if (_this.checkStale(packageScore)) workArray.push(packageName) 
+      }
+      console.log(workArray) 
+      async.each(workArray, function (packageName, callback){
+        var now = Math.round((new Date()).getTime() / 1000);
+        client.zadd(_this.zKey, now, packageName, function(err,res){
+          if(err){console.error(err); callback(err)} 
+          callback()
+          /*client.zscore(_this.zKey, packageName, function(e, r){
+            if(r) callback();
+          });*/
+        });  
+      },
+      function (err){  
+        if (err) cb(err)
+        async.parallel(_this.makeFuncs(workArray), function (err, results){
+          if (err){ cb(err); }
+          console.log('Processing next ' + _this.workSize); 
+          cb(null, workArray);
+          setTimeout(function() {
+            _this.grabPackages(cb); 
+          }, _this.interval);
+        });
       });
-    });
-  }); 
+    }); 
+  }
 } 
 
 //makes an array of functions for async 
@@ -207,12 +225,19 @@ github2es.prototype.esPost = function (packageName, results, cb){
       var secs = _this.secs;
       var now = Math.round((new Date()).getTime() / 1000);
       var then = now - secs + secs/24; 
-      client.zadd(_this.zKey, then, packageName, function(err,res){
-        if(err){ console.error(err); cb(err, null)} 
-        var str = packageName + ' will be reindexed in a few hours'; 
-        console.log(str);
-        cb(null, str);  
-      });  
+      if (!client){ 
+        console.log('no redis client ready yet, will retry function in 1 second');
+        setTimeout(function (){ 
+          _this.esPost(packageName, results, cb)
+        }, 1500)
+      }else{  
+        client.zadd(_this.zKey, then, packageName, function(err,res){
+          if(err){ console.error(err); cb(err, null)} 
+          var str = packageName + ' will be reindexed in a few hours'; 
+          console.log(str);
+          cb(null, str);  
+        });  
+      }
     }else{ 
       console.log(packageName + ' has been posted sucessfully');  
       cb(null, body);} 
