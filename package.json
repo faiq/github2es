@@ -14,6 +14,7 @@
     "couch2redis": "^1.0.0",
     "elasticsearch": "^2.2.0",
     "fakeredis": "^0.2.1",
+    "github-url-to-object": "^1.4.0",
     "moment": "^2.8.1",
     "nock": "^0.37.0",
     "octonode": "^0.6.3",

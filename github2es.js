@@ -1,36 +1,12 @@
 var async = require('async')
+  , url = require('url') 
   , request = require('request')
   , moment = require('moment') 
   , github = require('octonode')
   , Couch2redis  = require('couch2redis')
+  , gh = require('github-url-to-object')
   , redis = null 
   , client = null;  //a redis client to be assigned by the testing fucntion or assigned by this
-
-// utility function to clean reponames
-function cleanName (url){ 
-  var count = 0; 
-  if (url.indexOf('@') !== -1){
-    return url.substring(url.indexOf(':'), url.lastIndexOf('.'));
-  }
-  for (var i = 0; i < url.length; i++){ 
-    if (url.charAt(i) === '/'){
-      count++; 
-      if (count === 3){
-        // account for the .git at end:
-        var returnString; 
-        var end = url.lastIndexOf('.');
-        if (end < i){ // no .git at the end of this 
-          returnString = url.substring(i+1); 
-          return returnString; 
-        }else{ 
-          returnString = url.substring(i+1,end); 
-          return returnString;
-        } 
-      }
-    }
-  }
-  if (count !== 3) return url;
-}
 
 function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath, testOpts){
   if(!apiKey || !esUrl || !zKey || !secs || !sfPath || !couchUrl)  throw Error('the constructor is missing some parameters'); 
@@ -38,13 +14,13 @@ function github2es (esUrl, couchUrl, apiKey, zKey, secs, sfPath, testOpts){
   var c2r;
   if (testOpts){
     if (!testOpts.client || !testOpts.follow){ throw Error('If you are passing in an options object to test, please have a follow function'); return } 
-    process.nextTick(function (){  
-      redis = require('fakeredis')
-      client = redis.createClient(); 
-      client.flushdb(); 
-      c2r = new Couch2redis(couchUrl, zKey, sfPath, testOpts) 
-      c2r.startFollower(testOpts);
-    });
+    console.log('here in github2es') 
+    redis = require('fakeredis')
+    client = redis.createClient(); 
+    client.flushdb(); 
+    c2r = new Couch2redis(couchUrl, zKey, sfPath, testOpts) 
+    console.log('in github2es, about to start c2r')
+    c2r.startFollower(testOpts);
   }else {
     redis = require('redis')
     client = redis.createClient();
@@ -95,9 +71,6 @@ github2es.prototype.grabPackages = function (cb) {
         client.zadd(_this.zKey, now, packageName, function(err,res){
           if(err){console.error(err); callback(err)} 
           callback()
-          /*client.zscore(_this.zKey, packageName, function(e, r){
-            if(r) callback();
-          });*/
         });  
       },
       function (err){  
@@ -152,58 +125,72 @@ github2es.prototype.postGithubInfoToEs = function (gitUrl, packageName,cb){
   var _this = this; 
   this.getGithubInfo(gitUrl, packageName, function (err, results){ 
     if(err) cb(null, err)  //pass back the error to the results array to keep async going 
-    else  _this.esPost(packageName, results, cb);  
+    else if(typeof results ==== 'number'){
+      cb(null, results);
+    }else  _this.esPost(packageName, results, cb);  
   });
 }
 
 github2es.prototype.getGithubInfo = function (gitUrl, packageName,  cb){
   var _this = this;
-  var repo =  cleanName(gitUrl);  
   var results = {};
-  var uri = 'https://api.github.com/repos/' + repo;
-  var ghRepo = this.ghClient.repo(repo); 
-  var options = {
+  var rateuri = 'https://api.github.com/rate_limit'
+  var opts = {
     method: 'GET',
-    url: uri, 
+    url: rateuri,
     headers: {
       'User-Agent': 'request',
       "Authorization": "token " + this.api
      }
   };
-  request(options, function (err, res, githubInfo) {
-    if (err){ console.log('error from GH ' + err + ' on this package ' + packageName); cb(err, null); }
-    var remaining = res['headers']['x-ratelimit-remaining'];
-    githubInfo = JSON.parse(githubInfo);
-    if (remaining === 0){
-      var timeToReset = res['headers']['x-ratelimit-reset']; 
-      var now = new moment();
-      var resetMoment = new moment.unix(timeToReset);
-      remaining = resetMoment.diff(now); 
-      remaining = remaining * 1000;  
-      setTimeout(_this.getGithubInfo(gitUrl,packageName, cb), remaining);  
-    }else{   
-      if (githubInfo.id){
-        if (githubInfo.has_issues){
-          results.issues = githubInfo.open_issues;
-        }else{
-          results.issues = 0;
-        }
-        results.ghstars = githubInfo['stargazers_count'];
-        ghRepo.commits(function (err, arr){
-          if (err) { 
-            console.log('err with commit' + gitUrl); 
-            results.recentcommit = null;
-            cb(err, null);
-            return
-          } else{  
-            results.recentcommit = arr[0].commit.committer.date;
-            console.log(packageName + ' : ' + results); 
-            cb(null, results);
+  var _this = this;
+  request(opts, function(err, res, api){
+    api = JSON.parse(api)
+    if(api.rate.remaining === 0){
+      var timeToReset = api.rate.reset
+      var then = timeToReset - _this.secs; 
+      client.zadd(_this.zKey, then, packageName, function(err,res){
+        if(err){ console.error(err); cb(err, null)} 
+        console.log('cannot get information from github right now for ' + packageName + ' will try again at ' + timeToReset); 
+        cb(null, then);  
+      });  
+    }
+    var uri = gh(gitUrl).https_url;
+    var repo = url.parse(gh(gitUrl.https_url)).path.slice(1);
+    var ghRepo = _this.ghClient.repo(repo);
+    var options = {
+      method: 'GET',
+      url: uri,
+      headers: {
+        'User-Agent': 'request',
+        "Authorization": "token " + this.api
+       }
+    };
+    request(options, function (err, res, githubInfo) {
+      if (err){ console.log('error from GH ' + err + ' on this package ' + packageName); cb(err, null); }
+      githubInfo = JSON.parse(githubInfo);
+        if (githubInfo.id){
+          if (githubInfo.has_issues){
+            results.issues = githubInfo.open_issues;
+          }else{
+            results.issues = 0;
           }
-        });  
-      } else{ console.log(packageName + ' not found on github'); cb({err: packageName +  ' not found on github'}, null); } 
-      } 
-  }); 
+          results.ghstars = githubInfo['stargazers_count'];
+          ghRepo.commits(function (err, arr){
+            if (err) {
+              console.log('err with commit' + gitUrl);
+              results.recentcommit = null;
+              cb(err, null);
+              return
+            } else{
+              results.recentcommit = arr[0].commit.committer.date;
+              console.log(packageName + ' : ' + results);
+              cb(null, results);
+            }
+          });
+        } else{ console.log(packageName + ' not found on github'); cb({err: packageName +  ' not found on github'}, null); }
+    });
+  });
 }
 
 github2es.prototype.esPost = function (packageName, results, cb){ 
@@ -214,7 +201,7 @@ github2es.prototype.esPost = function (packageName, results, cb){
     json: { 
       doc: results 
     }
-  }
+  };
   var _this = this;
   request(opts1, function (err, res, body){
     if (err){
@@ -224,20 +211,13 @@ github2es.prototype.esPost = function (packageName, results, cb){
     }else if(res.statusCode === 404){
       var secs = _this.secs;
       var now = Math.round((new Date()).getTime() / 1000);
-      var then = now - secs + secs/24; 
-      if (!client){ 
-        console.log('no redis client ready yet, will retry function in 1 second');
-        setTimeout(function (){ 
-          _this.esPost(packageName, results, cb)
-        }, 1500)
-      }else{  
-        client.zadd(_this.zKey, then, packageName, function(err,res){
-          if(err){ console.error(err); cb(err, null)} 
-          var str = packageName + ' will be reindexed in a few hours'; 
-          console.log(str);
-          cb(null, str);  
-        });  
-      }
+      var then = now - secs + 3600; 
+      client.zadd(_this.zKey, then, packageName, function(err,res){
+        if(err){ console.error(err); cb(err, null)} 
+        var str = packageName + ' will be reindexed in an hour'; 
+        console.log(str);
+        cb(null, str);  
+      });  
     }else{ 
       console.log(packageName + ' has been posted sucessfully');  
       cb(null, body);} 

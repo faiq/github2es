@@ -29,6 +29,26 @@ var gitObj = nockCalls.gitCalls;
 var registryObj = nockCalls.registryCalls; 
 var fakeGitCalls; 
 
+nock('https://api.github.com/').get('/rate_limit').times(11).reply(200, {
+    "resources": {
+        "core": {
+            "limit": 5000,
+            "remaining": 5000,
+            "reset": 1408700555
+        },
+        "search": {
+            "limit": 30,
+            "remaining": 30,
+            "reset": 1408697015
+        }
+    },
+    "rate": {
+        "limit": 5000,
+        "remaining": 5000,
+        "reset": 1408700555
+    }
+});
+
 function NockFactory(Package) { 
   nock(Package.host).get(Package.path).times(Package.times).reply(Package.statusCode || 200, Package.file); 
 }
